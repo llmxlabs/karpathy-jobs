@@ -155,6 +155,35 @@ body {
   max-height: 0;
   transition: max-height 0.25s ease;
 }
+
+/* ── Perspective toggle ───────────────────────────────────────────────── */
+.perspective-toggle {
+  display: flex;
+  gap: 6px;
+  margin: 10px 0 6px;
+}
+.persp-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 8px 6px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  color: var(--fg2);
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.persp-btn:hover { background: rgba(255,255,255,0.08); color: var(--fg); }
+.persp-btn .persp-icon { font-size: 20px; line-height: 1; }
+.persp-btn.human.active { border-color: #4ade80; color: #4ade80; background: rgba(74,222,128,0.1); }
+.persp-btn.ai-robot.active { border-color: #ff7c6e; color: #ff7c6e; background: rgba(255,124,110,0.1); }
 .section-body.open { max-height: 2400px; }
 .section-inner { padding-bottom: 10px; display: flex; flex-direction: column; gap: 7px; }
 
@@ -823,6 +852,18 @@ canvas#canvas {
     </div>
   </div>
 
+  <!-- Perspective toggle -->
+  <div class="perspective-toggle">
+    <button class="persp-btn human" id="perspHuman" onclick="setPerspective('human')">
+      <span class="persp-icon">👤</span>
+      Human
+    </button>
+    <button class="persp-btn ai-robot" id="perspAI" onclick="setPerspective('ai')">
+      <span class="persp-icon">🤖</span>
+      AI Robot
+    </button>
+  </div>
+
   <!-- Filters section -->
   <button class="section-hdr" onclick="toggleSection(this)" id="hdr-filters">
     Filters
@@ -1210,6 +1251,7 @@ const state = {
   exposureMax: 10,
   employmentMin: 0,
   selectedSlug: null,
+  perspective: "all", // "all" | "human" | "ai"
 };
 
 let tableSortCol = "exposure";
@@ -1297,8 +1339,17 @@ function filteredData() {
       if (d.exposure < state.exposureMin || d.exposure > state.exposureMax) return false;
     }
     if (state.employmentMin > 0 && (d.jobs || 0) < state.employmentMin) return false;
+    if (state.perspective === "human" && d.exposure != null && d.exposure > 4) return false;
+    if (state.perspective === "ai" && d.exposure != null && d.exposure < 6) return false;
     return true;
   });
+}
+
+function setPerspective(p) {
+  state.perspective = state.perspective === p ? "all" : p;
+  document.getElementById("perspHuman").classList.toggle("active", state.perspective === "human");
+  document.getElementById("perspAI").classList.toggle("active", state.perspective === "ai");
+  onFilterChange();
 }
 
 function isFiltered() {
@@ -2304,6 +2355,13 @@ fetch("data.json")
     buildCatChips();
     computeStats();
     drawGradientLegend();
+
+    // Auto-expand sidebar sections
+    ["overview", "dist", "pay", "edu"].forEach(id => {
+      const btn = document.getElementById("hdr-" + id);
+      const body = document.getElementById("body-" + id);
+      if (btn && body) { btn.classList.add("open"); body.classList.add("open"); }
+    });
 
     // Initial render
     canvas.style.display = "block";
