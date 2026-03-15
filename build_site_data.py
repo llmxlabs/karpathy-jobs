@@ -10,6 +10,7 @@ Usage:
 
 import csv
 import json
+from datetime import datetime, timezone
 
 
 def main():
@@ -44,8 +45,12 @@ def main():
 
     import os
     os.makedirs("site", exist_ok=True)
+    payload = {
+        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "data": data,
+    }
     with open("site/data.json", "w") as f:
-        json.dump(data, f)
+        json.dump(payload, f)
 
     print(f"Wrote {len(data)} occupations to site/data.json")
     total_jobs = sum(d["jobs"] for d in data if d["jobs"])

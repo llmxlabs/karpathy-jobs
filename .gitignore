@@ -1,23 +1,61 @@
-# Python-generated files
+# =============================================================================
+# .gitignore for jobs/
+#
+# COMMITTED (not ignored):
+#   site/data.json   — pre-built dataset served by Vercel; must be in the repo
+#   site/index.html  — single-file app; must be in the repo
+#
+# REPRODUCIBLE (ignored — regenerate with the commands below):
+#   html/            — re-scrape with scrape.py
+#   occupational_outlook_handbook.html — re-scrape with scrape.py
+#   data/            — raw data folder, re-generated from scrape output
+#   pages/           — re-generated via process.py
+#   (scores.json remains committed so data rebuilds work out-of-the-box)
+# =============================================================================
+
+# Python bytecode / caches
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
+*.pyc
+*.pyo
 *.egg-info
 
+# Build / distribution artifacts
+dist/
+build/
+wheels/
+
 # Virtual environments
-.venv
+.venv/
+venv/
 
 # Secrets
 .env
+.env.*
+!.env.example
 
-# Parsed markdown (reproducible via process.py)
+# Large scraped HTML files (342 files, reproducible via scrape.py)
+html/
+
+# Single large scraped source file (reproducible via scrape.py)
+occupational_outlook_handbook.html
+
+# Raw data folder (reproducible)
+data/
+
+# Parsed markdown pages (reproducible via process.py)
 pages/
 
 # Embeddings (unused in final visualization)
-embed.py
 embeddings.json
+
+# Vercel local config
+.vercel
 
 # macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
