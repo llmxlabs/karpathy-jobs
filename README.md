@@ -62,7 +62,36 @@ The main visualization is an interactive **treemap** where:
 
 [`prompt.md`](prompt.md) packages all the data — aggregate statistics, tier breakdowns, exposure by pay/education, BLS growth projections, and all 342 occupations with their scores and rationales — into a single file (~45K tokens) designed to be pasted into an LLM. This lets you have a data-grounded conversation about AI's impact on the job market without needing to run any code. Regenerate it with `uv run python make_prompt.py`.
 
-## Setup
+## Viewing the site locally
+
+The `site/` directory is a fully self-contained static site — no build step required. Just serve it with any HTTP server.
+
+**Mac/Linux:**
+```bash
+./start.sh
+```
+
+**Windows:**
+```bat
+start.bat
+```
+
+Both scripts start a Python HTTP server on port 8080 (override with `PORT=…`) and open your browser automatically.
+
+Or manually:
+```bash
+cd site && python -m http.server 8080
+```
+
+## Vercel deployment
+
+[LLMXLabs](https://llmxlabs.com) adapted this project for Vercel hosting. The setup is minimal because the site is already static:
+
+- **`vercel.json`** sets `outputDirectory` to `site/` and uses `echo` as a no-op build command (the pre-built `site/data.json` is committed alongside `index.html`)
+- No Node.js, no bundler — Vercel just serves `site/` as-is
+- To deploy your own fork: install the [Vercel CLI](https://vercel.com/docs/cli), run `vercel` from the repo root, and it will pick up `vercel.json` automatically
+
+## Setup (data pipeline)
 
 ```
 uv sync
@@ -74,7 +103,7 @@ Requires an OpenRouter API key in `.env`:
 OPENROUTER_API_KEY=your_key_here
 ```
 
-## Usage
+## Usage (data pipeline)
 
 ```bash
 # Scrape BLS pages (only needed once, results are cached in html/)
@@ -91,7 +120,4 @@ uv run python score.py
 
 # Build website data
 uv run python build_site_data.py
-
-# Serve the site locally
-cd site && python -m http.server 8000
 ```
