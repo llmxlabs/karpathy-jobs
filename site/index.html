@@ -184,6 +184,86 @@ body {
 .persp-btn .persp-icon { font-size: 20px; line-height: 1; }
 .persp-btn.human.active { border-color: #4ade80; color: #4ade80; background: rgba(74,222,128,0.1); }
 .persp-btn.ai-robot.active { border-color: #ff7c6e; color: #ff7c6e; background: rgba(255,124,110,0.1); }
+.persp-info-btn {
+  position: absolute;
+  top: 5px; right: 5px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--fg2);
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 12px;
+  text-align: center;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.persp-info-btn:hover { background: rgba(255,255,255,0.2); color: var(--fg); }
+.persp-btn { position: relative; }
+
+/* ── Robot info popup ─────────────────────────────────────────────────── */
+#robotInfoPopup {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+#robotInfoPopup.open { display: block; }
+#robotInfoOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+#robotInfoCard {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(420px, calc(100vw - 32px));
+  background: #1a1a26;
+  border: 1px solid rgba(255,124,110,0.3);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.7);
+}
+#robotInfoCard h2 {
+  font-size: 14px; font-weight: 700;
+  color: #ff9d8a;
+  margin-bottom: 6px;
+  display: flex; align-items: center; gap: 7px;
+}
+#robotInfoCard .ri-quote {
+  font-size: 11px; font-style: italic;
+  color: var(--fg2); line-height: 1.5;
+  border-left: 2px solid rgba(255,124,110,0.4);
+  padding-left: 10px; margin: 10px 0 14px;
+}
+#robotInfoCard .ri-section {
+  font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .07em;
+  color: var(--fg2); margin-bottom: 6px; margin-top: 12px;
+}
+#robotInfoCard .ri-formula {
+  font-size: 12px; color: var(--fg);
+  background: rgba(255,255,255,0.05);
+  border-radius: 6px; padding: 8px 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+#robotInfoCard .ri-boosts {
+  display: grid; grid-template-columns: 1fr auto;
+  gap: 3px 10px; font-size: 11px;
+}
+#robotInfoCard .ri-boosts .ri-cat { color: var(--fg2); }
+#robotInfoCard .ri-boosts .ri-val { color: #ff9d8a; font-weight: 700; text-align: right; }
+#robotInfoCard .ri-close {
+  position: absolute; top: 12px; right: 14px;
+  background: none; border: none;
+  color: var(--fg2); font-size: 18px; cursor: pointer; line-height: 1;
+}
+#robotInfoCard .ri-close:hover { color: var(--fg); }
 .section-body.open { max-height: 2400px; }
 .section-inner { padding-bottom: 10px; display: flex; flex-direction: column; gap: 7px; }
 
@@ -861,6 +941,7 @@ canvas#canvas {
     <button class="persp-btn ai-robot" id="perspAI" onclick="setPerspective('ai')">
       <span class="persp-icon">🤖</span>
       AI Robot
+      <span class="persp-info-btn" onclick="event.stopPropagation();toggleRobotInfo()" title="How is this calculated?">i</span>
     </button>
   </div>
 
@@ -1045,6 +1126,43 @@ canvas#canvas {
     <button class="dp-close" onclick="closeDetail()" aria-label="Close">×</button>
   </div>
   <div class="dp-body" id="dpBody"></div>
+</div>
+
+<!-- ── Robot info popup ───────────────────────────────────────────────── -->
+<div id="robotInfoPopup">
+  <div id="robotInfoOverlay" onclick="toggleRobotInfo()"></div>
+  <div id="robotInfoCard">
+    <button class="ri-close" onclick="toggleRobotInfo()">×</button>
+    <h2>🤖 AI Robot Mode</h2>
+    <div class="ri-quote">
+      "In this experiment I adjusted it to account for robots with the mobility of humans,
+      which will be very doable in the near future. Robots will clearly have a lot more
+      advantages — really fast, stronger, more mobility — so calculations include physical
+      robot capabilities when this mode is selected."
+    </div>
+    <div class="ri-section">How scores are calculated</div>
+    <div class="ri-formula">Robot Score = min(10, AI Score + Physical Boost)</div>
+    <p style="font-size:11px;color:var(--fg2);margin-bottom:10px;line-height:1.5;">
+      The base AI score reflects software automation risk. In robot mode, a
+      <em style="color:var(--fg)">physical boost</em> is added based on how much
+      manual/physical labor the occupation involves — jobs that were previously
+      safe from software AI become fully exposed when robots gain human-level mobility.
+    </p>
+    <div class="ri-section">Physical boost by category</div>
+    <div class="ri-boosts">
+      <span class="ri-cat">Construction &amp; Extraction</span><span class="ri-val">+4</span>
+      <span class="ri-cat">Farming, Fishing &amp; Forestry</span><span class="ri-val">+4</span>
+      <span class="ri-cat">Food Preparation &amp; Serving</span><span class="ri-val">+4</span>
+      <span class="ri-cat">Transportation &amp; Material Moving</span><span class="ri-val">+4</span>
+      <span class="ri-cat">Building &amp; Grounds Cleaning</span><span class="ri-val">+4</span>
+      <span class="ri-cat">Production</span><span class="ri-val">+3</span>
+      <span class="ri-cat">Installation, Maintenance &amp; Repair</span><span class="ri-val">+3</span>
+      <span class="ri-cat">Personal Care &amp; Service</span><span class="ri-val">+3</span>
+      <span class="ri-cat">Healthcare</span><span class="ri-val">+3</span>
+      <span class="ri-cat">Protective Service</span><span class="ri-val">+3</span>
+      <span class="ri-cat">All other occupations</span><span class="ri-val">+2</span>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -1367,6 +1485,10 @@ function filteredData() {
     if (state.perspective === "ai" && d.exposure != null && d.exposure < 6) return false;
     return true;
   });
+}
+
+function toggleRobotInfo() {
+  document.getElementById("robotInfoPopup").classList.toggle("open");
 }
 
 function setPerspective(p) {
