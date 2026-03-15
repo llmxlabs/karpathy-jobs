@@ -1153,6 +1153,30 @@ function exposureColorCSS(score, alpha) {
   return `rgba(${r},${g},${b},${alpha ?? 1})`;
 }
 
+// ── Robot exposure boost ───────────────────────────────────────────────
+// Robots have physical mobility + AI intelligence + speed/strength advantages.
+// Physical jobs that were previously safe from software AI become exposed.
+function getRobotBoost(d) {
+  const cat = (d.category || "").toLowerCase();
+  if (/construction|extraction/.test(cat)) return 4;
+  if (/farming|fishing|forestry/.test(cat)) return 4;
+  if (/food preparation|serving/.test(cat)) return 4;
+  if (/transportation|material moving/.test(cat)) return 4;
+  if (/building.*cleaning|grounds/.test(cat)) return 4;
+  if (/production/.test(cat)) return 3;
+  if (/installation|maintenance|repair/.test(cat)) return 3;
+  if (/personal care/.test(cat)) return 3;
+  if (/healthcare|medical/.test(cat)) return 3;
+  if (/protective service/.test(cat)) return 3;
+  return 2;
+}
+
+function getEffectiveExposure(d) {
+  if (d == null || d.exposure == null) return null;
+  if (state.perspective !== "ai") return d.exposure;
+  return Math.min(10, d.exposure + getRobotBoost(d));
+}
+
 // ── Category colors ────────────────────────────────────────────────────
 
 const CAT_COLORS = {};
@@ -1349,6 +1373,7 @@ function setPerspective(p) {
   state.perspective = state.perspective === p ? "all" : p;
   document.getElementById("perspHuman").classList.toggle("active", state.perspective === "human");
   document.getElementById("perspAI").classList.toggle("active", state.perspective === "ai");
+  computeStats();
   onFilterChange();
 }
 
@@ -1530,7 +1555,7 @@ function drawTreemap() {
     if (rw <= 0 || rh <= 0) continue;
 
     const alpha = r._dimmed ? 0.15 : (isHovered ? 1.0 : 0.78);
-    ctx.fillStyle = exposureColorCSS(r.exposure, alpha);
+    ctx.fillStyle = exposureColorCSS(getEffectiveExposure(r), alpha);
     ctx.fillRect(rx, ry, rw, rh);
 
     if (isHovered) {
@@ -1552,7 +1577,8 @@ function drawTreemap() {
       ctx.fillText(r.title, rx + 5, ry + 4);
 
       if (rh > 34 && rw > 60) {
-        const info = (r.exposure != null ? r.exposure + "/10" : "") +
+        const effExp = getEffectiveExposure(r);
+        const info = (effExp != null ? effExp + "/10" : "") +
                      (r.jobs ? " · " + formatNumber(r.jobs) + " jobs" : "");
         ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
         ctx.fillStyle = "rgba(255,255,255,0.55)";
@@ -1625,7 +1651,7 @@ function renderScatter() {
   // Axis labels
   const axisLabels = `
     <text x="${pad.l + plotW/2}" y="${h - 4}" text-anchor="middle" fill="#666" font-size="11">Median Annual Pay</text>
-    <text x="14" y="${pad.t + plotH/2}" text-anchor="middle" fill="#666" font-size="11" transform="rotate(-90,14,${pad.t + plotH/2})">AI Exposure (0–10)</text>
+    <text x="14" y="${pad.t + plotH/2}" text-anchor="middle" fill="${state.perspective === 'ai' ? '#ff7c6e' : '#666'}" font-size="11" transform="rotate(-90,14,${pad.t + plotH/2})">${state.perspective === 'ai' ? '🤖 Robot Exposure (0–10)' : 'AI Exposure (0–10)'}</text>
   `;
 
   // Circles — dimmed first, then active on top
@@ -1636,14 +1662,15 @@ function renderScatter() {
   for (const d of data) {
     const dimmed = isFiltered() && !fdSlugs.has(d.slug);
     const cx = xPos(d.pay);
-    const cy = yPos(d.exposure);
+    const effExp = getEffectiveExposure(d);
+    const cy = yPos(effExp);
     const r = rSize(d.jobs);
-    const col = exposureColorCSS(d.exposure, 1);
+    const col = exposureColorCSS(effExp, 1);
     const alpha = dimmed ? 0.1 : 0.75;
     const node = { d, cx, cy, r, dimmed };
     scatterNodes.push(node);
 
-    const circle = `<circle data-slug="${d.slug}" cx="${cx}" cy="${cy}" r="${r}" fill="${exposureColorCSS(d.exposure, alpha)}" stroke="${dimmed ? 'none' : col}" stroke-width="0.5" style="cursor:pointer"/>`;
+    const circle = `<circle data-slug="${d.slug}" cx="${cx}" cy="${cy}" r="${r}" fill="${exposureColorCSS(effExp, alpha)}" stroke="${dimmed ? 'none' : col}" stroke-width="0.5" style="cursor:pointer"/>`;
     if (dimmed) dimmedCircles.push(circle);
     else activeCircles.push(circle);
   }
@@ -1756,7 +1783,7 @@ function renderTable() {
     { key: "title", label: "Occupation", cls: "td-occ" },
     { key: "category", label: "Category", cls: "td-cat" },
     { key: "jobs", label: "Employment", format: formatNumber },
-    { key: "exposure", label: "Exposure", format: (v) => v != null ? `<span class="exposure-pill" style="background:${exposureColorCSS(v,0.25)};color:${exposureColorCSS(v,1)};border:1px solid ${exposureColorCSS(v,0.4)}">${v}/10</span>` : "—" },
+    { key: "exposure", label: state.perspective === "ai" ? "🤖 Robot Exp" : "Exposure", format: (v, d) => { const eff = d ? getEffectiveExposure(d) : v; return eff != null ? `<span class="exposure-pill" style="background:${exposureColorCSS(eff,0.25)};color:${exposureColorCSS(eff,1)};border:1px solid ${exposureColorCSS(eff,0.4)}">${eff}/10</span>` : "—"; } },
     { key: "pay", label: "Pay", format: formatPay },
     { key: "education", label: "Education", format: v => v || "—" },
     { key: "outlook", label: "Outlook", format: v => v != null ? (v > 0 ? "+" : "") + v + "%" : "—" },
@@ -1776,7 +1803,7 @@ function renderTable() {
         const safeRaw = (val || "").replace(/"/g,"&quot;");
         return `<td class="${c.cls || ""}" data-raw="${safeRaw}">${safe}</td>`;
       }
-      const rendered = c.format ? c.format(val) : (val || "—");
+      const rendered = c.format ? c.format(val, d) : (val || "—");
       return `<td class="${c.cls || ""}">${rendered}</td>`;
     }).join("");
     return `<tr onclick="selectOccupation('${d.slug}')" title="${d.title}">${cells}</tr>`;
@@ -1853,7 +1880,7 @@ function renderHeatmap() {
     return exposureScores.map(score => {
       return fd.filter(d => {
         const rowMatch = heatmapMode === "education" ? d.education === row : d.category === row;
-        return rowMatch && d.exposure === score;
+        return rowMatch && getEffectiveExposure(d) === score;
       }).length;
     });
   });
@@ -1939,19 +1966,24 @@ function selectOccupation(slug) {
 
   document.getElementById("dpTitle").textContent = d.title;
 
-  const col = exposureColorCSS(d.exposure, 1);
-  const barW = d.exposure != null ? d.exposure * 10 : 0;
+  const effExp = getEffectiveExposure(d);
+  const col = exposureColorCSS(effExp, 1);
+  const barW = effExp != null ? effExp * 10 : 0;
+  const robotBadge = state.perspective === "ai" && d.exposure != null
+    ? `<div style="font-size:10px;color:#ff9d8a;margin-top:4px;">🤖 Robot boost +${getRobotBoost(d)} (base AI: ${d.exposure}/10)</div>`
+    : "";
 
   document.getElementById("dpBody").innerHTML = `
     <div><span class="dp-badge">${d.category || "—"}</span></div>
-    ${d.exposure != null ? `
+    ${effExp != null ? `
     <div>
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:5px;">
-        <span style="font-size:12px;color:${col};font-weight:600;">AI Exposure: ${d.exposure}/10</span>
+        <span style="font-size:12px;color:${col};font-weight:600;">${state.perspective === "ai" ? "🤖 Robot Exposure" : "AI Exposure"}: ${effExp}/10</span>
       </div>
       <div class="dp-exposure-bar-wrap">
         <div class="dp-exposure-bar" style="width:${barW}%;background:${col}"></div>
       </div>
+      ${robotBadge}
     </div>` : ""}
     <div class="dp-grid">
       <div class="dp-stat">
@@ -2008,12 +2040,17 @@ function showTooltip(d, mx, my) {
   tt.querySelector(".tt-title").textContent = d.title;
 
   if (d.exposure != null) {
-    const barWidth = d.exposure * 10;
-    const color = exposureColorCSS(d.exposure, 1);
+    const effExp = getEffectiveExposure(d);
+    const barWidth = effExp * 10;
+    const color = exposureColorCSS(effExp, 1);
+    const robotNote = state.perspective === "ai"
+      ? `<div style="font-size:10px;color:#ff9d8a;margin-top:3px;">🤖 Robot boost +${getRobotBoost(d)} (was ${d.exposure}/10)</div>`
+      : "";
     tt.querySelector(".tt-exposure").innerHTML =
-      `<span style="color:${color};font-weight:600;">AI Exposure: ${d.exposure}/10</span>` +
+      `<span style="color:${color};font-weight:600;">${state.perspective === "ai" ? "🤖 Robot Exposure" : "AI Exposure"}: ${effExp}/10</span>` +
       `<div style="margin-top:4px;height:4px;background:rgba(255,255,255,0.08);border-radius:3px;">` +
-      `<div style="height:100%;width:${barWidth}%;background:${color};border-radius:3px;"></div></div>`;
+      `<div style="height:100%;width:${barWidth}%;background:${color};border-radius:3px;"></div></div>` +
+      robotNote;
   } else {
     tt.querySelector(".tt-exposure").innerHTML = "";
   }
@@ -2191,8 +2228,9 @@ function computeStats() {
 
   let weightedSum = 0, weightedCount = 0;
   for (const d of data) {
-    if (d.exposure != null && d.jobs) {
-      weightedSum += d.exposure * d.jobs;
+    const eff = getEffectiveExposure(d);
+    if (eff != null && d.jobs) {
+      weightedSum += eff * d.jobs;
       weightedCount += d.jobs;
     }
   }
@@ -2200,19 +2238,22 @@ function computeStats() {
 
   let atRiskJobs = 0;
   for (const d of data) {
-    if (d.exposure != null && d.exposure >= 7 && d.jobs) atRiskJobs += d.jobs;
+    const eff = getEffectiveExposure(d);
+    if (eff != null && eff >= 7 && d.jobs) atRiskJobs += d.jobs;
   }
 
   let wagesExposed = 0;
   for (const d of data) {
-    if (d.exposure != null && d.exposure >= 7 && d.jobs && d.pay) {
+    const eff = getEffectiveExposure(d);
+    if (eff != null && eff >= 7 && d.jobs && d.pay) {
       wagesExposed += d.jobs * d.pay;
     }
   }
 
   const histogram = new Array(11).fill(0);
   for (const d of data) {
-    if (d.exposure != null && d.jobs) histogram[d.exposure] += d.jobs;
+    const eff = getEffectiveExposure(d);
+    if (eff != null && d.jobs) histogram[eff] += d.jobs;
   }
 
   const tiers = [
@@ -2225,7 +2266,8 @@ function computeStats() {
   for (const tier of tiers) {
     tier.jobs = 0;
     for (const d of data) {
-      if (d.exposure != null && d.jobs && d.exposure >= tier.range[0] && d.exposure <= tier.range[1]) {
+      const eff = getEffectiveExposure(d);
+      if (eff != null && d.jobs && eff >= tier.range[0] && eff <= tier.range[1]) {
         tier.jobs += d.jobs;
       }
     }
@@ -2263,8 +2305,9 @@ function computeStats() {
   document.getElementById("payChart").innerHTML = payBands.map(band => {
     let wSum = 0, wCount = 0;
     for (const d of data) {
-      if (d.exposure != null && d.jobs && d.pay != null && d.pay >= band.min && d.pay < band.max) {
-        wSum += d.exposure * d.jobs;
+      const eff = getEffectiveExposure(d);
+      if (eff != null && d.jobs && d.pay != null && d.pay >= band.min && d.pay < band.max) {
+        wSum += eff * d.jobs;
         wCount += d.jobs;
       }
     }
@@ -2286,8 +2329,9 @@ function computeStats() {
   document.getElementById("eduChart").innerHTML = eduGroups.map(grp => {
     let wSum = 0, wCount = 0;
     for (const d of data) {
-      if (d.exposure != null && d.jobs && grp.match.includes(d.education)) {
-        wSum += d.exposure * d.jobs;
+      const eff = getEffectiveExposure(d);
+      if (eff != null && d.jobs && grp.match.includes(d.education)) {
+        wSum += eff * d.jobs;
         wCount += d.jobs;
       }
     }
