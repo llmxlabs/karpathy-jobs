@@ -2,7 +2,7 @@
 
 Analyzing how susceptible every occupation in the US economy is to AI and automation, using data from the Bureau of Labor Statistics [Occupational Outlook Handbook](https://www.bls.gov/ooh/) (OOH).
 
-**Live demo: [karpathy.ai/jobs](https://karpathy.ai/jobs/)**
+**Live demo: [ai-jobs-stats.llmxlabs.com](https://ai-jobs-stats.llmxlabs.com/)** — archived and extended version maintained by [LLMXLabs](https://llmxlabs.com) (the original karpathy.ai/jobs was taken down March 2026)
 
 ![AI Exposure Treemap](jobs.png)
 

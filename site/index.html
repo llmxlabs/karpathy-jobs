@@ -304,9 +304,23 @@ body {
 
 /* ── Tab bar ─────────────────────────────────────────────────────────── */
 
-#tabbar {
+#globalSearchWrap {
   position: fixed;
   top: 0;
+  left: var(--sidebar-w);
+  right: 0;
+  height: 50px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  background: rgba(10,10,15,0.96);
+  backdrop-filter: blur(8px);
+  z-index: 26;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+#tabbar {
+  position: fixed;
+  top: 50px;
   left: var(--sidebar-w);
   right: 0;
   height: var(--tabbar-h);
@@ -338,12 +352,92 @@ body {
 
 #main {
   position: fixed;
-  top: var(--tabbar-h);
+  top: calc(50px + var(--tabbar-h));
   left: var(--sidebar-w);
   right: 0;
   bottom: 0;
   overflow: hidden;
 }
+
+/* ── Global search input ─────────────────────────────────────────────── */
+
+#globalSearch {
+  width: 100%;
+  box-sizing: border-box;
+  height: 36px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 8px;
+  padding: 0 12px;
+  color: var(--fg);
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+#globalSearch::placeholder { color: var(--fg2); }
+#globalSearch:focus {
+  border-color: rgba(108,143,255,0.5);
+  background: rgba(255,255,255,0.08);
+}
+
+/* ── Table search bar ────────────────────────────────────────────────── */
+
+#tableSearchWrap {
+  padding: 8px 10px 4px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #0a0a0f;
+}
+
+#tableSearch {
+  width: 100%;
+  box-sizing: border-box;
+  height: 32px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 6px;
+  padding: 0 10px;
+  color: var(--fg);
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+#tableSearch::placeholder { color: var(--fg2); }
+#tableSearch:focus { border-color: rgba(108,143,255,0.5); }
+
+#tableMatchCount {
+  font-size: 10px;
+  color: var(--fg2);
+  padding: 3px 2px 0;
+}
+
+mark {
+  background: rgba(255,220,50,0.35);
+  color: #ffe066;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ── Zoom reset button ───────────────────────────────────────────────── */
+
+#zoomReset {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 20;
+  background: rgba(20,20,35,0.85);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--fg);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: background 0.15s;
+}
+#zoomReset:hover { background: rgba(108,143,255,0.25); }
 
 /* ── Canvas (treemap) ────────────────────────────────────────────────── */
 
@@ -365,6 +459,18 @@ canvas#canvas {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  #scatterView {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  #scatterView svg {
+    flex: 0 0 55vh;
+    height: 55vh;
+    width: 100%;
+  }
 }
 
 /* ── Table view ──────────────────────────────────────────────────────── */
@@ -619,6 +725,27 @@ canvas#canvas {
   gap: 6px;
   max-width: calc(100% - 70px);
   pointer-events: none;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(4px);
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+@media (max-width: 768px) {
+  #catLegend {
+    position: static;
+    max-width: 100%;
+    max-height: 30vh;
+    overflow-y: auto;
+    border-radius: 0;
+    padding: 8px 10px;
+    background: var(--bg2);
+    backdrop-filter: none;
+    pointer-events: all;
+  }
+  .cat-legend-item {
+    font-size: 12px;
+  }
 }
 .cat-legend-item {
   display: flex;
@@ -651,6 +778,7 @@ canvas#canvas {
   #sidebar.open { transform: translateX(0); }
 
   #menu-btn { display: flex; }
+  #globalSearchWrap { left: 0; padding-left: 56px; }
   #tabbar { left: 0; padding-left: 48px; }
 
   #tooltip { max-width: calc(100vw - 32px); font-size: 12px; }
@@ -834,6 +962,11 @@ canvas#canvas {
 
 <div id="sidebar-resize" title="Drag to resize sidebar"></div>
 
+<!-- ── Global search bar ──────────────────────────────────────────────── -->
+<div id="globalSearchWrap">
+  <input id="globalSearch" type="search" placeholder="Search occupations…" autocomplete="off" oninput="onGlobalSearch(this.value)">
+</div>
+
 <!-- ── Tab bar ─────────────────────────────────────────────────────────── -->
 <div id="tabbar">
   <button class="tab-btn active" onclick="setView('treemap')">Treemap</button>
@@ -845,6 +978,7 @@ canvas#canvas {
 <!-- ── Main canvas area ────────────────────────────────────────────────── -->
 <div id="main">
   <canvas id="canvas"></canvas>
+  <button id="zoomReset" onclick="resetZoom()">Reset zoom</button>
   <div id="scatterView" style="display:none;">
     <svg id="scatterSvg" xmlns="http://www.w3.org/2000/svg"></svg>
     <div id="catLegend"></div>
@@ -1081,6 +1215,51 @@ const state = {
 let tableSortCol = "exposure";
 let tableSortDir = "desc";
 
+// ── Treemap zoom/pan state ──────────────────────────────────────────────
+const zoom = { scale: 1, tx: 0, ty: 0 };
+let isDragging = false;
+let dragStart = { x: 0, y: 0, tx: 0, ty: 0 };
+let pinchStartDist = 0;
+let pinchStartScale = 1;
+let pinchStartMid = { x: 0, y: 0 };
+let pinchStartTx = 0;
+let pinchStartTy = 0;
+
+function clampZoomTx(scale, tx, ty) {
+  // Clamp pan so canvas doesn't go fully out of view
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  const minTx = w - w * scale, minTy = h - h * scale;
+  return {
+    tx: Math.min(0, Math.max(minTx, tx)),
+    ty: Math.min(0, Math.max(minTy, ty)),
+  };
+}
+
+function applyZoom(newScale, pivotX, pivotY) {
+  newScale = Math.max(1, Math.min(8, newScale));
+  // Adjust tx/ty so pivot point stays fixed
+  const { tx, ty, scale } = zoom;
+  const scaleRatio = newScale / scale;
+  let newTx = pivotX - scaleRatio * (pivotX - tx);
+  let newTy = pivotY - scaleRatio * (pivotY - ty);
+  const clamped = clampZoomTx(newScale, newTx, newTy);
+  zoom.scale = newScale;
+  zoom.tx = clamped.tx;
+  zoom.ty = clamped.ty;
+  updateZoomResetBtn();
+  drawTreemap();
+}
+
+function resetZoom() {
+  zoom.scale = 1; zoom.tx = 0; zoom.ty = 0;
+  updateZoomResetBtn();
+  drawTreemap();
+}
+
+function updateZoomResetBtn() {
+  document.getElementById("zoomReset").style.display = zoom.scale > 1 ? "block" : "none";
+}
+
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 let dpr = window.devicePixelRatio || 1;
@@ -1092,10 +1271,27 @@ function getSidebarW() {
   return parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w')) || 0;
 }
 
+function fuzzyMatch(title, query) {
+  if (!query) return true;
+  const t = title.toLowerCase();
+  const q = query.toLowerCase().trim();
+  // Fast substring check first
+  if (t.includes(q)) return true;
+  // Fuzzy: chars of query must appear in order in title
+  let ti = 0;
+  for (let qi = 0; qi < q.length; qi++) {
+    const ch = q[qi];
+    const found = t.indexOf(ch, ti);
+    if (found === -1) return false;
+    ti = found + 1;
+  }
+  return true;
+}
+
 function filteredData() {
   const q = state.query.toLowerCase().trim();
   return data.filter(d => {
-    if (q && !d.title.toLowerCase().includes(q)) return false;
+    if (q && !fuzzyMatch(d.title, q)) return false;
     if (state.categories.length > 0 && !state.categories.includes(d.category)) return false;
     if (d.exposure != null) {
       if (d.exposure < state.exposureMin || d.exposure > state.exposureMax) return false;
@@ -1123,6 +1319,17 @@ function activeFilterCount() {
 
 function onSearch(val) {
   state.query = val;
+  // Mirror to global search bar
+  const gs = document.getElementById("globalSearch");
+  if (gs && gs.value !== val) gs.value = val;
+  onFilterChange();
+}
+
+function onGlobalSearch(val) {
+  state.query = val;
+  // Mirror to sidebar search box
+  const sb = document.getElementById("searchBox");
+  if (sb && sb.value !== val) sb.value = val;
   onFilterChange();
 }
 
@@ -1191,7 +1398,7 @@ function setView(view) {
   closeSidebar();
 
   canvas.style.display = view === "treemap" ? "block" : "none";
-  document.getElementById("scatterView").style.display = view === "scatter" ? "block" : "none";
+  document.getElementById("scatterView").style.display = view === "scatter" ? (window.innerWidth <= 768 ? "flex" : "block") : "none";
   document.getElementById("tableView").style.display = view === "table" ? "block" : "none";
   document.getElementById("heatmapView").style.display = view === "heatmap" ? "block" : "none";
 
@@ -1207,10 +1414,15 @@ function renderCurrentView() {
 
 // ── Treemap ────────────────────────────────────────────────────────────
 
+function getHeaderH() {
+  // 50px global search bar + tabbar height
+  return 50 + parseInt(getComputedStyle(document.documentElement).getPropertyValue('--tabbar-h') || '36');
+}
+
 function layoutTreemap() {
   const sidebarW = getSidebarW();
   const w = window.innerWidth - sidebarW;
-  const h = window.innerHeight - parseInt(getComputedStyle(document.documentElement).getPropertyValue('--tabbar-h') || '36');
+  const h = window.innerHeight - getHeaderH();
 
   dpr = window.devicePixelRatio || 1;
   canvas.width = w * dpr;
@@ -1254,6 +1466,11 @@ function drawTreemap() {
   ctx.fillStyle = "#0a0a0f";
   ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
 
+  // Apply zoom/pan transform
+  ctx.save();
+  ctx.translate(zoom.tx, zoom.ty);
+  ctx.scale(zoom.scale, zoom.scale);
+
   for (const r of rects) {
     const isHovered = r === hovered;
     const g = GAP / 2;
@@ -1293,11 +1510,16 @@ function drawTreemap() {
       ctx.restore();
     }
   }
+
+  ctx.restore(); // end zoom/pan transform
 }
 
 function hitTestTreemap(mx, my) {
-  const cx = mx - getSidebarW();
-  const cy = my - parseInt(getComputedStyle(document.documentElement).getPropertyValue('--tabbar-h') || '36');
+  const rawX = mx - getSidebarW();
+  const rawY = my - getHeaderH();
+  // Reverse-transform zoom/pan to get layout-space coordinates
+  const cx = (rawX - zoom.tx) / zoom.scale;
+  const cy = (rawY - zoom.ty) / zoom.scale;
   for (let i = rects.length - 1; i >= 0; i--) {
     const r = rects[i];
     if (cx >= r.rx && cx < r.rx + r.rw && cy >= r.ry && cy < r.ry + r.rh) return r;
@@ -1420,8 +1642,55 @@ function renderCatLegend() {
 
 // ── Table view ─────────────────────────────────────────────────────────
 
+let _tableAllCount = 0;
+
+function fuzzyHighlight(title, query) {
+  if (!query) return title.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  const q = query.toLowerCase().trim();
+  const t = title.toLowerCase();
+  // Find matched char indices (in-order fuzzy)
+  const matched = new Set();
+  let ti = 0;
+  for (let qi = 0; qi < q.length; qi++) {
+    const found = t.indexOf(q[qi], ti);
+    if (found === -1) return title.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    matched.add(found);
+    ti = found + 1;
+  }
+  // Build highlighted string
+  let out = "";
+  for (let i = 0; i < title.length; i++) {
+    const ch = title[i].replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    if (matched.has(i)) out += `<mark>${ch}</mark>`;
+    else out += ch;
+  }
+  return out;
+}
+
+function filterTable(val) {
+  const q = (val || "").trim();
+  const tbody = document.querySelector("#tableView tbody");
+  const countEl = document.getElementById("tableMatchCount");
+  if (!tbody) return;
+  const rows = tbody.querySelectorAll("tr");
+  let shown = 0;
+  rows.forEach(tr => {
+    const titleCell = tr.querySelector("td.td-occ");
+    if (!titleCell) return;
+    const title = titleCell.dataset.raw || "";
+    const matches = fuzzyMatch(title, q);
+    tr.style.display = matches ? "" : "none";
+    if (matches) {
+      titleCell.innerHTML = fuzzyHighlight(title, q);
+      shown++;
+    }
+  });
+  if (countEl) countEl.textContent = `Showing ${shown} / ${_tableAllCount} occupations`;
+}
+
 function renderTable() {
   const fd = filteredData();
+  _tableAllCount = fd.length;
 
   // Sort
   fd.sort((a, b) => {
@@ -1451,13 +1720,23 @@ function renderTable() {
   const tbody = fd.map(d => {
     const cells = cols.map(c => {
       const val = d[c.key];
+      if (c.key === "title") {
+        const safe = (val || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+        const safeRaw = (val || "").replace(/"/g,"&quot;");
+        return `<td class="${c.cls || ""}" data-raw="${safeRaw}">${safe}</td>`;
+      }
       const rendered = c.format ? c.format(val) : (val || "—");
       return `<td class="${c.cls || ""}">${rendered}</td>`;
     }).join("");
     return `<tr onclick="selectOccupation('${d.slug}')" title="${d.title}">${cells}</tr>`;
   }).join("");
 
-  document.getElementById("tableView").innerHTML =
+  const tableView = document.getElementById("tableView");
+  tableView.innerHTML =
+    `<div id="tableSearchWrap">` +
+    `<input id="tableSearch" type="search" placeholder="Find occupation…" autocomplete="off" oninput="filterTable(this.value)">` +
+    `<div id="tableMatchCount">Showing ${fd.length} / ${fd.length} occupations</div>` +
+    `</div>` +
     `<table><thead><tr>${thead}</tr></thead><tbody>${tbody}</tbody></table>`;
 }
 
@@ -1716,8 +1995,36 @@ function hideTooltip() {
 
 // ── Canvas events ──────────────────────────────────────────────────────
 
+// Wheel zoom (PC)
+canvas.addEventListener("wheel", (e) => {
+  if (currentView !== "treemap") return;
+  e.preventDefault();
+  const factor = e.deltaY < 0 ? 1.12 : 1 / 1.12;
+  const rect = canvas.getBoundingClientRect();
+  const pivotX = e.clientX - rect.left;
+  const pivotY = e.clientY - rect.top;
+  applyZoom(zoom.scale * factor, pivotX, pivotY);
+}, { passive: false });
+
+// Mouse drag pan
+canvas.addEventListener("mousedown", (e) => {
+  if (currentView !== "treemap" || zoom.scale <= 1) return;
+  isDragging = true;
+  dragStart = { x: e.clientX, y: e.clientY, tx: zoom.tx, ty: zoom.ty };
+  canvas.style.cursor = "grabbing";
+});
+
 canvas.addEventListener("mousemove", (e) => {
   if (currentView !== "treemap") return;
+  if (isDragging) {
+    const dx = e.clientX - dragStart.x;
+    const dy = e.clientY - dragStart.y;
+    const clamped = clampZoomTx(zoom.scale, dragStart.tx + dx, dragStart.ty + dy);
+    zoom.tx = clamped.tx;
+    zoom.ty = clamped.ty;
+    drawTreemap();
+    return;
+  }
   const hit = hitTestTreemap(e.clientX, e.clientY);
   if (hit !== hovered) {
     hovered = hit;
@@ -1725,44 +2032,105 @@ canvas.addEventListener("mousemove", (e) => {
   }
   if (hovered && !hovered._dimmed) {
     showTooltip(hovered, e.clientX, e.clientY);
-    canvas.style.cursor = "pointer";
+    canvas.style.cursor = zoom.scale > 1 ? "grab" : "pointer";
   } else {
     hideTooltip();
-    canvas.style.cursor = "default";
+    canvas.style.cursor = zoom.scale > 1 ? "grab" : "default";
   }
+});
+
+canvas.addEventListener("mouseup", () => {
+  if (!isDragging) return;
+  isDragging = false;
+  canvas.style.cursor = zoom.scale > 1 ? "grab" : "default";
 });
 
 canvas.addEventListener("click", (e) => {
   if (currentView !== "treemap") return;
+  if (isDragging) return;
   const hit = hitTestTreemap(e.clientX, e.clientY);
   if (hit && !hit._dimmed) selectOccupation(hit.slug);
 });
 
 canvas.addEventListener("mouseleave", () => {
   if (currentView !== "treemap") return;
+  isDragging = false;
   hovered = null;
   hideTooltip();
   drawTreemap();
 });
 
+// Touch: pinch-to-zoom + single-finger pan
+canvas.addEventListener("touchstart", (e) => {
+  if (currentView !== "treemap") return;
+  if (e.touches.length === 2) {
+    e.preventDefault();
+    const t1 = e.touches[0], t2 = e.touches[1];
+    pinchStartDist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
+    pinchStartScale = zoom.scale;
+    const rect = canvas.getBoundingClientRect();
+    pinchStartMid = {
+      x: (t1.clientX + t2.clientX) / 2 - rect.left,
+      y: (t1.clientY + t2.clientY) / 2 - rect.top,
+    };
+    pinchStartTx = zoom.tx;
+    pinchStartTy = zoom.ty;
+    isDragging = false;
+  } else if (e.touches.length === 1 && zoom.scale > 1) {
+    isDragging = true;
+    dragStart = { x: e.touches[0].clientX, y: e.touches[0].clientY, tx: zoom.tx, ty: zoom.ty };
+  }
+}, { passive: false });
+
 canvas.addEventListener("touchmove", (e) => {
   if (currentView !== "treemap") return;
   e.preventDefault();
-  const touch = e.touches[0];
-  const hit = hitTestTreemap(touch.clientX, touch.clientY);
-  if (hit !== hovered) { hovered = hit; drawTreemap(); }
-  if (hovered && !hovered._dimmed) showTooltip(hovered, touch.clientX, touch.clientY);
-  else hideTooltip();
+  if (e.touches.length === 2) {
+    isDragging = false;
+    const t1 = e.touches[0], t2 = e.touches[1];
+    const dist = Math.hypot(t2.clientX - t1.clientX, t2.clientY - t1.clientY);
+    const newScale = Math.max(1, Math.min(8, pinchStartScale * dist / pinchStartDist));
+    const scaleRatio = newScale / pinchStartScale;
+    let newTx = pinchStartMid.x - scaleRatio * (pinchStartMid.x - pinchStartTx);
+    let newTy = pinchStartMid.y - scaleRatio * (pinchStartMid.y - pinchStartTy);
+    const clamped = clampZoomTx(newScale, newTx, newTy);
+    zoom.scale = newScale;
+    zoom.tx = clamped.tx;
+    zoom.ty = clamped.ty;
+    updateZoomResetBtn();
+    drawTreemap();
+  } else if (e.touches.length === 1) {
+    if (isDragging) {
+      const dx = e.touches[0].clientX - dragStart.x;
+      const dy = e.touches[0].clientY - dragStart.y;
+      const clamped = clampZoomTx(zoom.scale, dragStart.tx + dx, dragStart.ty + dy);
+      zoom.tx = clamped.tx;
+      zoom.ty = clamped.ty;
+      drawTreemap();
+    } else {
+      const touch = e.touches[0];
+      const hit = hitTestTreemap(touch.clientX, touch.clientY);
+      if (hit !== hovered) { hovered = hit; drawTreemap(); }
+      if (hovered && !hovered._dimmed) showTooltip(hovered, touch.clientX, touch.clientY);
+      else hideTooltip();
+    }
+  }
 }, { passive: false });
 
 canvas.addEventListener("touchend", (e) => {
   if (currentView !== "treemap") return;
-  const touch = e.changedTouches[0];
-  const hit = hitTestTreemap(touch.clientX, touch.clientY);
-  if (hit && !hit._dimmed) selectOccupation(hit.slug);
-  hovered = null;
-  hideTooltip();
-  drawTreemap();
+  if (isDragging && e.touches.length === 0) {
+    isDragging = false;
+    return;
+  }
+  if (e.touches.length === 0 && e.changedTouches.length === 1 && zoom.scale <= 1) {
+    const touch = e.changedTouches[0];
+    const hit = hitTestTreemap(touch.clientX, touch.clientY);
+    if (hit && !hit._dimmed) selectOccupation(hit.slug);
+    hovered = null;
+    hideTooltip();
+    drawTreemap();
+  }
 });
 
 // ── Sidebar stats ──────────────────────────────────────────────────────
@@ -1909,6 +2277,7 @@ function resize() {
 }
 
 window.addEventListener("resize", resize);
+window.addEventListener("orientationchange", () => setTimeout(resize, 100));
 
 // ── Load ───────────────────────────────────────────────────────────────
 
