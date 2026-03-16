@@ -1,0 +1,6386 @@
+[
+  {
+    "soc_code": "11-1011",
+    "cognitive_score": 7.89,
+    "social_score": 7.66,
+    "physical_score": 3.18,
+    "tech_skills_count": 28,
+    "hot_tech_count": 31
+  },
+  {
+    "soc_code": "11-1021",
+    "cognitive_score": 7.32,
+    "social_score": 6.7,
+    "physical_score": 3.66,
+    "tech_skills_count": 56,
+    "hot_tech_count": 49
+  },
+  {
+    "soc_code": "11-1031",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 17,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "11-2011",
+    "cognitive_score": 6.0,
+    "social_score": 5.66,
+    "physical_score": 2.3,
+    "tech_skills_count": 28,
+    "hot_tech_count": 29
+  },
+  {
+    "soc_code": "11-2021",
+    "cognitive_score": 6.72,
+    "social_score": 6.6,
+    "physical_score": 2.01,
+    "tech_skills_count": 46,
+    "hot_tech_count": 70
+  },
+  {
+    "soc_code": "11-2022",
+    "cognitive_score": 6.57,
+    "social_score": 7.42,
+    "physical_score": 2.61,
+    "tech_skills_count": 40,
+    "hot_tech_count": 40
+  },
+  {
+    "soc_code": "11-2032",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 24,
+    "hot_tech_count": 31
+  },
+  {
+    "soc_code": "11-2033",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 23,
+    "hot_tech_count": 26
+  },
+  {
+    "soc_code": "11-3012",
+    "cognitive_score": 6.87,
+    "social_score": 6.42,
+    "physical_score": 5.1,
+    "tech_skills_count": 30,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "11-3013",
+    "cognitive_score": 7.64,
+    "social_score": 6.4,
+    "physical_score": 6.32,
+    "tech_skills_count": 35,
+    "hot_tech_count": 34
+  },
+  {
+    "soc_code": "11-3021",
+    "cognitive_score": 7.32,
+    "social_score": 5.86,
+    "physical_score": 3.35,
+    "tech_skills_count": 57,
+    "hot_tech_count": 62
+  },
+  {
+    "soc_code": "11-3031",
+    "cognitive_score": 7.35,
+    "social_score": 5.77,
+    "physical_score": 1.83,
+    "tech_skills_count": 32,
+    "hot_tech_count": 59
+  },
+  {
+    "soc_code": "11-3051",
+    "cognitive_score": 7.29,
+    "social_score": 5.85,
+    "physical_score": 5.33,
+    "tech_skills_count": 36,
+    "hot_tech_count": 59
+  },
+  {
+    "soc_code": "11-3061",
+    "cognitive_score": 7.27,
+    "social_score": 6.78,
+    "physical_score": 2.84,
+    "tech_skills_count": 19,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "11-3071",
+    "cognitive_score": 6.96,
+    "social_score": 6.45,
+    "physical_score": 3.83,
+    "tech_skills_count": 33,
+    "hot_tech_count": 30
+  },
+  {
+    "soc_code": "11-3111",
+    "cognitive_score": 6.78,
+    "social_score": 5.82,
+    "physical_score": 1.77,
+    "tech_skills_count": 21,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "11-3121",
+    "cognitive_score": 7.46,
+    "social_score": 7.64,
+    "physical_score": 2.27,
+    "tech_skills_count": 25,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "11-3131",
+    "cognitive_score": 7.53,
+    "social_score": 6.45,
+    "physical_score": 2.2,
+    "tech_skills_count": 20,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "11-9013",
+    "cognitive_score": 6.81,
+    "social_score": 6.11,
+    "physical_score": 6.18,
+    "tech_skills_count": 21,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "11-9021",
+    "cognitive_score": 7.56,
+    "social_score": 6.84,
+    "physical_score": 4.42,
+    "tech_skills_count": 24,
+    "hot_tech_count": 21
+  },
+  {
+    "soc_code": "11-9031",
+    "cognitive_score": 6.32,
+    "social_score": 7.45,
+    "physical_score": 3.59,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "11-9032",
+    "cognitive_score": 8.0,
+    "social_score": 8.01,
+    "physical_score": 3.68,
+    "tech_skills_count": 20,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "11-9033",
+    "cognitive_score": 7.43,
+    "social_score": 6.48,
+    "physical_score": 2.07,
+    "tech_skills_count": 27,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "11-9041",
+    "cognitive_score": 7.85,
+    "social_score": 5.82,
+    "physical_score": 4.14,
+    "tech_skills_count": 42,
+    "hot_tech_count": 92
+  },
+  {
+    "soc_code": "11-9051",
+    "cognitive_score": 5.0,
+    "social_score": 5.67,
+    "physical_score": 4.35,
+    "tech_skills_count": 21,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "11-9071",
+    "cognitive_score": 6.73,
+    "social_score": 6.44,
+    "physical_score": 3.77,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "11-9072",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 27,
+    "hot_tech_count": 32
+  },
+  {
+    "soc_code": "11-9081",
+    "cognitive_score": 6.54,
+    "social_score": 7.62,
+    "physical_score": 4.14,
+    "tech_skills_count": 14,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "11-9111",
+    "cognitive_score": 7.74,
+    "social_score": 7.47,
+    "physical_score": 3.73,
+    "tech_skills_count": 44,
+    "hot_tech_count": 41
+  },
+  {
+    "soc_code": "11-9121",
+    "cognitive_score": 7.44,
+    "social_score": 5.59,
+    "physical_score": 3.84,
+    "tech_skills_count": 28,
+    "hot_tech_count": 39
+  },
+  {
+    "soc_code": "11-9131",
+    "cognitive_score": 7.12,
+    "social_score": 6.98,
+    "physical_score": 4.11,
+    "tech_skills_count": 15,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "11-9141",
+    "cognitive_score": 6.28,
+    "social_score": 6.75,
+    "physical_score": 3.17,
+    "tech_skills_count": 19,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "11-9151",
+    "cognitive_score": 6.76,
+    "social_score": 6.68,
+    "physical_score": 2.89,
+    "tech_skills_count": 15,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "11-9161",
+    "cognitive_score": 7.3,
+    "social_score": 7.47,
+    "physical_score": 4.77,
+    "tech_skills_count": 16,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "11-9171",
+    "cognitive_score": 7.63,
+    "social_score": 7.66,
+    "physical_score": 5.66,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "11-9179",
+    "cognitive_score": 6.5,
+    "social_score": 7.42,
+    "physical_score": 4.53,
+    "tech_skills_count": 17,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "11-9199",
+    "cognitive_score": 7.66,
+    "social_score": 6.47,
+    "physical_score": 3.97,
+    "tech_skills_count": 43,
+    "hot_tech_count": 73
+  },
+  {
+    "soc_code": "13-1011",
+    "cognitive_score": 5.27,
+    "social_score": 5.26,
+    "physical_score": 1.26,
+    "tech_skills_count": 19,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "13-1021",
+    "cognitive_score": 6.73,
+    "social_score": 5.9,
+    "physical_score": 2.92,
+    "tech_skills_count": 13,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "13-1022",
+    "cognitive_score": 6.08,
+    "social_score": 5.13,
+    "physical_score": 3.26,
+    "tech_skills_count": 24,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "13-1023",
+    "cognitive_score": 7.15,
+    "social_score": 6.34,
+    "physical_score": 2.79,
+    "tech_skills_count": 21,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "13-1031",
+    "cognitive_score": 7.45,
+    "social_score": 5.75,
+    "physical_score": 2.52,
+    "tech_skills_count": 20,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "13-1032",
+    "cognitive_score": 7.09,
+    "social_score": 5.86,
+    "physical_score": 4.29,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "13-1041",
+    "cognitive_score": 7.29,
+    "social_score": 5.84,
+    "physical_score": 3.28,
+    "tech_skills_count": 35,
+    "hot_tech_count": 78
+  },
+  {
+    "soc_code": "13-1051",
+    "cognitive_score": 7.67,
+    "social_score": 4.85,
+    "physical_score": 2.02,
+    "tech_skills_count": 19,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "13-1071",
+    "cognitive_score": 6.63,
+    "social_score": 6.34,
+    "physical_score": 2.09,
+    "tech_skills_count": 41,
+    "hot_tech_count": 46
+  },
+  {
+    "soc_code": "13-1074",
+    "cognitive_score": 3.99,
+    "social_score": 3.89,
+    "physical_score": 3.71,
+    "tech_skills_count": 10,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "13-1075",
+    "cognitive_score": 6.43,
+    "social_score": 5.75,
+    "physical_score": 1.65,
+    "tech_skills_count": 10,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "13-1081",
+    "cognitive_score": 7.4,
+    "social_score": 5.59,
+    "physical_score": 3.09,
+    "tech_skills_count": 28,
+    "hot_tech_count": 60
+  },
+  {
+    "soc_code": "13-1082",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 35,
+    "hot_tech_count": 44
+  },
+  {
+    "soc_code": "13-1111",
+    "cognitive_score": 7.96,
+    "social_score": 6.66,
+    "physical_score": 2.58,
+    "tech_skills_count": 59,
+    "hot_tech_count": 109
+  },
+  {
+    "soc_code": "13-1121",
+    "cognitive_score": 7.06,
+    "social_score": 7.25,
+    "physical_score": 4.9,
+    "tech_skills_count": 21,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "13-1131",
+    "cognitive_score": 6.92,
+    "social_score": 6.96,
+    "physical_score": 2.08,
+    "tech_skills_count": 14,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "13-1141",
+    "cognitive_score": 6.6,
+    "social_score": 5.12,
+    "physical_score": 1.98,
+    "tech_skills_count": 20,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "13-1151",
+    "cognitive_score": 6.91,
+    "social_score": 6.24,
+    "physical_score": 2.59,
+    "tech_skills_count": 32,
+    "hot_tech_count": 29
+  },
+  {
+    "soc_code": "13-1161",
+    "cognitive_score": 7.82,
+    "social_score": 5.18,
+    "physical_score": 1.92,
+    "tech_skills_count": 38,
+    "hot_tech_count": 81
+  },
+  {
+    "soc_code": "13-1199",
+    "cognitive_score": 6.98,
+    "social_score": 5.57,
+    "physical_score": 2.54,
+    "tech_skills_count": 56,
+    "hot_tech_count": 95
+  },
+  {
+    "soc_code": "13-2011",
+    "cognitive_score": 7.32,
+    "social_score": 5.8,
+    "physical_score": 2.35,
+    "tech_skills_count": 37,
+    "hot_tech_count": 37
+  },
+  {
+    "soc_code": "13-2022",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 10,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "13-2023",
+    "cognitive_score": 7.24,
+    "social_score": 4.69,
+    "physical_score": 3.07,
+    "tech_skills_count": 19,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "13-2031",
+    "cognitive_score": 6.83,
+    "social_score": 3.92,
+    "physical_score": 2.21,
+    "tech_skills_count": 18,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "13-2041",
+    "cognitive_score": 6.85,
+    "social_score": 4.11,
+    "physical_score": 1.19,
+    "tech_skills_count": 15,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "13-2051",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 28,
+    "hot_tech_count": 34
+  },
+  {
+    "soc_code": "13-2052",
+    "cognitive_score": 7.65,
+    "social_score": 5.93,
+    "physical_score": 1.1,
+    "tech_skills_count": 19,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "13-2053",
+    "cognitive_score": 7.16,
+    "social_score": 5.1,
+    "physical_score": 1.44,
+    "tech_skills_count": 13,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "13-2054",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 31,
+    "hot_tech_count": 41
+  },
+  {
+    "soc_code": "13-2061",
+    "cognitive_score": 7.21,
+    "social_score": 5.31,
+    "physical_score": 1.59,
+    "tech_skills_count": 15,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "13-2071",
+    "cognitive_score": 6.54,
+    "social_score": 5.38,
+    "physical_score": 1.31,
+    "tech_skills_count": 11,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "13-2072",
+    "cognitive_score": 7.16,
+    "social_score": 5.6,
+    "physical_score": 2.0,
+    "tech_skills_count": 18,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "13-2081",
+    "cognitive_score": 7.31,
+    "social_score": 5.94,
+    "physical_score": 2.22,
+    "tech_skills_count": 16,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "13-2082",
+    "cognitive_score": 6.88,
+    "social_score": 4.96,
+    "physical_score": 2.28,
+    "tech_skills_count": 15,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "13-2099",
+    "cognitive_score": 7.52,
+    "social_score": 5.03,
+    "physical_score": 2.13,
+    "tech_skills_count": 26,
+    "hot_tech_count": 43
+  },
+  {
+    "soc_code": "15-1211",
+    "cognitive_score": 7.71,
+    "social_score": 5.11,
+    "physical_score": 3.56,
+    "tech_skills_count": 72,
+    "hot_tech_count": 149
+  },
+  {
+    "soc_code": "15-1212",
+    "cognitive_score": 7.38,
+    "social_score": 4.17,
+    "physical_score": 2.88,
+    "tech_skills_count": 60,
+    "hot_tech_count": 99
+  },
+  {
+    "soc_code": "15-1221",
+    "cognitive_score": 8.34,
+    "social_score": 4.72,
+    "physical_score": 3.06,
+    "tech_skills_count": 35,
+    "hot_tech_count": 61
+  },
+  {
+    "soc_code": "15-1231",
+    "cognitive_score": 6.38,
+    "social_score": 4.36,
+    "physical_score": 3.86,
+    "tech_skills_count": 42,
+    "hot_tech_count": 34
+  },
+  {
+    "soc_code": "15-1232",
+    "cognitive_score": 6.95,
+    "social_score": 4.64,
+    "physical_score": 4.47,
+    "tech_skills_count": 75,
+    "hot_tech_count": 118
+  },
+  {
+    "soc_code": "15-1241",
+    "cognitive_score": 7.19,
+    "social_score": 4.87,
+    "physical_score": 4.12,
+    "tech_skills_count": 69,
+    "hot_tech_count": 128
+  },
+  {
+    "soc_code": "15-1242",
+    "cognitive_score": 6.98,
+    "social_score": 4.17,
+    "physical_score": 2.52,
+    "tech_skills_count": 64,
+    "hot_tech_count": 114
+  },
+  {
+    "soc_code": "15-1243",
+    "cognitive_score": 7.41,
+    "social_score": 4.21,
+    "physical_score": 1.58,
+    "tech_skills_count": 60,
+    "hot_tech_count": 183
+  },
+  {
+    "soc_code": "15-1244",
+    "cognitive_score": 6.6,
+    "social_score": 3.69,
+    "physical_score": 4.25,
+    "tech_skills_count": 69,
+    "hot_tech_count": 101
+  },
+  {
+    "soc_code": "15-1251",
+    "cognitive_score": 7.85,
+    "social_score": 4.04,
+    "physical_score": 2.54,
+    "tech_skills_count": 54,
+    "hot_tech_count": 109
+  },
+  {
+    "soc_code": "15-1252",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 66,
+    "hot_tech_count": 151
+  },
+  {
+    "soc_code": "15-1253",
+    "cognitive_score": 7.44,
+    "social_score": 4.5,
+    "physical_score": 2.03,
+    "tech_skills_count": 68,
+    "hot_tech_count": 127
+  },
+  {
+    "soc_code": "15-1254",
+    "cognitive_score": 6.97,
+    "social_score": 4.16,
+    "physical_score": 2.07,
+    "tech_skills_count": 52,
+    "hot_tech_count": 128
+  },
+  {
+    "soc_code": "15-1255",
+    "cognitive_score": 6.87,
+    "social_score": 4.6,
+    "physical_score": 1.56,
+    "tech_skills_count": 53,
+    "hot_tech_count": 149
+  },
+  {
+    "soc_code": "15-1299",
+    "cognitive_score": 7.42,
+    "social_score": 5.28,
+    "physical_score": 3.17,
+    "tech_skills_count": 81,
+    "hot_tech_count": 565
+  },
+  {
+    "soc_code": "15-2011",
+    "cognitive_score": 7.7,
+    "social_score": 4.62,
+    "physical_score": 1.41,
+    "tech_skills_count": 15,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "15-2021",
+    "cognitive_score": 7.36,
+    "social_score": 4.08,
+    "physical_score": 1.28,
+    "tech_skills_count": 21,
+    "hot_tech_count": 33
+  },
+  {
+    "soc_code": "15-2031",
+    "cognitive_score": 7.86,
+    "social_score": 4.65,
+    "physical_score": 2.2,
+    "tech_skills_count": 37,
+    "hot_tech_count": 47
+  },
+  {
+    "soc_code": "15-2041",
+    "cognitive_score": 7.65,
+    "social_score": 4.54,
+    "physical_score": 1.34,
+    "tech_skills_count": 19,
+    "hot_tech_count": 54
+  },
+  {
+    "soc_code": "15-2051",
+    "cognitive_score": 7.46,
+    "social_score": 4.53,
+    "physical_score": 1.35,
+    "tech_skills_count": 56,
+    "hot_tech_count": 173
+  },
+  {
+    "soc_code": "15-2099",
+    "cognitive_score": 7.77,
+    "social_score": 3.61,
+    "physical_score": 2.36,
+    "tech_skills_count": 22,
+    "hot_tech_count": 30
+  },
+  {
+    "soc_code": "17-1011",
+    "cognitive_score": 7.41,
+    "social_score": 6.37,
+    "physical_score": 3.12,
+    "tech_skills_count": 25,
+    "hot_tech_count": 34
+  },
+  {
+    "soc_code": "17-1012",
+    "cognitive_score": 7.32,
+    "social_score": 6.43,
+    "physical_score": 3.38,
+    "tech_skills_count": 14,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "17-1021",
+    "cognitive_score": 7.74,
+    "social_score": 4.82,
+    "physical_score": 3.32,
+    "tech_skills_count": 27,
+    "hot_tech_count": 24
+  },
+  {
+    "soc_code": "17-1022",
+    "cognitive_score": 7.63,
+    "social_score": 5.29,
+    "physical_score": 5.02,
+    "tech_skills_count": 25,
+    "hot_tech_count": 24
+  },
+  {
+    "soc_code": "17-2011",
+    "cognitive_score": 7.95,
+    "social_score": 4.27,
+    "physical_score": 3.62,
+    "tech_skills_count": 19,
+    "hot_tech_count": 25
+  },
+  {
+    "soc_code": "17-2021",
+    "cognitive_score": 8.15,
+    "social_score": 5.0,
+    "physical_score": 5.05,
+    "tech_skills_count": 17,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "17-2031",
+    "cognitive_score": 7.89,
+    "social_score": 4.79,
+    "physical_score": 4.21,
+    "tech_skills_count": 28,
+    "hot_tech_count": 33
+  },
+  {
+    "soc_code": "17-2041",
+    "cognitive_score": 8.14,
+    "social_score": 4.82,
+    "physical_score": 3.51,
+    "tech_skills_count": 18,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "17-2051",
+    "cognitive_score": 7.44,
+    "social_score": 6.02,
+    "physical_score": 3.19,
+    "tech_skills_count": 24,
+    "hot_tech_count": 55
+  },
+  {
+    "soc_code": "17-2061",
+    "cognitive_score": 7.99,
+    "social_score": 4.55,
+    "physical_score": 3.44,
+    "tech_skills_count": 19,
+    "hot_tech_count": 19
+  },
+  {
+    "soc_code": "17-2071",
+    "cognitive_score": 7.84,
+    "social_score": 4.87,
+    "physical_score": 4.02,
+    "tech_skills_count": 24,
+    "hot_tech_count": 32
+  },
+  {
+    "soc_code": "17-2072",
+    "cognitive_score": 7.18,
+    "social_score": 4.65,
+    "physical_score": 4.22,
+    "tech_skills_count": 28,
+    "hot_tech_count": 44
+  },
+  {
+    "soc_code": "17-2081",
+    "cognitive_score": 7.49,
+    "social_score": 6.09,
+    "physical_score": 4.16,
+    "tech_skills_count": 16,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "17-2111",
+    "cognitive_score": 7.63,
+    "social_score": 5.65,
+    "physical_score": 4.14,
+    "tech_skills_count": 24,
+    "hot_tech_count": 28
+  },
+  {
+    "soc_code": "17-2112",
+    "cognitive_score": 7.6,
+    "social_score": 4.73,
+    "physical_score": 4.21,
+    "tech_skills_count": 43,
+    "hot_tech_count": 142
+  },
+  {
+    "soc_code": "17-2121",
+    "cognitive_score": 7.25,
+    "social_score": 4.68,
+    "physical_score": 4.04,
+    "tech_skills_count": 14,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "17-2131",
+    "cognitive_score": 7.73,
+    "social_score": 5.45,
+    "physical_score": 4.76,
+    "tech_skills_count": 16,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "17-2141",
+    "cognitive_score": 7.58,
+    "social_score": 4.59,
+    "physical_score": 4.36,
+    "tech_skills_count": 29,
+    "hot_tech_count": 80
+  },
+  {
+    "soc_code": "17-2151",
+    "cognitive_score": 7.89,
+    "social_score": 5.37,
+    "physical_score": 3.38,
+    "tech_skills_count": 16,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "17-2161",
+    "cognitive_score": 7.94,
+    "social_score": 5.04,
+    "physical_score": 3.77,
+    "tech_skills_count": 14,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "17-2171",
+    "cognitive_score": 7.7,
+    "social_score": 5.22,
+    "physical_score": 2.56,
+    "tech_skills_count": 17,
+    "hot_tech_count": 22
+  },
+  {
+    "soc_code": "17-2199",
+    "cognitive_score": 7.38,
+    "social_score": 4.74,
+    "physical_score": 4.35,
+    "tech_skills_count": 40,
+    "hot_tech_count": 184
+  },
+  {
+    "soc_code": "17-3011",
+    "cognitive_score": 6.78,
+    "social_score": 4.09,
+    "physical_score": 2.07,
+    "tech_skills_count": 22,
+    "hot_tech_count": 26
+  },
+  {
+    "soc_code": "17-3012",
+    "cognitive_score": 6.69,
+    "social_score": 3.89,
+    "physical_score": 2.59,
+    "tech_skills_count": 20,
+    "hot_tech_count": 22
+  },
+  {
+    "soc_code": "17-3013",
+    "cognitive_score": 6.41,
+    "social_score": 3.45,
+    "physical_score": 3.34,
+    "tech_skills_count": 16,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "17-3021",
+    "cognitive_score": 7.52,
+    "social_score": 4.21,
+    "physical_score": 5.08,
+    "tech_skills_count": 23,
+    "hot_tech_count": 27
+  },
+  {
+    "soc_code": "17-3022",
+    "cognitive_score": 7.22,
+    "social_score": 4.54,
+    "physical_score": 3.15,
+    "tech_skills_count": 14,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "17-3023",
+    "cognitive_score": 6.97,
+    "social_score": 4.48,
+    "physical_score": 5.37,
+    "tech_skills_count": 22,
+    "hot_tech_count": 25
+  },
+  {
+    "soc_code": "17-3024",
+    "cognitive_score": 6.71,
+    "social_score": 4.09,
+    "physical_score": 6.27,
+    "tech_skills_count": 21,
+    "hot_tech_count": 37
+  },
+  {
+    "soc_code": "17-3025",
+    "cognitive_score": 6.09,
+    "social_score": 4.28,
+    "physical_score": 4.6,
+    "tech_skills_count": 19,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "17-3026",
+    "cognitive_score": 6.77,
+    "social_score": 3.97,
+    "physical_score": 5.43,
+    "tech_skills_count": 25,
+    "hot_tech_count": 28
+  },
+  {
+    "soc_code": "17-3027",
+    "cognitive_score": 7.12,
+    "social_score": 4.46,
+    "physical_score": 5.96,
+    "tech_skills_count": 17,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "17-3028",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 10,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "17-3029",
+    "cognitive_score": 7.25,
+    "social_score": 4.87,
+    "physical_score": 6.16,
+    "tech_skills_count": 17,
+    "hot_tech_count": 19
+  },
+  {
+    "soc_code": "17-3031",
+    "cognitive_score": 6.32,
+    "social_score": 3.72,
+    "physical_score": 3.7,
+    "tech_skills_count": 22,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "19-1011",
+    "cognitive_score": 7.89,
+    "social_score": 5.87,
+    "physical_score": 4.0,
+    "tech_skills_count": 13,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "19-1012",
+    "cognitive_score": 7.54,
+    "social_score": 4.9,
+    "physical_score": 4.42,
+    "tech_skills_count": 13,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "19-1013",
+    "cognitive_score": 7.81,
+    "social_score": 5.56,
+    "physical_score": 4.69,
+    "tech_skills_count": 12,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "19-1021",
+    "cognitive_score": 8.86,
+    "social_score": 5.21,
+    "physical_score": 5.37,
+    "tech_skills_count": 19,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "19-1022",
+    "cognitive_score": 7.66,
+    "social_score": 4.94,
+    "physical_score": 5.21,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "19-1023",
+    "cognitive_score": 7.44,
+    "social_score": 6.33,
+    "physical_score": 4.84,
+    "tech_skills_count": 13,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "19-1029",
+    "cognitive_score": 7.94,
+    "social_score": 5.24,
+    "physical_score": 3.79,
+    "tech_skills_count": 28,
+    "hot_tech_count": 93
+  },
+  {
+    "soc_code": "19-1031",
+    "cognitive_score": 7.22,
+    "social_score": 6.48,
+    "physical_score": 5.04,
+    "tech_skills_count": 22,
+    "hot_tech_count": 37
+  },
+  {
+    "soc_code": "19-1032",
+    "cognitive_score": 7.39,
+    "social_score": 6.08,
+    "physical_score": 5.93,
+    "tech_skills_count": 15,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "19-1041",
+    "cognitive_score": 8.18,
+    "social_score": 5.87,
+    "physical_score": 1.86,
+    "tech_skills_count": 14,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "19-1042",
+    "cognitive_score": 7.5,
+    "social_score": 4.06,
+    "physical_score": 3.39,
+    "tech_skills_count": 16,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "19-2011",
+    "cognitive_score": 7.88,
+    "social_score": 4.5,
+    "physical_score": 2.63,
+    "tech_skills_count": 12,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "19-2012",
+    "cognitive_score": 7.9,
+    "social_score": 4.53,
+    "physical_score": 3.08,
+    "tech_skills_count": 23,
+    "hot_tech_count": 29
+  },
+  {
+    "soc_code": "19-2021",
+    "cognitive_score": 7.27,
+    "social_score": 4.74,
+    "physical_score": 2.29,
+    "tech_skills_count": 16,
+    "hot_tech_count": 19
+  },
+  {
+    "soc_code": "19-2031",
+    "cognitive_score": 7.33,
+    "social_score": 4.59,
+    "physical_score": 4.98,
+    "tech_skills_count": 17,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "19-2032",
+    "cognitive_score": 7.76,
+    "social_score": 4.67,
+    "physical_score": 4.06,
+    "tech_skills_count": 11,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "19-2041",
+    "cognitive_score": 7.54,
+    "social_score": 5.23,
+    "physical_score": 2.82,
+    "tech_skills_count": 30,
+    "hot_tech_count": 76
+  },
+  {
+    "soc_code": "19-2042",
+    "cognitive_score": 7.82,
+    "social_score": 5.4,
+    "physical_score": 3.94,
+    "tech_skills_count": 18,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "19-2043",
+    "cognitive_score": 7.92,
+    "social_score": 5.09,
+    "physical_score": 4.05,
+    "tech_skills_count": 18,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "19-2099",
+    "cognitive_score": 8.12,
+    "social_score": 4.8,
+    "physical_score": 3.55,
+    "tech_skills_count": 35,
+    "hot_tech_count": 58
+  },
+  {
+    "soc_code": "19-3011",
+    "cognitive_score": 7.58,
+    "social_score": 4.21,
+    "physical_score": 0.89,
+    "tech_skills_count": 17,
+    "hot_tech_count": 42
+  },
+  {
+    "soc_code": "19-3022",
+    "cognitive_score": 7.88,
+    "social_score": 5.12,
+    "physical_score": 2.0,
+    "tech_skills_count": 25,
+    "hot_tech_count": 22
+  },
+  {
+    "soc_code": "19-3032",
+    "cognitive_score": 7.78,
+    "social_score": 6.53,
+    "physical_score": 1.33,
+    "tech_skills_count": 15,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "19-3033",
+    "cognitive_score": 7.12,
+    "social_score": 5.86,
+    "physical_score": 1.44,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "19-3034",
+    "cognitive_score": 5.8,
+    "social_score": 5.04,
+    "physical_score": 1.63,
+    "tech_skills_count": 11,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "19-3039",
+    "cognitive_score": 8.12,
+    "social_score": 5.87,
+    "physical_score": 2.52,
+    "tech_skills_count": 10,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "19-3041",
+    "cognitive_score": 7.95,
+    "social_score": 5.26,
+    "physical_score": 1.74,
+    "tech_skills_count": 22,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "19-3051",
+    "cognitive_score": 7.76,
+    "social_score": 6.78,
+    "physical_score": 1.74,
+    "tech_skills_count": 26,
+    "hot_tech_count": 24
+  },
+  {
+    "soc_code": "19-3091",
+    "cognitive_score": 7.61,
+    "social_score": 5.4,
+    "physical_score": 2.71,
+    "tech_skills_count": 22,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "19-3092",
+    "cognitive_score": 7.51,
+    "social_score": 4.84,
+    "physical_score": 2.59,
+    "tech_skills_count": 14,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "19-3093",
+    "cognitive_score": 7.5,
+    "social_score": 5.25,
+    "physical_score": 2.77,
+    "tech_skills_count": 23,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "19-3094",
+    "cognitive_score": 7.97,
+    "social_score": 4.85,
+    "physical_score": 1.62,
+    "tech_skills_count": 17,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "19-3099",
+    "cognitive_score": 7.91,
+    "social_score": 6.45,
+    "physical_score": 2.16,
+    "tech_skills_count": 19,
+    "hot_tech_count": 21
+  },
+  {
+    "soc_code": "19-4012",
+    "cognitive_score": 6.37,
+    "social_score": 4.9,
+    "physical_score": 5.75,
+    "tech_skills_count": 14,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "19-4013",
+    "cognitive_score": 6.12,
+    "social_score": 4.81,
+    "physical_score": 4.26,
+    "tech_skills_count": 16,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "19-4021",
+    "cognitive_score": 7.37,
+    "social_score": 3.33,
+    "physical_score": 4.46,
+    "tech_skills_count": 11,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "19-4031",
+    "cognitive_score": 7.1,
+    "social_score": 3.88,
+    "physical_score": 5.71,
+    "tech_skills_count": 11,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "19-4042",
+    "cognitive_score": 6.61,
+    "social_score": 5.12,
+    "physical_score": 4.81,
+    "tech_skills_count": 16,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "19-4043",
+    "cognitive_score": 6.27,
+    "social_score": 3.55,
+    "physical_score": 5.06,
+    "tech_skills_count": 15,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "19-4044",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 11,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "19-4051",
+    "cognitive_score": 7.11,
+    "social_score": 4.22,
+    "physical_score": 5.45,
+    "tech_skills_count": 14,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "19-4061",
+    "cognitive_score": 6.97,
+    "social_score": 4.39,
+    "physical_score": 1.43,
+    "tech_skills_count": 20,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "19-4071",
+    "cognitive_score": 6.84,
+    "social_score": 6.2,
+    "physical_score": 6.28,
+    "tech_skills_count": 16,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "19-4092",
+    "cognitive_score": 6.94,
+    "social_score": 5.19,
+    "physical_score": 4.46,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "19-4099",
+    "cognitive_score": 6.87,
+    "social_score": 3.69,
+    "physical_score": 4.32,
+    "tech_skills_count": 38,
+    "hot_tech_count": 75
+  },
+  {
+    "soc_code": "19-5011",
+    "cognitive_score": 7.79,
+    "social_score": 6.39,
+    "physical_score": 5.04,
+    "tech_skills_count": 13,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "19-5012",
+    "cognitive_score": 7.49,
+    "social_score": 6.1,
+    "physical_score": 4.78,
+    "tech_skills_count": 13,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "21-1011",
+    "cognitive_score": 7.73,
+    "social_score": 6.81,
+    "physical_score": 4.05,
+    "tech_skills_count": 11,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "21-1012",
+    "cognitive_score": 7.46,
+    "social_score": 6.47,
+    "physical_score": 2.15,
+    "tech_skills_count": 29,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "21-1013",
+    "cognitive_score": 6.79,
+    "social_score": 6.29,
+    "physical_score": 1.11,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "21-1014",
+    "cognitive_score": 6.4,
+    "social_score": 6.02,
+    "physical_score": 1.86,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "21-1015",
+    "cognitive_score": 6.77,
+    "social_score": 6.77,
+    "physical_score": 3.01,
+    "tech_skills_count": 16,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "21-1021",
+    "cognitive_score": 7.17,
+    "social_score": 7.47,
+    "physical_score": 2.75,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "21-1022",
+    "cognitive_score": 6.23,
+    "social_score": 7.04,
+    "physical_score": 2.39,
+    "tech_skills_count": 14,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "21-1023",
+    "cognitive_score": 7.44,
+    "social_score": 6.52,
+    "physical_score": 2.4,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "21-1091",
+    "cognitive_score": 7.71,
+    "social_score": 7.05,
+    "physical_score": 3.97,
+    "tech_skills_count": 17,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "21-1092",
+    "cognitive_score": 7.17,
+    "social_score": 6.39,
+    "physical_score": 3.78,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "21-1093",
+    "cognitive_score": 6.42,
+    "social_score": 6.43,
+    "physical_score": 2.81,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "21-1094",
+    "cognitive_score": 7.38,
+    "social_score": 7.42,
+    "physical_score": 4.99,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "21-2011",
+    "cognitive_score": 5.36,
+    "social_score": 6.4,
+    "physical_score": 2.42,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "21-2021",
+    "cognitive_score": 6.73,
+    "social_score": 7.05,
+    "physical_score": 3.56,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "23-1011",
+    "cognitive_score": 7.61,
+    "social_score": 6.77,
+    "physical_score": 2.1,
+    "tech_skills_count": 20,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "23-1012",
+    "cognitive_score": 6.54,
+    "social_score": 2.99,
+    "physical_score": 0.79,
+    "tech_skills_count": 14,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "23-1021",
+    "cognitive_score": 7.12,
+    "social_score": 4.75,
+    "physical_score": 1.42,
+    "tech_skills_count": 14,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "23-1022",
+    "cognitive_score": 7.41,
+    "social_score": 4.11,
+    "physical_score": 1.71,
+    "tech_skills_count": 11,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "23-1023",
+    "cognitive_score": 7.45,
+    "social_score": 5.0,
+    "physical_score": 1.47,
+    "tech_skills_count": 14,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "23-2011",
+    "cognitive_score": 6.13,
+    "social_score": 4.64,
+    "physical_score": 1.88,
+    "tech_skills_count": 24,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "23-2093",
+    "cognitive_score": 7.36,
+    "social_score": 3.96,
+    "physical_score": 2.52,
+    "tech_skills_count": 15,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-1011",
+    "cognitive_score": 6.3,
+    "social_score": 5.11,
+    "physical_score": 1.88,
+    "tech_skills_count": 14,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-1021",
+    "cognitive_score": 7.23,
+    "social_score": 5.3,
+    "physical_score": 2.51,
+    "tech_skills_count": 21,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "25-1022",
+    "cognitive_score": 6.04,
+    "social_score": 4.98,
+    "physical_score": 1.77,
+    "tech_skills_count": 13,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "25-1031",
+    "cognitive_score": 7.29,
+    "social_score": 6.29,
+    "physical_score": 3.38,
+    "tech_skills_count": 18,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "25-1032",
+    "cognitive_score": 7.38,
+    "social_score": 5.32,
+    "physical_score": 3.48,
+    "tech_skills_count": 16,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "25-1041",
+    "cognitive_score": 7.61,
+    "social_score": 6.89,
+    "physical_score": 4.34,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1042",
+    "cognitive_score": 8.09,
+    "social_score": 5.29,
+    "physical_score": 3.23,
+    "tech_skills_count": 15,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "25-1043",
+    "cognitive_score": 8.32,
+    "social_score": 5.55,
+    "physical_score": 3.77,
+    "tech_skills_count": 23,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "25-1051",
+    "cognitive_score": 7.05,
+    "social_score": 5.17,
+    "physical_score": 3.16,
+    "tech_skills_count": 18,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "25-1052",
+    "cognitive_score": 6.74,
+    "social_score": 5.06,
+    "physical_score": 2.94,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-1053",
+    "cognitive_score": 7.18,
+    "social_score": 5.34,
+    "physical_score": 3.71,
+    "tech_skills_count": 16,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-1054",
+    "cognitive_score": 7.71,
+    "social_score": 5.38,
+    "physical_score": 3.39,
+    "tech_skills_count": 16,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "25-1061",
+    "cognitive_score": 7.67,
+    "social_score": 6.07,
+    "physical_score": 2.43,
+    "tech_skills_count": 18,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "25-1062",
+    "cognitive_score": 6.9,
+    "social_score": 5.87,
+    "physical_score": 1.79,
+    "tech_skills_count": 15,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1063",
+    "cognitive_score": 6.91,
+    "social_score": 4.39,
+    "physical_score": 2.09,
+    "tech_skills_count": 15,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "25-1064",
+    "cognitive_score": 7.5,
+    "social_score": 5.25,
+    "physical_score": 2.27,
+    "tech_skills_count": 17,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-1065",
+    "cognitive_score": 6.94,
+    "social_score": 4.74,
+    "physical_score": 1.02,
+    "tech_skills_count": 14,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "25-1066",
+    "cognitive_score": 7.36,
+    "social_score": 6.37,
+    "physical_score": 2.06,
+    "tech_skills_count": 17,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-1067",
+    "cognitive_score": 7.55,
+    "social_score": 4.48,
+    "physical_score": 1.43,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-1071",
+    "cognitive_score": 7.31,
+    "social_score": 5.65,
+    "physical_score": 4.09,
+    "tech_skills_count": 17,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "25-1072",
+    "cognitive_score": 7.96,
+    "social_score": 6.99,
+    "physical_score": 4.07,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1081",
+    "cognitive_score": 7.0,
+    "social_score": 5.67,
+    "physical_score": 2.0,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1082",
+    "cognitive_score": 7.84,
+    "social_score": 5.19,
+    "physical_score": 1.88,
+    "tech_skills_count": 23,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "25-1111",
+    "cognitive_score": 6.71,
+    "social_score": 4.75,
+    "physical_score": 1.87,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1112",
+    "cognitive_score": 6.91,
+    "social_score": 4.65,
+    "physical_score": 1.32,
+    "tech_skills_count": 16,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-1113",
+    "cognitive_score": 7.23,
+    "social_score": 6.17,
+    "physical_score": 1.99,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1121",
+    "cognitive_score": 6.44,
+    "social_score": 6.74,
+    "physical_score": 3.9,
+    "tech_skills_count": 22,
+    "hot_tech_count": 19
+  },
+  {
+    "soc_code": "25-1122",
+    "cognitive_score": 7.17,
+    "social_score": 5.76,
+    "physical_score": 2.27,
+    "tech_skills_count": 18,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "25-1123",
+    "cognitive_score": 6.8,
+    "social_score": 5.93,
+    "physical_score": 2.03,
+    "tech_skills_count": 16,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "25-1124",
+    "cognitive_score": 5.59,
+    "social_score": 4.17,
+    "physical_score": 1.28,
+    "tech_skills_count": 18,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "25-1125",
+    "cognitive_score": 7.52,
+    "social_score": 4.72,
+    "physical_score": 1.73,
+    "tech_skills_count": 14,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1126",
+    "cognitive_score": 6.67,
+    "social_score": 5.51,
+    "physical_score": 1.57,
+    "tech_skills_count": 13,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-1192",
+    "cognitive_score": 6.28,
+    "social_score": 5.36,
+    "physical_score": 2.65,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-1193",
+    "cognitive_score": 6.9,
+    "social_score": 6.42,
+    "physical_score": 2.89,
+    "tech_skills_count": 15,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "25-1194",
+    "cognitive_score": 6.45,
+    "social_score": 6.13,
+    "physical_score": 5.45,
+    "tech_skills_count": 15,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-2011",
+    "cognitive_score": 4.92,
+    "social_score": 5.07,
+    "physical_score": 2.95,
+    "tech_skills_count": 11,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "25-2012",
+    "cognitive_score": 6.15,
+    "social_score": 5.62,
+    "physical_score": 2.69,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-2021",
+    "cognitive_score": 5.67,
+    "social_score": 6.0,
+    "physical_score": 2.31,
+    "tech_skills_count": 15,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-2022",
+    "cognitive_score": 7.25,
+    "social_score": 6.48,
+    "physical_score": 2.66,
+    "tech_skills_count": 18,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-2023",
+    "cognitive_score": 6.92,
+    "social_score": 5.66,
+    "physical_score": 3.89,
+    "tech_skills_count": 34,
+    "hot_tech_count": 71
+  },
+  {
+    "soc_code": "25-2031",
+    "cognitive_score": 6.74,
+    "social_score": 5.84,
+    "physical_score": 2.99,
+    "tech_skills_count": 15,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-2032",
+    "cognitive_score": 6.77,
+    "social_score": 6.76,
+    "physical_score": 4.91,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "25-2051",
+    "cognitive_score": 6.39,
+    "social_score": 5.84,
+    "physical_score": 3.28,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-2055",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 11,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-2056",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 11,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-2057",
+    "cognitive_score": 7.04,
+    "social_score": 6.27,
+    "physical_score": 2.44,
+    "tech_skills_count": 16,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-2058",
+    "cognitive_score": 7.01,
+    "social_score": 6.25,
+    "physical_score": 2.95,
+    "tech_skills_count": 17,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "25-2059",
+    "cognitive_score": 6.21,
+    "social_score": 5.55,
+    "physical_score": 3.71,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-3011",
+    "cognitive_score": 5.76,
+    "social_score": 4.72,
+    "physical_score": 2.21,
+    "tech_skills_count": 15,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-3021",
+    "cognitive_score": 6.06,
+    "social_score": 5.68,
+    "physical_score": 2.99,
+    "tech_skills_count": 15,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "25-3031",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 9,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "25-3041",
+    "cognitive_score": 5.86,
+    "social_score": 5.44,
+    "physical_score": 1.83,
+    "tech_skills_count": 16,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "25-4011",
+    "cognitive_score": 7.48,
+    "social_score": 5.82,
+    "physical_score": 3.97,
+    "tech_skills_count": 15,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "25-4012",
+    "cognitive_score": 7.43,
+    "social_score": 5.57,
+    "physical_score": 4.14,
+    "tech_skills_count": 19,
+    "hot_tech_count": 21
+  },
+  {
+    "soc_code": "25-4013",
+    "cognitive_score": 6.15,
+    "social_score": 4.26,
+    "physical_score": 4.95,
+    "tech_skills_count": 12,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "25-4022",
+    "cognitive_score": 6.45,
+    "social_score": 5.54,
+    "physical_score": 3.14,
+    "tech_skills_count": 25,
+    "hot_tech_count": 27
+  },
+  {
+    "soc_code": "25-4031",
+    "cognitive_score": 5.26,
+    "social_score": 4.52,
+    "physical_score": 3.55,
+    "tech_skills_count": 13,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "25-9021",
+    "cognitive_score": 6.58,
+    "social_score": 6.42,
+    "physical_score": 4.05,
+    "tech_skills_count": 14,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "25-9031",
+    "cognitive_score": 7.08,
+    "social_score": 6.07,
+    "physical_score": 2.88,
+    "tech_skills_count": 28,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "25-9042",
+    "cognitive_score": 6.93,
+    "social_score": 6.03,
+    "physical_score": 3.56,
+    "tech_skills_count": 16,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-9043",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 16,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "25-9044",
+    "cognitive_score": 6.12,
+    "social_score": 4.75,
+    "physical_score": 2.44,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "27-1011",
+    "cognitive_score": 6.25,
+    "social_score": 5.44,
+    "physical_score": 2.05,
+    "tech_skills_count": 22,
+    "hot_tech_count": 24
+  },
+  {
+    "soc_code": "27-1012",
+    "cognitive_score": 4.28,
+    "social_score": 3.81,
+    "physical_score": 5.03,
+    "tech_skills_count": 8,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "27-1013",
+    "cognitive_score": 4.7,
+    "social_score": 2.98,
+    "physical_score": 3.67,
+    "tech_skills_count": 22,
+    "hot_tech_count": 19
+  },
+  {
+    "soc_code": "27-1014",
+    "cognitive_score": 6.82,
+    "social_score": 4.5,
+    "physical_score": 2.69,
+    "tech_skills_count": 18,
+    "hot_tech_count": 28
+  },
+  {
+    "soc_code": "27-1021",
+    "cognitive_score": 6.76,
+    "social_score": 4.38,
+    "physical_score": 3.53,
+    "tech_skills_count": 26,
+    "hot_tech_count": 30
+  },
+  {
+    "soc_code": "27-1022",
+    "cognitive_score": 6.43,
+    "social_score": 5.86,
+    "physical_score": 3.47,
+    "tech_skills_count": 14,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "27-1023",
+    "cognitive_score": 4.81,
+    "social_score": 3.67,
+    "physical_score": 3.48,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "27-1024",
+    "cognitive_score": 6.42,
+    "social_score": 5.54,
+    "physical_score": 2.64,
+    "tech_skills_count": 27,
+    "hot_tech_count": 36
+  },
+  {
+    "soc_code": "27-1025",
+    "cognitive_score": 7.31,
+    "social_score": 6.63,
+    "physical_score": 3.25,
+    "tech_skills_count": 12,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "27-1026",
+    "cognitive_score": 5.8,
+    "social_score": 5.21,
+    "physical_score": 4.04,
+    "tech_skills_count": 14,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "27-1027",
+    "cognitive_score": 5.85,
+    "social_score": 4.78,
+    "physical_score": 2.88,
+    "tech_skills_count": 18,
+    "hot_tech_count": 31
+  },
+  {
+    "soc_code": "27-2011",
+    "cognitive_score": 3.77,
+    "social_score": 4.58,
+    "physical_score": 2.73,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "27-2012",
+    "cognitive_score": 6.7,
+    "social_score": 5.65,
+    "physical_score": 3.42,
+    "tech_skills_count": 35,
+    "hot_tech_count": 78
+  },
+  {
+    "soc_code": "27-2021",
+    "cognitive_score": 6.67,
+    "social_score": 5.61,
+    "physical_score": 5.28,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "27-2022",
+    "cognitive_score": 6.44,
+    "social_score": 6.42,
+    "physical_score": 3.98,
+    "tech_skills_count": 22,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "27-2023",
+    "cognitive_score": 5.32,
+    "social_score": 4.55,
+    "physical_score": 2.35,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "27-2031",
+    "cognitive_score": 3.55,
+    "social_score": 3.9,
+    "physical_score": 2.56,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "27-2032",
+    "cognitive_score": 4.92,
+    "social_score": 6.67,
+    "physical_score": 2.81,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "27-2041",
+    "cognitive_score": 5.42,
+    "social_score": 5.71,
+    "physical_score": 2.57,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "27-2042",
+    "cognitive_score": 5.38,
+    "social_score": 4.47,
+    "physical_score": 2.78,
+    "tech_skills_count": 14,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "27-2091",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 3,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "27-3011",
+    "cognitive_score": 7.89,
+    "social_score": 6.08,
+    "physical_score": 4.26,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "27-3023",
+    "cognitive_score": 6.95,
+    "social_score": 5.2,
+    "physical_score": 2.44,
+    "tech_skills_count": 21,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "27-3031",
+    "cognitive_score": 6.73,
+    "social_score": 7.16,
+    "physical_score": 1.89,
+    "tech_skills_count": 28,
+    "hot_tech_count": 28
+  },
+  {
+    "soc_code": "27-3041",
+    "cognitive_score": 6.51,
+    "social_score": 5.17,
+    "physical_score": 2.12,
+    "tech_skills_count": 24,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "27-3042",
+    "cognitive_score": 6.91,
+    "social_score": 3.99,
+    "physical_score": 2.28,
+    "tech_skills_count": 34,
+    "hot_tech_count": 35
+  },
+  {
+    "soc_code": "27-3043",
+    "cognitive_score": 5.24,
+    "social_score": 4.43,
+    "physical_score": 1.1,
+    "tech_skills_count": 23,
+    "hot_tech_count": 38
+  },
+  {
+    "soc_code": "27-3091",
+    "cognitive_score": 6.58,
+    "social_score": 5.48,
+    "physical_score": 2.71,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "27-3092",
+    "cognitive_score": 4.75,
+    "social_score": 3.51,
+    "physical_score": 2.79,
+    "tech_skills_count": 9,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "27-4011",
+    "cognitive_score": 6.88,
+    "social_score": 4.56,
+    "physical_score": 5.57,
+    "tech_skills_count": 16,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "27-4012",
+    "cognitive_score": 6.61,
+    "social_score": 5.19,
+    "physical_score": 5.83,
+    "tech_skills_count": 11,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "27-4014",
+    "cognitive_score": 7.21,
+    "social_score": 5.7,
+    "physical_score": 5.69,
+    "tech_skills_count": 20,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "27-4015",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "27-4021",
+    "cognitive_score": 6.01,
+    "social_score": 6.37,
+    "physical_score": 4.97,
+    "tech_skills_count": 15,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "27-4031",
+    "cognitive_score": 6.49,
+    "social_score": 5.53,
+    "physical_score": 5.76,
+    "tech_skills_count": 12,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "27-4032",
+    "cognitive_score": 7.32,
+    "social_score": 5.42,
+    "physical_score": 3.65,
+    "tech_skills_count": 14,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "29-1011",
+    "cognitive_score": 7.13,
+    "social_score": 6.63,
+    "physical_score": 4.51,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1021",
+    "cognitive_score": 7.68,
+    "social_score": 7.14,
+    "physical_score": 5.38,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1022",
+    "cognitive_score": 7.78,
+    "social_score": 6.99,
+    "physical_score": 5.07,
+    "tech_skills_count": 4,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "29-1023",
+    "cognitive_score": 6.25,
+    "social_score": 6.66,
+    "physical_score": 4.12,
+    "tech_skills_count": 7,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "29-1024",
+    "cognitive_score": 8.14,
+    "social_score": 7.44,
+    "physical_score": 6.25,
+    "tech_skills_count": 3,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "29-1031",
+    "cognitive_score": 6.94,
+    "social_score": 5.91,
+    "physical_score": 2.19,
+    "tech_skills_count": 13,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1041",
+    "cognitive_score": 8.22,
+    "social_score": 6.91,
+    "physical_score": 4.46,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1051",
+    "cognitive_score": 7.09,
+    "social_score": 5.43,
+    "physical_score": 4.06,
+    "tech_skills_count": 15,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "29-1071",
+    "cognitive_score": 7.64,
+    "social_score": 6.05,
+    "physical_score": 4.38,
+    "tech_skills_count": 11,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "29-1081",
+    "cognitive_score": 7.12,
+    "social_score": 6.03,
+    "physical_score": 4.17,
+    "tech_skills_count": 7,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "29-1122",
+    "cognitive_score": 6.97,
+    "social_score": 6.04,
+    "physical_score": 3.88,
+    "tech_skills_count": 24,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "29-1123",
+    "cognitive_score": 7.38,
+    "social_score": 6.45,
+    "physical_score": 4.39,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-1124",
+    "cognitive_score": 7.42,
+    "social_score": 6.25,
+    "physical_score": 6.64,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-1125",
+    "cognitive_score": 6.36,
+    "social_score": 6.85,
+    "physical_score": 4.22,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1126",
+    "cognitive_score": 7.1,
+    "social_score": 5.56,
+    "physical_score": 5.79,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-1127",
+    "cognitive_score": 7.65,
+    "social_score": 5.62,
+    "physical_score": 2.29,
+    "tech_skills_count": 13,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1128",
+    "cognitive_score": 6.77,
+    "social_score": 6.39,
+    "physical_score": 4.2,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-1129",
+    "cognitive_score": 6.96,
+    "social_score": 6.42,
+    "physical_score": 3.3,
+    "tech_skills_count": 18,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "29-1131",
+    "cognitive_score": 7.13,
+    "social_score": 5.77,
+    "physical_score": 3.71,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-1141",
+    "cognitive_score": 7.73,
+    "social_score": 6.88,
+    "physical_score": 4.17,
+    "tech_skills_count": 22,
+    "hot_tech_count": 42
+  },
+  {
+    "soc_code": "29-1151",
+    "cognitive_score": 8.26,
+    "social_score": 6.79,
+    "physical_score": 6.31,
+    "tech_skills_count": 2,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1161",
+    "cognitive_score": 7.86,
+    "social_score": 7.13,
+    "physical_score": 4.09,
+    "tech_skills_count": 3,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1171",
+    "cognitive_score": 7.88,
+    "social_score": 6.61,
+    "physical_score": 3.51,
+    "tech_skills_count": 9,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "29-1181",
+    "cognitive_score": 7.65,
+    "social_score": 7.62,
+    "physical_score": 5.06,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-1211",
+    "cognitive_score": 7.98,
+    "social_score": 5.92,
+    "physical_score": 5.32,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-1212",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "29-1213",
+    "cognitive_score": 6.72,
+    "social_score": 6.15,
+    "physical_score": 2.82,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-1214",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 1,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "29-1215",
+    "cognitive_score": 7.16,
+    "social_score": 5.33,
+    "physical_score": 1.91,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1216",
+    "cognitive_score": 7.76,
+    "social_score": 6.0,
+    "physical_score": 3.57,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1217",
+    "cognitive_score": 8.59,
+    "social_score": 6.85,
+    "physical_score": 3.53,
+    "tech_skills_count": 6,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-1218",
+    "cognitive_score": 7.98,
+    "social_score": 6.71,
+    "physical_score": 4.59,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1221",
+    "cognitive_score": 7.06,
+    "social_score": 6.57,
+    "physical_score": 3.0,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1222",
+    "cognitive_score": 7.98,
+    "social_score": 5.22,
+    "physical_score": 4.56,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1223",
+    "cognitive_score": 7.26,
+    "social_score": 6.31,
+    "physical_score": 2.29,
+    "tech_skills_count": 10,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-1224",
+    "cognitive_score": 7.94,
+    "social_score": 6.09,
+    "physical_score": 4.78,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1229",
+    "cognitive_score": 8.08,
+    "social_score": 6.91,
+    "physical_score": 4.03,
+    "tech_skills_count": 16,
+    "hot_tech_count": 34
+  },
+  {
+    "soc_code": "29-1241",
+    "cognitive_score": 8.48,
+    "social_score": 6.71,
+    "physical_score": 5.39,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "29-1242",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "29-1243",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "29-1291",
+    "cognitive_score": 6.5,
+    "social_score": 5.99,
+    "physical_score": 5.04,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-1292",
+    "cognitive_score": 6.81,
+    "social_score": 6.67,
+    "physical_score": 5.21,
+    "tech_skills_count": 9,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-1299",
+    "cognitive_score": 7.22,
+    "social_score": 6.0,
+    "physical_score": 2.9,
+    "tech_skills_count": 11,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-2011",
+    "cognitive_score": 6.53,
+    "social_score": 4.25,
+    "physical_score": 4.67,
+    "tech_skills_count": 14,
+    "hot_tech_count": 26
+  },
+  {
+    "soc_code": "29-2012",
+    "cognitive_score": 7.18,
+    "social_score": 4.35,
+    "physical_score": 5.15,
+    "tech_skills_count": 13,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "29-2031",
+    "cognitive_score": 6.8,
+    "social_score": 5.04,
+    "physical_score": 5.49,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-2032",
+    "cognitive_score": 6.64,
+    "social_score": 5.59,
+    "physical_score": 5.21,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-2033",
+    "cognitive_score": 6.45,
+    "social_score": 5.75,
+    "physical_score": 5.47,
+    "tech_skills_count": 6,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-2034",
+    "cognitive_score": 5.63,
+    "social_score": 5.44,
+    "physical_score": 5.55,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-2035",
+    "cognitive_score": 6.9,
+    "social_score": 5.93,
+    "physical_score": 5.62,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-2036",
+    "cognitive_score": 7.62,
+    "social_score": 4.23,
+    "physical_score": 3.12,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "29-2042",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-2043",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 8,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "29-2051",
+    "cognitive_score": 7.57,
+    "social_score": 6.19,
+    "physical_score": 5.64,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-2052",
+    "cognitive_score": 6.74,
+    "social_score": 5.73,
+    "physical_score": 4.41,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-2053",
+    "cognitive_score": 6.06,
+    "social_score": 5.98,
+    "physical_score": 3.37,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-2055",
+    "cognitive_score": 6.55,
+    "social_score": 5.43,
+    "physical_score": 5.89,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-2056",
+    "cognitive_score": 6.92,
+    "social_score": 6.05,
+    "physical_score": 5.96,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-2057",
+    "cognitive_score": 5.87,
+    "social_score": 5.85,
+    "physical_score": 3.69,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-2061",
+    "cognitive_score": 6.9,
+    "social_score": 5.87,
+    "physical_score": 4.54,
+    "tech_skills_count": 13,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "29-2072",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 32,
+    "hot_tech_count": 24
+  },
+  {
+    "soc_code": "29-2081",
+    "cognitive_score": 7.82,
+    "social_score": 7.46,
+    "physical_score": 5.06,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-2091",
+    "cognitive_score": 7.36,
+    "social_score": 6.51,
+    "physical_score": 5.81,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "29-2092",
+    "cognitive_score": 6.47,
+    "social_score": 6.2,
+    "physical_score": 4.59,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-2099",
+    "cognitive_score": 6.85,
+    "social_score": 6.31,
+    "physical_score": 4.26,
+    "tech_skills_count": 16,
+    "hot_tech_count": 27
+  },
+  {
+    "soc_code": "29-9021",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 32,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "29-9091",
+    "cognitive_score": 6.7,
+    "social_score": 5.25,
+    "physical_score": 3.65,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "29-9092",
+    "cognitive_score": 6.85,
+    "social_score": 5.75,
+    "physical_score": 1.04,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "29-9093",
+    "cognitive_score": 7.23,
+    "social_score": 6.16,
+    "physical_score": 6.16,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "29-9099",
+    "cognitive_score": 7.45,
+    "social_score": 6.87,
+    "physical_score": 4.77,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "31-1121",
+    "cognitive_score": 6.57,
+    "social_score": 5.35,
+    "physical_score": 4.58,
+    "tech_skills_count": 15,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "31-1122",
+    "cognitive_score": 7.07,
+    "social_score": 6.95,
+    "physical_score": 5.47,
+    "tech_skills_count": 9,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "31-1131",
+    "cognitive_score": 6.12,
+    "social_score": 5.54,
+    "physical_score": 4.49,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "31-1132",
+    "cognitive_score": 5.09,
+    "social_score": 4.83,
+    "physical_score": 4.96,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "31-1133",
+    "cognitive_score": 6.63,
+    "social_score": 5.71,
+    "physical_score": 4.09,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "31-2011",
+    "cognitive_score": 7.13,
+    "social_score": 6.33,
+    "physical_score": 4.53,
+    "tech_skills_count": 18,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "31-2012",
+    "cognitive_score": 6.65,
+    "social_score": 6.93,
+    "physical_score": 5.6,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "31-2021",
+    "cognitive_score": 7.09,
+    "social_score": 6.29,
+    "physical_score": 5.14,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "31-2022",
+    "cognitive_score": 6.26,
+    "social_score": 5.85,
+    "physical_score": 4.49,
+    "tech_skills_count": 6,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "31-9011",
+    "cognitive_score": 5.82,
+    "social_score": 5.3,
+    "physical_score": 3.69,
+    "tech_skills_count": 4,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "31-9091",
+    "cognitive_score": 6.71,
+    "social_score": 6.31,
+    "physical_score": 5.33,
+    "tech_skills_count": 7,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "31-9092",
+    "cognitive_score": 7.88,
+    "social_score": 6.09,
+    "physical_score": 5.67,
+    "tech_skills_count": 15,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "31-9093",
+    "cognitive_score": 7.75,
+    "social_score": 5.0,
+    "physical_score": 6.2,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "31-9094",
+    "cognitive_score": 6.12,
+    "social_score": 3.87,
+    "physical_score": 2.49,
+    "tech_skills_count": 17,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "31-9095",
+    "cognitive_score": 6.34,
+    "social_score": 6.23,
+    "physical_score": 4.67,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "31-9096",
+    "cognitive_score": 6.74,
+    "social_score": 6.03,
+    "physical_score": 5.83,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "31-9097",
+    "cognitive_score": 7.01,
+    "social_score": 6.65,
+    "physical_score": 5.19,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "31-9099",
+    "cognitive_score": 6.64,
+    "social_score": 5.51,
+    "physical_score": 4.68,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "33-1011",
+    "cognitive_score": 7.48,
+    "social_score": 7.21,
+    "physical_score": 5.22,
+    "tech_skills_count": 6,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "33-1012",
+    "cognitive_score": 7.5,
+    "social_score": 7.57,
+    "physical_score": 5.56,
+    "tech_skills_count": 13,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "33-1021",
+    "cognitive_score": 7.49,
+    "social_score": 7.76,
+    "physical_score": 7.35,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "33-1091",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "33-2011",
+    "cognitive_score": 6.92,
+    "social_score": 6.45,
+    "physical_score": 7.37,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "33-2021",
+    "cognitive_score": 7.53,
+    "social_score": 6.47,
+    "physical_score": 5.18,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "33-2022",
+    "cognitive_score": 6.66,
+    "social_score": 6.58,
+    "physical_score": 6.65,
+    "tech_skills_count": 22,
+    "hot_tech_count": 22
+  },
+  {
+    "soc_code": "33-3011",
+    "cognitive_score": 6.34,
+    "social_score": 6.96,
+    "physical_score": 5.01,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "33-3012",
+    "cognitive_score": 6.66,
+    "social_score": 6.33,
+    "physical_score": 5.38,
+    "tech_skills_count": 10,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "33-3021",
+    "cognitive_score": 7.38,
+    "social_score": 5.6,
+    "physical_score": 3.49,
+    "tech_skills_count": 33,
+    "hot_tech_count": 56
+  },
+  {
+    "soc_code": "33-3031",
+    "cognitive_score": 7.38,
+    "social_score": 6.53,
+    "physical_score": 5.86,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "33-3041",
+    "cognitive_score": 6.99,
+    "social_score": 6.21,
+    "physical_score": 6.06,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "33-3051",
+    "cognitive_score": 7.66,
+    "social_score": 6.62,
+    "physical_score": 5.25,
+    "tech_skills_count": 16,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "33-3052",
+    "cognitive_score": 7.36,
+    "social_score": 6.79,
+    "physical_score": 5.14,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "33-9011",
+    "cognitive_score": 6.87,
+    "social_score": 6.03,
+    "physical_score": 5.35,
+    "tech_skills_count": 12,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "33-9021",
+    "cognitive_score": 7.56,
+    "social_score": 4.99,
+    "physical_score": 4.0,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "33-9031",
+    "cognitive_score": 7.72,
+    "social_score": 4.87,
+    "physical_score": 4.05,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "33-9032",
+    "cognitive_score": 7.81,
+    "social_score": 7.49,
+    "physical_score": 5.43,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "33-9091",
+    "cognitive_score": 4.3,
+    "social_score": 4.12,
+    "physical_score": 3.22,
+    "tech_skills_count": 3,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "33-9092",
+    "cognitive_score": 5.34,
+    "social_score": 5.73,
+    "physical_score": 5.17,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "33-9093",
+    "cognitive_score": 5.63,
+    "social_score": 5.11,
+    "physical_score": 4.89,
+    "tech_skills_count": 10,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "33-9094",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 2,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "33-9099",
+    "cognitive_score": 7.51,
+    "social_score": 5.49,
+    "physical_score": 4.54,
+    "tech_skills_count": 10,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "35-1011",
+    "cognitive_score": 7.29,
+    "social_score": 7.22,
+    "physical_score": 6.19,
+    "tech_skills_count": 15,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "35-1012",
+    "cognitive_score": 5.82,
+    "social_score": 6.18,
+    "physical_score": 4.93,
+    "tech_skills_count": 18,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "35-2011",
+    "cognitive_score": 3.83,
+    "social_score": 3.49,
+    "physical_score": 3.32,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "35-2012",
+    "cognitive_score": 5.92,
+    "social_score": 5.07,
+    "physical_score": 4.58,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "35-2013",
+    "cognitive_score": 5.38,
+    "social_score": 4.59,
+    "physical_score": 4.28,
+    "tech_skills_count": 8,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "35-2014",
+    "cognitive_score": 5.9,
+    "social_score": 5.25,
+    "physical_score": 5.37,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "35-2015",
+    "cognitive_score": 5.13,
+    "social_score": 4.56,
+    "physical_score": 4.77,
+    "tech_skills_count": 2,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "35-2021",
+    "cognitive_score": 4.67,
+    "social_score": 3.73,
+    "physical_score": 3.84,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "35-3011",
+    "cognitive_score": 5.56,
+    "social_score": 6.01,
+    "physical_score": 4.52,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "35-3023",
+    "cognitive_score": 4.38,
+    "social_score": 5.21,
+    "physical_score": 4.27,
+    "tech_skills_count": 10,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "35-3031",
+    "cognitive_score": 4.91,
+    "social_score": 5.65,
+    "physical_score": 4.06,
+    "tech_skills_count": 3,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "35-3041",
+    "cognitive_score": 5.46,
+    "social_score": 5.45,
+    "physical_score": 4.55,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "35-9011",
+    "cognitive_score": 4.52,
+    "social_score": 5.41,
+    "physical_score": 3.67,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "35-9021",
+    "cognitive_score": 5.36,
+    "social_score": 4.88,
+    "physical_score": 5.55,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "35-9031",
+    "cognitive_score": 4.1,
+    "social_score": 5.06,
+    "physical_score": 2.7,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "37-1011",
+    "cognitive_score": 6.69,
+    "social_score": 7.07,
+    "physical_score": 6.09,
+    "tech_skills_count": 14,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "37-1012",
+    "cognitive_score": 7.07,
+    "social_score": 6.6,
+    "physical_score": 7.09,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "37-2011",
+    "cognitive_score": 5.54,
+    "social_score": 4.77,
+    "physical_score": 5.37,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "37-2012",
+    "cognitive_score": 3.94,
+    "social_score": 4.19,
+    "physical_score": 4.04,
+    "tech_skills_count": 9,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "37-2021",
+    "cognitive_score": 6.33,
+    "social_score": 5.36,
+    "physical_score": 5.69,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "37-3011",
+    "cognitive_score": 4.47,
+    "social_score": 3.91,
+    "physical_score": 5.19,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "37-3012",
+    "cognitive_score": 6.2,
+    "social_score": 5.57,
+    "physical_score": 6.48,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "37-3013",
+    "cognitive_score": 5.52,
+    "social_score": 4.11,
+    "physical_score": 6.69,
+    "tech_skills_count": 4,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "39-1013",
+    "cognitive_score": 5.04,
+    "social_score": 5.3,
+    "physical_score": 3.08,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "39-1014",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "39-1022",
+    "cognitive_score": 6.85,
+    "social_score": 6.18,
+    "physical_score": 4.34,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "39-2011",
+    "cognitive_score": 5.87,
+    "social_score": 5.92,
+    "physical_score": 3.9,
+    "tech_skills_count": 13,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "39-2021",
+    "cognitive_score": 5.95,
+    "social_score": 4.92,
+    "physical_score": 4.67,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-3011",
+    "cognitive_score": 3.19,
+    "social_score": 4.09,
+    "physical_score": 2.27,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "39-3012",
+    "cognitive_score": 4.36,
+    "social_score": 5.17,
+    "physical_score": 3.06,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "39-3021",
+    "cognitive_score": 3.71,
+    "social_score": 3.55,
+    "physical_score": 4.61,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "39-3031",
+    "cognitive_score": 4.0,
+    "social_score": 4.79,
+    "physical_score": 3.14,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "39-3091",
+    "cognitive_score": 5.18,
+    "social_score": 5.2,
+    "physical_score": 3.49,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-3092",
+    "cognitive_score": 5.92,
+    "social_score": 4.29,
+    "physical_score": 4.46,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "39-3093",
+    "cognitive_score": 3.23,
+    "social_score": 4.23,
+    "physical_score": 3.24,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "39-4011",
+    "cognitive_score": 6.73,
+    "social_score": 5.58,
+    "physical_score": 5.42,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "39-4012",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "39-4021",
+    "cognitive_score": 4.75,
+    "social_score": 5.35,
+    "physical_score": 4.85,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "39-4031",
+    "cognitive_score": 6.8,
+    "social_score": 7.22,
+    "physical_score": 5.36,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-5011",
+    "cognitive_score": 4.47,
+    "social_score": 4.64,
+    "physical_score": 4.4,
+    "tech_skills_count": 10,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "39-5012",
+    "cognitive_score": 5.63,
+    "social_score": 6.24,
+    "physical_score": 4.2,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-5091",
+    "cognitive_score": 5.46,
+    "social_score": 5.22,
+    "physical_score": 3.54,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-5092",
+    "cognitive_score": 2.98,
+    "social_score": 3.99,
+    "physical_score": 2.68,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "39-5093",
+    "cognitive_score": 4.29,
+    "social_score": 5.28,
+    "physical_score": 3.6,
+    "tech_skills_count": 5,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "39-5094",
+    "cognitive_score": 4.62,
+    "social_score": 5.16,
+    "physical_score": 3.27,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "39-6011",
+    "cognitive_score": 5.81,
+    "social_score": 6.24,
+    "physical_score": 5.97,
+    "tech_skills_count": 4,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "39-6012",
+    "cognitive_score": 6.1,
+    "social_score": 7.07,
+    "physical_score": 2.82,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-7011",
+    "cognitive_score": 5.12,
+    "social_score": 4.81,
+    "physical_score": 2.22,
+    "tech_skills_count": 13,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "39-7012",
+    "cognitive_score": 6.32,
+    "social_score": 6.04,
+    "physical_score": 4.85,
+    "tech_skills_count": 13,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "39-9011",
+    "cognitive_score": 5.09,
+    "social_score": 5.16,
+    "physical_score": 3.63,
+    "tech_skills_count": 9,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "39-9031",
+    "cognitive_score": 4.78,
+    "social_score": 6.04,
+    "physical_score": 3.73,
+    "tech_skills_count": 14,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-9032",
+    "cognitive_score": 7.25,
+    "social_score": 6.95,
+    "physical_score": 5.16,
+    "tech_skills_count": 14,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "39-9041",
+    "cognitive_score": 6.57,
+    "social_score": 6.62,
+    "physical_score": 4.22,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "41-1011",
+    "cognitive_score": 5.45,
+    "social_score": 6.61,
+    "physical_score": 3.32,
+    "tech_skills_count": 33,
+    "hot_tech_count": 30
+  },
+  {
+    "soc_code": "41-1012",
+    "cognitive_score": 6.84,
+    "social_score": 6.71,
+    "physical_score": 3.75,
+    "tech_skills_count": 18,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "41-2011",
+    "cognitive_score": 3.97,
+    "social_score": 4.25,
+    "physical_score": 2.88,
+    "tech_skills_count": 7,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "41-2012",
+    "cognitive_score": 5.68,
+    "social_score": 5.67,
+    "physical_score": 4.38,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "41-2021",
+    "cognitive_score": 6.03,
+    "social_score": 5.65,
+    "physical_score": 4.81,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "41-2022",
+    "cognitive_score": 6.36,
+    "social_score": 6.41,
+    "physical_score": 5.19,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "41-2031",
+    "cognitive_score": 5.42,
+    "social_score": 5.76,
+    "physical_score": 3.82,
+    "tech_skills_count": 24,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "41-3011",
+    "cognitive_score": 6.07,
+    "social_score": 6.45,
+    "physical_score": 2.29,
+    "tech_skills_count": 15,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "41-3021",
+    "cognitive_score": 5.61,
+    "social_score": 4.81,
+    "physical_score": 2.12,
+    "tech_skills_count": 18,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "41-3031",
+    "cognitive_score": 6.86,
+    "social_score": 5.43,
+    "physical_score": 1.83,
+    "tech_skills_count": 24,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "41-3041",
+    "cognitive_score": 5.95,
+    "social_score": 5.8,
+    "physical_score": 2.12,
+    "tech_skills_count": 12,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "41-3091",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 13,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "41-4011",
+    "cognitive_score": 5.51,
+    "social_score": 5.1,
+    "physical_score": 2.48,
+    "tech_skills_count": 34,
+    "hot_tech_count": 39
+  },
+  {
+    "soc_code": "41-4012",
+    "cognitive_score": 6.52,
+    "social_score": 6.05,
+    "physical_score": 4.2,
+    "tech_skills_count": 46,
+    "hot_tech_count": 44
+  },
+  {
+    "soc_code": "41-9011",
+    "cognitive_score": 5.0,
+    "social_score": 6.02,
+    "physical_score": 3.49,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "41-9012",
+    "cognitive_score": 2.58,
+    "social_score": 2.41,
+    "physical_score": 2.0,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "41-9021",
+    "cognitive_score": 6.65,
+    "social_score": 5.71,
+    "physical_score": 2.66,
+    "tech_skills_count": 14,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "41-9022",
+    "cognitive_score": 6.57,
+    "social_score": 7.09,
+    "physical_score": 3.64,
+    "tech_skills_count": 28,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "41-9031",
+    "cognitive_score": 6.94,
+    "social_score": 5.24,
+    "physical_score": 1.88,
+    "tech_skills_count": 40,
+    "hot_tech_count": 49
+  },
+  {
+    "soc_code": "41-9041",
+    "cognitive_score": 6.72,
+    "social_score": 5.96,
+    "physical_score": 2.25,
+    "tech_skills_count": 10,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "41-9091",
+    "cognitive_score": 4.1,
+    "social_score": 6.21,
+    "physical_score": 2.23,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "43-1011",
+    "cognitive_score": 7.13,
+    "social_score": 6.33,
+    "physical_score": 4.08,
+    "tech_skills_count": 35,
+    "hot_tech_count": 27
+  },
+  {
+    "soc_code": "43-2011",
+    "cognitive_score": 4.85,
+    "social_score": 4.02,
+    "physical_score": 1.56,
+    "tech_skills_count": 9,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-2021",
+    "cognitive_score": 5.82,
+    "social_score": 4.86,
+    "physical_score": 2.54,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "43-3011",
+    "cognitive_score": 5.2,
+    "social_score": 4.33,
+    "physical_score": 2.23,
+    "tech_skills_count": 18,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "43-3021",
+    "cognitive_score": 5.72,
+    "social_score": 4.1,
+    "physical_score": 1.76,
+    "tech_skills_count": 22,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "43-3031",
+    "cognitive_score": 5.84,
+    "social_score": 4.52,
+    "physical_score": 2.12,
+    "tech_skills_count": 27,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "43-3041",
+    "cognitive_score": 5.46,
+    "social_score": 4.9,
+    "physical_score": 3.95,
+    "tech_skills_count": 5,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "43-3051",
+    "cognitive_score": 6.13,
+    "social_score": 3.83,
+    "physical_score": 1.88,
+    "tech_skills_count": 15,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "43-3061",
+    "cognitive_score": 5.91,
+    "social_score": 5.02,
+    "physical_score": 3.21,
+    "tech_skills_count": 14,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "43-3071",
+    "cognitive_score": 6.63,
+    "social_score": 6.13,
+    "physical_score": 3.87,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "43-4011",
+    "cognitive_score": 5.73,
+    "social_score": 3.78,
+    "physical_score": 1.21,
+    "tech_skills_count": 20,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "43-4021",
+    "cognitive_score": 5.8,
+    "social_score": 4.56,
+    "physical_score": 2.44,
+    "tech_skills_count": 12,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-4031",
+    "cognitive_score": 5.94,
+    "social_score": 5.02,
+    "physical_score": 2.66,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-4041",
+    "cognitive_score": 6.34,
+    "social_score": 5.98,
+    "physical_score": 1.5,
+    "tech_skills_count": 12,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-4051",
+    "cognitive_score": 6.56,
+    "social_score": 6.38,
+    "physical_score": 3.45,
+    "tech_skills_count": 45,
+    "hot_tech_count": 27
+  },
+  {
+    "soc_code": "43-4061",
+    "cognitive_score": 6.88,
+    "social_score": 5.17,
+    "physical_score": 1.49,
+    "tech_skills_count": 15,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-4071",
+    "cognitive_score": 5.08,
+    "social_score": 4.09,
+    "physical_score": 3.34,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-4081",
+    "cognitive_score": 6.06,
+    "social_score": 6.25,
+    "physical_score": 3.19,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "43-4111",
+    "cognitive_score": 7.27,
+    "social_score": 6.81,
+    "physical_score": 3.24,
+    "tech_skills_count": 14,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "43-4121",
+    "cognitive_score": 5.38,
+    "social_score": 4.95,
+    "physical_score": 3.52,
+    "tech_skills_count": 14,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-4131",
+    "cognitive_score": 6.91,
+    "social_score": 5.29,
+    "physical_score": 2.58,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-4141",
+    "cognitive_score": 5.23,
+    "social_score": 5.75,
+    "physical_score": 2.48,
+    "tech_skills_count": 12,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "43-4151",
+    "cognitive_score": 7.19,
+    "social_score": 5.75,
+    "physical_score": 4.09,
+    "tech_skills_count": 14,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-4161",
+    "cognitive_score": 6.94,
+    "social_score": 6.09,
+    "physical_score": 2.99,
+    "tech_skills_count": 17,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "43-4171",
+    "cognitive_score": 5.17,
+    "social_score": 5.76,
+    "physical_score": 2.56,
+    "tech_skills_count": 18,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "43-4181",
+    "cognitive_score": 7.12,
+    "social_score": 6.16,
+    "physical_score": 4.64,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "43-5011",
+    "cognitive_score": 6.85,
+    "social_score": 5.67,
+    "physical_score": 5.42,
+    "tech_skills_count": 15,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "43-5021",
+    "cognitive_score": 4.76,
+    "social_score": 3.32,
+    "physical_score": 4.2,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "43-5031",
+    "cognitive_score": 7.56,
+    "social_score": 6.97,
+    "physical_score": 3.98,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-5032",
+    "cognitive_score": 6.31,
+    "social_score": 5.69,
+    "physical_score": 3.25,
+    "tech_skills_count": 21,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-5041",
+    "cognitive_score": 5.85,
+    "social_score": 4.48,
+    "physical_score": 5.11,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "43-5051",
+    "cognitive_score": 6.04,
+    "social_score": 5.33,
+    "physical_score": 4.1,
+    "tech_skills_count": 7,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "43-5052",
+    "cognitive_score": 3.45,
+    "social_score": 3.42,
+    "physical_score": 3.9,
+    "tech_skills_count": 8,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "43-5053",
+    "cognitive_score": 4.34,
+    "social_score": 3.42,
+    "physical_score": 4.11,
+    "tech_skills_count": 15,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "43-5061",
+    "cognitive_score": 6.24,
+    "social_score": 3.64,
+    "physical_score": 3.19,
+    "tech_skills_count": 24,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "43-5071",
+    "cognitive_score": 5.78,
+    "social_score": 4.94,
+    "physical_score": 5.05,
+    "tech_skills_count": 18,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "43-5111",
+    "cognitive_score": 6.97,
+    "social_score": 5.4,
+    "physical_score": 5.92,
+    "tech_skills_count": 10,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-6011",
+    "cognitive_score": 6.29,
+    "social_score": 5.77,
+    "physical_score": 3.05,
+    "tech_skills_count": 32,
+    "hot_tech_count": 27
+  },
+  {
+    "soc_code": "43-6012",
+    "cognitive_score": 6.38,
+    "social_score": 5.03,
+    "physical_score": 2.75,
+    "tech_skills_count": 20,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "43-6013",
+    "cognitive_score": 6.53,
+    "social_score": 6.38,
+    "physical_score": 3.12,
+    "tech_skills_count": 15,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "43-6014",
+    "cognitive_score": 5.56,
+    "social_score": 4.63,
+    "physical_score": 2.55,
+    "tech_skills_count": 48,
+    "hot_tech_count": 49
+  },
+  {
+    "soc_code": "43-9021",
+    "cognitive_score": 6.83,
+    "social_score": 4.39,
+    "physical_score": 2.93,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "43-9022",
+    "cognitive_score": 5.47,
+    "social_score": 4.62,
+    "physical_score": 2.92,
+    "tech_skills_count": 14,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "43-9031",
+    "cognitive_score": 6.17,
+    "social_score": 4.76,
+    "physical_score": 2.92,
+    "tech_skills_count": 32,
+    "hot_tech_count": 31
+  },
+  {
+    "soc_code": "43-9041",
+    "cognitive_score": 6.07,
+    "social_score": 4.3,
+    "physical_score": 1.7,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "43-9051",
+    "cognitive_score": 4.81,
+    "social_score": 3.98,
+    "physical_score": 5.01,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "43-9061",
+    "cognitive_score": 5.21,
+    "social_score": 4.34,
+    "physical_score": 2.82,
+    "tech_skills_count": 23,
+    "hot_tech_count": 20
+  },
+  {
+    "soc_code": "43-9071",
+    "cognitive_score": 4.82,
+    "social_score": 4.34,
+    "physical_score": 4.48,
+    "tech_skills_count": 12,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "43-9081",
+    "cognitive_score": 5.36,
+    "social_score": 2.11,
+    "physical_score": 1.1,
+    "tech_skills_count": 16,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "43-9111",
+    "cognitive_score": 6.94,
+    "social_score": 4.91,
+    "physical_score": 1.34,
+    "tech_skills_count": 19,
+    "hot_tech_count": 22
+  },
+  {
+    "soc_code": "45-1011",
+    "cognitive_score": 6.16,
+    "social_score": 5.12,
+    "physical_score": 6.29,
+    "tech_skills_count": 15,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "45-2011",
+    "cognitive_score": 6.88,
+    "social_score": 5.34,
+    "physical_score": 4.69,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "45-2021",
+    "cognitive_score": 5.2,
+    "social_score": 3.55,
+    "physical_score": 4.59,
+    "tech_skills_count": 13,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "45-2041",
+    "cognitive_score": 5.43,
+    "social_score": 3.89,
+    "physical_score": 4.67,
+    "tech_skills_count": 7,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "45-2091",
+    "cognitive_score": 5.1,
+    "social_score": 4.96,
+    "physical_score": 6.98,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "45-2092",
+    "cognitive_score": 5.73,
+    "social_score": 4.84,
+    "physical_score": 5.99,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "45-2093",
+    "cognitive_score": 5.73,
+    "social_score": 4.56,
+    "physical_score": 5.93,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "45-3031",
+    "cognitive_score": 4.4,
+    "social_score": 3.19,
+    "physical_score": 5.27,
+    "tech_skills_count": 7,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "45-4011",
+    "cognitive_score": 5.9,
+    "social_score": 4.3,
+    "physical_score": 5.92,
+    "tech_skills_count": 10,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "45-4021",
+    "cognitive_score": 3.62,
+    "social_score": 2.46,
+    "physical_score": 5.94,
+    "tech_skills_count": 11,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "45-4022",
+    "cognitive_score": 5.73,
+    "social_score": 4.77,
+    "physical_score": 7.03,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "45-4023",
+    "cognitive_score": 6.43,
+    "social_score": 4.62,
+    "physical_score": 5.78,
+    "tech_skills_count": 10,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "47-1011",
+    "cognitive_score": 6.46,
+    "social_score": 5.81,
+    "physical_score": 6.45,
+    "tech_skills_count": 23,
+    "hot_tech_count": 26
+  },
+  {
+    "soc_code": "47-2011",
+    "cognitive_score": 6.45,
+    "social_score": 4.36,
+    "physical_score": 7.36,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "47-2021",
+    "cognitive_score": 6.03,
+    "social_score": 4.51,
+    "physical_score": 6.12,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2022",
+    "cognitive_score": 5.07,
+    "social_score": 5.09,
+    "physical_score": 5.52,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-2031",
+    "cognitive_score": 6.43,
+    "social_score": 5.08,
+    "physical_score": 6.29,
+    "tech_skills_count": 10,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "47-2041",
+    "cognitive_score": 5.17,
+    "social_score": 4.08,
+    "physical_score": 5.83,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2042",
+    "cognitive_score": 5.6,
+    "social_score": 4.66,
+    "physical_score": 4.58,
+    "tech_skills_count": 7,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "47-2043",
+    "cognitive_score": 6.37,
+    "social_score": 5.48,
+    "physical_score": 6.93,
+    "tech_skills_count": 5,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "47-2044",
+    "cognitive_score": 5.59,
+    "social_score": 3.87,
+    "physical_score": 5.34,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-2051",
+    "cognitive_score": 5.96,
+    "social_score": 4.84,
+    "physical_score": 6.58,
+    "tech_skills_count": 4,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "47-2053",
+    "cognitive_score": 5.12,
+    "social_score": 4.43,
+    "physical_score": 6.38,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-2061",
+    "cognitive_score": 6.82,
+    "social_score": 5.45,
+    "physical_score": 7.3,
+    "tech_skills_count": 7,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "47-2071",
+    "cognitive_score": 5.21,
+    "social_score": 4.42,
+    "physical_score": 6.42,
+    "tech_skills_count": 9,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2072",
+    "cognitive_score": 6.29,
+    "social_score": 3.66,
+    "physical_score": 7.16,
+    "tech_skills_count": 4,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "47-2073",
+    "cognitive_score": 6.97,
+    "social_score": 5.76,
+    "physical_score": 7.36,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2081",
+    "cognitive_score": 4.07,
+    "social_score": 3.28,
+    "physical_score": 4.3,
+    "tech_skills_count": 7,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-2082",
+    "cognitive_score": 3.43,
+    "social_score": 3.22,
+    "physical_score": 4.23,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-2111",
+    "cognitive_score": 7.02,
+    "social_score": 6.03,
+    "physical_score": 7.35,
+    "tech_skills_count": 14,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "47-2121",
+    "cognitive_score": 5.94,
+    "social_score": 5.1,
+    "physical_score": 5.95,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-2131",
+    "cognitive_score": 4.94,
+    "social_score": 4.44,
+    "physical_score": 5.73,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2132",
+    "cognitive_score": 5.38,
+    "social_score": 4.58,
+    "physical_score": 5.84,
+    "tech_skills_count": 4,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "47-2141",
+    "cognitive_score": 5.66,
+    "social_score": 5.56,
+    "physical_score": 5.42,
+    "tech_skills_count": 9,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2142",
+    "cognitive_score": 3.94,
+    "social_score": 4.06,
+    "physical_score": 5.09,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-2151",
+    "cognitive_score": 5.39,
+    "social_score": 4.63,
+    "physical_score": 7.06,
+    "tech_skills_count": 3,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "47-2152",
+    "cognitive_score": 6.12,
+    "social_score": 4.8,
+    "physical_score": 5.78,
+    "tech_skills_count": 20,
+    "hot_tech_count": 16
+  },
+  {
+    "soc_code": "47-2161",
+    "cognitive_score": 5.65,
+    "social_score": 5.01,
+    "physical_score": 5.69,
+    "tech_skills_count": 13,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-2171",
+    "cognitive_score": 5.21,
+    "social_score": 4.1,
+    "physical_score": 5.33,
+    "tech_skills_count": 5,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "47-2181",
+    "cognitive_score": 5.86,
+    "social_score": 5.42,
+    "physical_score": 6.49,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-2211",
+    "cognitive_score": 6.66,
+    "social_score": 6.93,
+    "physical_score": 6.95,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "47-2221",
+    "cognitive_score": 5.11,
+    "social_score": 3.71,
+    "physical_score": 5.66,
+    "tech_skills_count": 5,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "47-2231",
+    "cognitive_score": 6.07,
+    "social_score": 4.35,
+    "physical_score": 6.87,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-3011",
+    "cognitive_score": 5.77,
+    "social_score": 3.79,
+    "physical_score": 6.11,
+    "tech_skills_count": 11,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "47-3012",
+    "cognitive_score": 5.61,
+    "social_score": 3.75,
+    "physical_score": 6.43,
+    "tech_skills_count": 13,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "47-3013",
+    "cognitive_score": 7.35,
+    "social_score": 6.37,
+    "physical_score": 7.52,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "47-3014",
+    "cognitive_score": 3.83,
+    "social_score": 3.52,
+    "physical_score": 4.4,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "47-3015",
+    "cognitive_score": 5.94,
+    "social_score": 4.52,
+    "physical_score": 6.16,
+    "tech_skills_count": 3,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-3016",
+    "cognitive_score": 5.97,
+    "social_score": 5.75,
+    "physical_score": 6.0,
+    "tech_skills_count": 4,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "47-4011",
+    "cognitive_score": 7.03,
+    "social_score": 5.46,
+    "physical_score": 4.82,
+    "tech_skills_count": 26,
+    "hot_tech_count": 33
+  },
+  {
+    "soc_code": "47-4021",
+    "cognitive_score": 6.17,
+    "social_score": 4.0,
+    "physical_score": 7.12,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-4031",
+    "cognitive_score": 4.74,
+    "social_score": 4.96,
+    "physical_score": 5.52,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-4041",
+    "cognitive_score": 6.02,
+    "social_score": 5.17,
+    "physical_score": 5.94,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "47-4051",
+    "cognitive_score": 5.91,
+    "social_score": 6.85,
+    "physical_score": 5.81,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "47-4061",
+    "cognitive_score": 7.1,
+    "social_score": 5.26,
+    "physical_score": 7.02,
+    "tech_skills_count": 4,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "47-4071",
+    "cognitive_score": 5.57,
+    "social_score": 4.33,
+    "physical_score": 5.75,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-4091",
+    "cognitive_score": 5.95,
+    "social_score": 6.07,
+    "physical_score": 6.19,
+    "tech_skills_count": 9,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-4099",
+    "cognitive_score": 6.59,
+    "social_score": 5.67,
+    "physical_score": 6.61,
+    "tech_skills_count": 13,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "47-5011",
+    "cognitive_score": 4.85,
+    "social_score": 4.39,
+    "physical_score": 6.67,
+    "tech_skills_count": 3,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-5012",
+    "cognitive_score": 6.6,
+    "social_score": 5.15,
+    "physical_score": 7.3,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-5013",
+    "cognitive_score": 6.39,
+    "social_score": 6.57,
+    "physical_score": 7.14,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-5022",
+    "cognitive_score": 6.25,
+    "social_score": 4.85,
+    "physical_score": 7.07,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "47-5023",
+    "cognitive_score": 5.94,
+    "social_score": 4.68,
+    "physical_score": 7.23,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "47-5032",
+    "cognitive_score": 7.24,
+    "social_score": 5.28,
+    "physical_score": 6.87,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "47-5041",
+    "cognitive_score": 5.38,
+    "social_score": 3.66,
+    "physical_score": 6.5,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-5043",
+    "cognitive_score": 5.61,
+    "social_score": 3.22,
+    "physical_score": 7.42,
+    "tech_skills_count": 2,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "47-5044",
+    "cognitive_score": 4.46,
+    "social_score": 3.24,
+    "physical_score": 6.06,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "47-5051",
+    "cognitive_score": 4.03,
+    "social_score": 2.94,
+    "physical_score": 5.14,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "47-5071",
+    "cognitive_score": 5.91,
+    "social_score": 5.04,
+    "physical_score": 6.98,
+    "tech_skills_count": 14,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "47-5081",
+    "cognitive_score": 7.29,
+    "social_score": 5.77,
+    "physical_score": 8.36,
+    "tech_skills_count": 5,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-1011",
+    "cognitive_score": 7.22,
+    "social_score": 5.68,
+    "physical_score": 6.69,
+    "tech_skills_count": 19,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "49-2011",
+    "cognitive_score": 5.04,
+    "social_score": 3.7,
+    "physical_score": 5.8,
+    "tech_skills_count": 27,
+    "hot_tech_count": 17
+  },
+  {
+    "soc_code": "49-2021",
+    "cognitive_score": 7.5,
+    "social_score": 5.67,
+    "physical_score": 7.06,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-2022",
+    "cognitive_score": 6.44,
+    "social_score": 5.01,
+    "physical_score": 5.68,
+    "tech_skills_count": 15,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-2091",
+    "cognitive_score": 6.84,
+    "social_score": 4.59,
+    "physical_score": 6.3,
+    "tech_skills_count": 14,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "49-2092",
+    "cognitive_score": 7.04,
+    "social_score": 4.8,
+    "physical_score": 7.2,
+    "tech_skills_count": 11,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "49-2093",
+    "cognitive_score": 6.2,
+    "social_score": 4.27,
+    "physical_score": 6.49,
+    "tech_skills_count": 12,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "49-2094",
+    "cognitive_score": 6.78,
+    "social_score": 3.87,
+    "physical_score": 6.08,
+    "tech_skills_count": 13,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-2095",
+    "cognitive_score": 6.98,
+    "social_score": 3.84,
+    "physical_score": 6.9,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-2096",
+    "cognitive_score": 7.09,
+    "social_score": 5.2,
+    "physical_score": 5.87,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "49-2097",
+    "cognitive_score": 6.57,
+    "social_score": 5.04,
+    "physical_score": 5.29,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "49-2098",
+    "cognitive_score": 6.55,
+    "social_score": 4.61,
+    "physical_score": 6.13,
+    "tech_skills_count": 10,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-3011",
+    "cognitive_score": 7.46,
+    "social_score": 4.98,
+    "physical_score": 7.14,
+    "tech_skills_count": 17,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-3021",
+    "cognitive_score": 6.21,
+    "social_score": 4.32,
+    "physical_score": 6.03,
+    "tech_skills_count": 11,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-3022",
+    "cognitive_score": 4.23,
+    "social_score": 3.38,
+    "physical_score": 4.55,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "49-3023",
+    "cognitive_score": 6.24,
+    "social_score": 4.43,
+    "physical_score": 6.71,
+    "tech_skills_count": 17,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-3031",
+    "cognitive_score": 6.59,
+    "social_score": 3.74,
+    "physical_score": 7.37,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-3041",
+    "cognitive_score": 6.16,
+    "social_score": 4.33,
+    "physical_score": 6.55,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "49-3042",
+    "cognitive_score": 6.84,
+    "social_score": 4.77,
+    "physical_score": 7.56,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "49-3043",
+    "cognitive_score": 5.74,
+    "social_score": 3.82,
+    "physical_score": 6.27,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-3051",
+    "cognitive_score": 5.76,
+    "social_score": 3.96,
+    "physical_score": 6.64,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-3052",
+    "cognitive_score": 6.91,
+    "social_score": 4.84,
+    "physical_score": 7.7,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-3053",
+    "cognitive_score": 6.16,
+    "social_score": 4.78,
+    "physical_score": 6.51,
+    "tech_skills_count": 6,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "49-3091",
+    "cognitive_score": 5.45,
+    "social_score": 6.34,
+    "physical_score": 5.53,
+    "tech_skills_count": 7,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "49-3092",
+    "cognitive_score": 6.02,
+    "social_score": 4.87,
+    "physical_score": 6.34,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "49-3093",
+    "cognitive_score": 5.84,
+    "social_score": 4.87,
+    "physical_score": 6.0,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "49-9011",
+    "cognitive_score": 5.57,
+    "social_score": 4.92,
+    "physical_score": 6.17,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-9012",
+    "cognitive_score": 6.51,
+    "social_score": 4.62,
+    "physical_score": 6.74,
+    "tech_skills_count": 16,
+    "hot_tech_count": 13
+  },
+  {
+    "soc_code": "49-9021",
+    "cognitive_score": 6.39,
+    "social_score": 5.33,
+    "physical_score": 6.67,
+    "tech_skills_count": 14,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "49-9031",
+    "cognitive_score": 5.79,
+    "social_score": 4.83,
+    "physical_score": 5.98,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-9041",
+    "cognitive_score": 6.44,
+    "social_score": 3.72,
+    "physical_score": 6.56,
+    "tech_skills_count": 13,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-9043",
+    "cognitive_score": 5.86,
+    "social_score": 3.63,
+    "physical_score": 6.62,
+    "tech_skills_count": 11,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-9044",
+    "cognitive_score": 6.98,
+    "social_score": 5.56,
+    "physical_score": 7.4,
+    "tech_skills_count": 6,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-9045",
+    "cognitive_score": 5.28,
+    "social_score": 3.53,
+    "physical_score": 5.44,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-9051",
+    "cognitive_score": 5.59,
+    "social_score": 4.63,
+    "physical_score": 6.99,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-9052",
+    "cognitive_score": 6.32,
+    "social_score": 5.48,
+    "physical_score": 6.41,
+    "tech_skills_count": 13,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-9061",
+    "cognitive_score": 4.86,
+    "social_score": 3.31,
+    "physical_score": 4.43,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "49-9062",
+    "cognitive_score": 6.56,
+    "social_score": 4.01,
+    "physical_score": 6.39,
+    "tech_skills_count": 12,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-9063",
+    "cognitive_score": 5.68,
+    "social_score": 4.97,
+    "physical_score": 5.58,
+    "tech_skills_count": 1,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "49-9064",
+    "cognitive_score": 5.92,
+    "social_score": 3.45,
+    "physical_score": 5.74,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-9071",
+    "cognitive_score": 7.09,
+    "social_score": 5.12,
+    "physical_score": 7.38,
+    "tech_skills_count": 21,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "49-9081",
+    "cognitive_score": 7.03,
+    "social_score": 4.37,
+    "physical_score": 8.26,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "49-9091",
+    "cognitive_score": 4.58,
+    "social_score": 3.08,
+    "physical_score": 5.14,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "49-9092",
+    "cognitive_score": 6.2,
+    "social_score": 5.21,
+    "physical_score": 6.8,
+    "tech_skills_count": 3,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "49-9094",
+    "cognitive_score": 6.2,
+    "social_score": 5.78,
+    "physical_score": 6.47,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "49-9095",
+    "cognitive_score": 6.83,
+    "social_score": 7.13,
+    "physical_score": 7.88,
+    "tech_skills_count": 3,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "49-9096",
+    "cognitive_score": 6.07,
+    "social_score": 3.84,
+    "physical_score": 6.11,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "49-9097",
+    "cognitive_score": 4.69,
+    "social_score": 3.52,
+    "physical_score": 5.41,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "49-9098",
+    "cognitive_score": 5.61,
+    "social_score": 4.37,
+    "physical_score": 6.57,
+    "tech_skills_count": 11,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "49-9099",
+    "cognitive_score": 6.86,
+    "social_score": 4.56,
+    "physical_score": 7.1,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-1011",
+    "cognitive_score": 6.93,
+    "social_score": 5.56,
+    "physical_score": 6.26,
+    "tech_skills_count": 21,
+    "hot_tech_count": 12
+  },
+  {
+    "soc_code": "51-2011",
+    "cognitive_score": 6.28,
+    "social_score": 4.4,
+    "physical_score": 5.91,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-2021",
+    "cognitive_score": 5.37,
+    "social_score": 3.64,
+    "physical_score": 5.06,
+    "tech_skills_count": 3,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "51-2022",
+    "cognitive_score": 5.74,
+    "social_score": 4.1,
+    "physical_score": 5.19,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-2023",
+    "cognitive_score": 5.71,
+    "social_score": 3.16,
+    "physical_score": 5.27,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-2031",
+    "cognitive_score": 5.29,
+    "social_score": 3.66,
+    "physical_score": 6.06,
+    "tech_skills_count": 5,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-2041",
+    "cognitive_score": 5.87,
+    "social_score": 3.92,
+    "physical_score": 6.02,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-2051",
+    "cognitive_score": 5.8,
+    "social_score": 3.72,
+    "physical_score": 5.5,
+    "tech_skills_count": 3,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-2061",
+    "cognitive_score": 5.08,
+    "social_score": 3.68,
+    "physical_score": 5.35,
+    "tech_skills_count": 6,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "51-2092",
+    "cognitive_score": 5.8,
+    "social_score": 3.82,
+    "physical_score": 5.58,
+    "tech_skills_count": 7,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-3011",
+    "cognitive_score": 4.68,
+    "social_score": 3.8,
+    "physical_score": 3.82,
+    "tech_skills_count": 13,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-3021",
+    "cognitive_score": 5.48,
+    "social_score": 5.78,
+    "physical_score": 5.35,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-3022",
+    "cognitive_score": 6.44,
+    "social_score": 5.01,
+    "physical_score": 5.87,
+    "tech_skills_count": 4,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "51-3023",
+    "cognitive_score": 4.11,
+    "social_score": 2.91,
+    "physical_score": 4.69,
+    "tech_skills_count": 6,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-3091",
+    "cognitive_score": 6.24,
+    "social_score": 4.71,
+    "physical_score": 6.04,
+    "tech_skills_count": 2,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "51-3092",
+    "cognitive_score": 6.68,
+    "social_score": 3.81,
+    "physical_score": 5.98,
+    "tech_skills_count": 3,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "51-3093",
+    "cognitive_score": 6.47,
+    "social_score": 2.76,
+    "physical_score": 5.56,
+    "tech_skills_count": 1,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "51-4021",
+    "cognitive_score": 5.96,
+    "social_score": 3.7,
+    "physical_score": 5.62,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-4022",
+    "cognitive_score": 5.88,
+    "social_score": 3.39,
+    "physical_score": 6.18,
+    "tech_skills_count": 3,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "51-4023",
+    "cognitive_score": 6.42,
+    "social_score": 4.2,
+    "physical_score": 6.95,
+    "tech_skills_count": 2,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "51-4031",
+    "cognitive_score": 5.66,
+    "social_score": 3.2,
+    "physical_score": 5.89,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-4032",
+    "cognitive_score": 6.47,
+    "social_score": 2.5,
+    "physical_score": 5.83,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-4033",
+    "cognitive_score": 5.56,
+    "social_score": 3.72,
+    "physical_score": 6.17,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-4034",
+    "cognitive_score": 6.34,
+    "social_score": 4.66,
+    "physical_score": 6.62,
+    "tech_skills_count": 3,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "51-4035",
+    "cognitive_score": 6.07,
+    "social_score": 3.3,
+    "physical_score": 6.43,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-4041",
+    "cognitive_score": 5.79,
+    "social_score": 3.56,
+    "physical_score": 6.15,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "51-4051",
+    "cognitive_score": 5.95,
+    "social_score": 3.78,
+    "physical_score": 6.1,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-4052",
+    "cognitive_score": 4.99,
+    "social_score": 3.74,
+    "physical_score": 6.04,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-4061",
+    "cognitive_score": 5.26,
+    "social_score": 3.47,
+    "physical_score": 5.58,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "51-4062",
+    "cognitive_score": 5.2,
+    "social_score": 2.64,
+    "physical_score": 5.36,
+    "tech_skills_count": 4,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "51-4071",
+    "cognitive_score": 4.92,
+    "social_score": 3.01,
+    "physical_score": 5.74,
+    "tech_skills_count": 4,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-4072",
+    "cognitive_score": 5.22,
+    "social_score": 3.07,
+    "physical_score": 5.81,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-4081",
+    "cognitive_score": 7.65,
+    "social_score": 4.46,
+    "physical_score": 6.86,
+    "tech_skills_count": 7,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-4111",
+    "cognitive_score": 5.99,
+    "social_score": 2.82,
+    "physical_score": 5.36,
+    "tech_skills_count": 11,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "51-4121",
+    "cognitive_score": 4.45,
+    "social_score": 2.63,
+    "physical_score": 4.56,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-4122",
+    "cognitive_score": 5.96,
+    "social_score": 3.73,
+    "physical_score": 6.37,
+    "tech_skills_count": 8,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "51-4191",
+    "cognitive_score": 5.47,
+    "social_score": 3.31,
+    "physical_score": 5.93,
+    "tech_skills_count": 5,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-4192",
+    "cognitive_score": 6.22,
+    "social_score": 4.95,
+    "physical_score": 6.17,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-4193",
+    "cognitive_score": 5.78,
+    "social_score": 3.78,
+    "physical_score": 5.6,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-4194",
+    "cognitive_score": 5.68,
+    "social_score": 3.39,
+    "physical_score": 5.89,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-5111",
+    "cognitive_score": 6.25,
+    "social_score": 4.18,
+    "physical_score": 4.27,
+    "tech_skills_count": 13,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "51-5112",
+    "cognitive_score": 6.27,
+    "social_score": 5.41,
+    "physical_score": 7.12,
+    "tech_skills_count": 15,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "51-5113",
+    "cognitive_score": 5.99,
+    "social_score": 3.86,
+    "physical_score": 6.09,
+    "tech_skills_count": 10,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-6011",
+    "cognitive_score": 3.71,
+    "social_score": 4.31,
+    "physical_score": 5.09,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-6021",
+    "cognitive_score": 4.06,
+    "social_score": 2.96,
+    "physical_score": 5.06,
+    "tech_skills_count": 3,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-6031",
+    "cognitive_score": 4.07,
+    "social_score": 2.9,
+    "physical_score": 4.49,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-6041",
+    "cognitive_score": 5.51,
+    "social_score": 4.17,
+    "physical_score": 5.22,
+    "tech_skills_count": 4,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "51-6042",
+    "cognitive_score": 5.22,
+    "social_score": 5.1,
+    "physical_score": 5.63,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-6051",
+    "cognitive_score": 4.44,
+    "social_score": 2.55,
+    "physical_score": 4.1,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-6052",
+    "cognitive_score": 4.34,
+    "social_score": 3.12,
+    "physical_score": 3.9,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-6061",
+    "cognitive_score": 5.56,
+    "social_score": 2.77,
+    "physical_score": 5.47,
+    "tech_skills_count": 7,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-6062",
+    "cognitive_score": 5.67,
+    "social_score": 3.49,
+    "physical_score": 5.89,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-6063",
+    "cognitive_score": 5.68,
+    "social_score": 4.0,
+    "physical_score": 5.63,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-6064",
+    "cognitive_score": 5.02,
+    "social_score": 2.66,
+    "physical_score": 4.97,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-6091",
+    "cognitive_score": 6.48,
+    "social_score": 3.38,
+    "physical_score": 6.3,
+    "tech_skills_count": 8,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-6092",
+    "cognitive_score": 6.78,
+    "social_score": 3.81,
+    "physical_score": 4.13,
+    "tech_skills_count": 6,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-6093",
+    "cognitive_score": 5.37,
+    "social_score": 4.69,
+    "physical_score": 5.25,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-7011",
+    "cognitive_score": 6.02,
+    "social_score": 3.87,
+    "physical_score": 5.88,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-7021",
+    "cognitive_score": 5.87,
+    "social_score": 4.54,
+    "physical_score": 5.07,
+    "tech_skills_count": 4,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-7031",
+    "cognitive_score": 6.18,
+    "social_score": 3.86,
+    "physical_score": 5.89,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-7032",
+    "cognitive_score": 6.15,
+    "social_score": 3.2,
+    "physical_score": 6.11,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-7041",
+    "cognitive_score": 4.16,
+    "social_score": 2.87,
+    "physical_score": 5.63,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-7042",
+    "cognitive_score": 4.51,
+    "social_score": 2.43,
+    "physical_score": 5.05,
+    "tech_skills_count": 18,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "51-8011",
+    "cognitive_score": 7.44,
+    "social_score": 3.85,
+    "physical_score": 4.58,
+    "tech_skills_count": 9,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "51-8012",
+    "cognitive_score": 7.75,
+    "social_score": 4.33,
+    "physical_score": 3.45,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-8013",
+    "cognitive_score": 6.44,
+    "social_score": 4.07,
+    "physical_score": 6.47,
+    "tech_skills_count": 14,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "51-8021",
+    "cognitive_score": 6.96,
+    "social_score": 5.07,
+    "physical_score": 6.96,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-8031",
+    "cognitive_score": 7.48,
+    "social_score": 5.11,
+    "physical_score": 6.61,
+    "tech_skills_count": 12,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-8091",
+    "cognitive_score": 6.13,
+    "social_score": 2.89,
+    "physical_score": 5.63,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "51-8092",
+    "cognitive_score": 7.18,
+    "social_score": 4.09,
+    "physical_score": 6.18,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-8093",
+    "cognitive_score": 5.82,
+    "social_score": 3.7,
+    "physical_score": 6.04,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "51-8099",
+    "cognitive_score": 7.01,
+    "social_score": 4.43,
+    "physical_score": 6.74,
+    "tech_skills_count": 9,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9011",
+    "cognitive_score": 6.86,
+    "social_score": 4.73,
+    "physical_score": 6.41,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9012",
+    "cognitive_score": 5.58,
+    "social_score": 3.27,
+    "physical_score": 5.67,
+    "tech_skills_count": 6,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9021",
+    "cognitive_score": 5.2,
+    "social_score": 3.12,
+    "physical_score": 5.5,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-9022",
+    "cognitive_score": 7.37,
+    "social_score": 5.21,
+    "physical_score": 8.16,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-9023",
+    "cognitive_score": 5.56,
+    "social_score": 4.14,
+    "physical_score": 6.57,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9031",
+    "cognitive_score": 4.73,
+    "social_score": 4.03,
+    "physical_score": 4.67,
+    "tech_skills_count": 3,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "51-9032",
+    "cognitive_score": 5.75,
+    "social_score": 4.39,
+    "physical_score": 6.32,
+    "tech_skills_count": 4,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-9041",
+    "cognitive_score": 6.26,
+    "social_score": 3.55,
+    "physical_score": 6.21,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-9051",
+    "cognitive_score": 6.13,
+    "social_score": 3.61,
+    "physical_score": 6.42,
+    "tech_skills_count": 4,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-9061",
+    "cognitive_score": 6.56,
+    "social_score": 4.14,
+    "physical_score": 5.58,
+    "tech_skills_count": 22,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "51-9071",
+    "cognitive_score": 5.08,
+    "social_score": 3.44,
+    "physical_score": 4.11,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9081",
+    "cognitive_score": 7.07,
+    "social_score": 4.94,
+    "physical_score": 5.5,
+    "tech_skills_count": 14,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-9082",
+    "cognitive_score": 6.21,
+    "social_score": 4.46,
+    "physical_score": 4.95,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-9083",
+    "cognitive_score": 4.89,
+    "social_score": 3.73,
+    "physical_score": 4.18,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9111",
+    "cognitive_score": 5.99,
+    "social_score": 4.23,
+    "physical_score": 5.54,
+    "tech_skills_count": 7,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9123",
+    "cognitive_score": 5.15,
+    "social_score": 3.43,
+    "physical_score": 4.28,
+    "tech_skills_count": 3,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "51-9124",
+    "cognitive_score": 6.09,
+    "social_score": 3.71,
+    "physical_score": 6.0,
+    "tech_skills_count": 10,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-9141",
+    "cognitive_score": 5.73,
+    "social_score": 4.06,
+    "physical_score": 5.92,
+    "tech_skills_count": 10,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "51-9151",
+    "cognitive_score": 5.33,
+    "social_score": 4.87,
+    "physical_score": 5.07,
+    "tech_skills_count": 14,
+    "hot_tech_count": 19
+  },
+  {
+    "soc_code": "51-9161",
+    "cognitive_score": 6.04,
+    "social_score": 3.43,
+    "physical_score": 6.34,
+    "tech_skills_count": 16,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "51-9162",
+    "cognitive_score": 7.02,
+    "social_score": 4.02,
+    "physical_score": 5.62,
+    "tech_skills_count": 13,
+    "hot_tech_count": 9
+  },
+  {
+    "soc_code": "51-9191",
+    "cognitive_score": 5.71,
+    "social_score": 3.14,
+    "physical_score": 6.72,
+    "tech_skills_count": 5,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "51-9192",
+    "cognitive_score": 6.39,
+    "social_score": 4.33,
+    "physical_score": 6.55,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-9193",
+    "cognitive_score": 6.19,
+    "social_score": 4.27,
+    "physical_score": 6.7,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "51-9194",
+    "cognitive_score": 6.1,
+    "social_score": 4.12,
+    "physical_score": 5.46,
+    "tech_skills_count": 4,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "51-9195",
+    "cognitive_score": 5.43,
+    "social_score": 3.56,
+    "physical_score": 5.94,
+    "tech_skills_count": 10,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "51-9196",
+    "cognitive_score": 5.76,
+    "social_score": 4.47,
+    "physical_score": 6.21,
+    "tech_skills_count": 8,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-9197",
+    "cognitive_score": 6.16,
+    "social_score": 4.1,
+    "physical_score": 6.53,
+    "tech_skills_count": 9,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "51-9198",
+    "cognitive_score": 5.01,
+    "social_score": 3.83,
+    "physical_score": 5.94,
+    "tech_skills_count": 11,
+    "hot_tech_count": 10
+  },
+  {
+    "soc_code": "53-1041",
+    "cognitive_score": 6.71,
+    "social_score": 6.17,
+    "physical_score": 6.13,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "53-1042",
+    "cognitive_score": 6.84,
+    "social_score": 6.31,
+    "physical_score": 4.92,
+    "tech_skills_count": 11,
+    "hot_tech_count": 15
+  },
+  {
+    "soc_code": "53-1043",
+    "cognitive_score": 7.02,
+    "social_score": 6.66,
+    "physical_score": 5.61,
+    "tech_skills_count": 14,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "53-1044",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 14,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "53-2011",
+    "cognitive_score": 7.7,
+    "social_score": 4.15,
+    "physical_score": 5.77,
+    "tech_skills_count": 12,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "53-2012",
+    "cognitive_score": 8.39,
+    "social_score": 5.94,
+    "physical_score": 7.91,
+    "tech_skills_count": 13,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "53-2021",
+    "cognitive_score": 7.45,
+    "social_score": 4.69,
+    "physical_score": 2.62,
+    "tech_skills_count": 11,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "53-2022",
+    "cognitive_score": 7.01,
+    "social_score": 6.04,
+    "physical_score": 5.99,
+    "tech_skills_count": 16,
+    "hot_tech_count": 14
+  },
+  {
+    "soc_code": "53-2031",
+    "cognitive_score": 6.08,
+    "social_score": 5.47,
+    "physical_score": 4.39,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "53-3011",
+    "cognitive_score": 6.4,
+    "social_score": 5.36,
+    "physical_score": 6.39,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-3031",
+    "cognitive_score": 5.04,
+    "social_score": 3.94,
+    "physical_score": 5.19,
+    "tech_skills_count": 7,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "53-3032",
+    "cognitive_score": 5.34,
+    "social_score": 3.78,
+    "physical_score": 5.78,
+    "tech_skills_count": 14,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "53-3033",
+    "cognitive_score": 5.97,
+    "social_score": 4.88,
+    "physical_score": 6.58,
+    "tech_skills_count": 10,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "53-3051",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 3,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "53-3052",
+    "cognitive_score": 5.68,
+    "social_score": 5.0,
+    "physical_score": 5.05,
+    "tech_skills_count": 3,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "53-3053",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-3054",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-4011",
+    "cognitive_score": 7.01,
+    "social_score": 4.26,
+    "physical_score": 6.56,
+    "tech_skills_count": 5,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "53-4013",
+    "cognitive_score": 7.01,
+    "social_score": 5.1,
+    "physical_score": 6.86,
+    "tech_skills_count": 6,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "53-4022",
+    "cognitive_score": 6.04,
+    "social_score": 3.67,
+    "physical_score": 5.53,
+    "tech_skills_count": 6,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "53-4031",
+    "cognitive_score": 5.57,
+    "social_score": 3.98,
+    "physical_score": 4.9,
+    "tech_skills_count": 9,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "53-4041",
+    "cognitive_score": 5.63,
+    "social_score": 4.72,
+    "physical_score": 5.89,
+    "tech_skills_count": 2,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "53-5011",
+    "cognitive_score": 6.92,
+    "social_score": 4.31,
+    "physical_score": 7.29,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "53-5021",
+    "cognitive_score": 6.53,
+    "social_score": 5.21,
+    "physical_score": 6.86,
+    "tech_skills_count": 13,
+    "hot_tech_count": 7
+  },
+  {
+    "soc_code": "53-5022",
+    "cognitive_score": 5.65,
+    "social_score": 4.63,
+    "physical_score": 6.23,
+    "tech_skills_count": 5,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "53-5031",
+    "cognitive_score": 7.08,
+    "social_score": 5.11,
+    "physical_score": 7.53,
+    "tech_skills_count": 15,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "53-6011",
+    "cognitive_score": 4.54,
+    "social_score": 4.45,
+    "physical_score": 4.77,
+    "tech_skills_count": 6,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "53-6021",
+    "cognitive_score": 4.49,
+    "social_score": 4.45,
+    "physical_score": 3.89,
+    "tech_skills_count": 5,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-6031",
+    "cognitive_score": 5.94,
+    "social_score": 5.0,
+    "physical_score": 5.98,
+    "tech_skills_count": 8,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "53-6032",
+    "cognitive_score": null,
+    "social_score": null,
+    "physical_score": null,
+    "tech_skills_count": 8,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-6041",
+    "cognitive_score": 6.45,
+    "social_score": 4.35,
+    "physical_score": 5.15,
+    "tech_skills_count": 14,
+    "hot_tech_count": 18
+  },
+  {
+    "soc_code": "53-6051",
+    "cognitive_score": 6.66,
+    "social_score": 4.12,
+    "physical_score": 5.11,
+    "tech_skills_count": 17,
+    "hot_tech_count": 23
+  },
+  {
+    "soc_code": "53-6061",
+    "cognitive_score": 3.45,
+    "social_score": 4.31,
+    "physical_score": 2.96,
+    "tech_skills_count": 6,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "53-7011",
+    "cognitive_score": 5.93,
+    "social_score": 4.57,
+    "physical_score": 6.32,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "53-7021",
+    "cognitive_score": 6.0,
+    "social_score": 4.19,
+    "physical_score": 6.6,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-7031",
+    "cognitive_score": 5.15,
+    "social_score": 3.82,
+    "physical_score": 5.96,
+    "tech_skills_count": 5,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "53-7041",
+    "cognitive_score": 5.71,
+    "social_score": 3.53,
+    "physical_score": 6.69,
+    "tech_skills_count": 2,
+    "hot_tech_count": 2
+  },
+  {
+    "soc_code": "53-7051",
+    "cognitive_score": 6.26,
+    "social_score": 5.13,
+    "physical_score": 6.88,
+    "tech_skills_count": 8,
+    "hot_tech_count": 6
+  },
+  {
+    "soc_code": "53-7061",
+    "cognitive_score": 5.15,
+    "social_score": 5.05,
+    "physical_score": 5.68,
+    "tech_skills_count": 4,
+    "hot_tech_count": 1
+  },
+  {
+    "soc_code": "53-7062",
+    "cognitive_score": 5.02,
+    "social_score": 4.34,
+    "physical_score": 5.28,
+    "tech_skills_count": 14,
+    "hot_tech_count": 11
+  },
+  {
+    "soc_code": "53-7063",
+    "cognitive_score": 4.38,
+    "social_score": 2.71,
+    "physical_score": 4.82,
+    "tech_skills_count": 5,
+    "hot_tech_count": 3
+  },
+  {
+    "soc_code": "53-7064",
+    "cognitive_score": 6.02,
+    "social_score": 4.88,
+    "physical_score": 5.93,
+    "tech_skills_count": 6,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "53-7065",
+    "cognitive_score": 4.74,
+    "social_score": 4.68,
+    "physical_score": 4.32,
+    "tech_skills_count": 12,
+    "hot_tech_count": 8
+  },
+  {
+    "soc_code": "53-7071",
+    "cognitive_score": 7.13,
+    "social_score": 4.21,
+    "physical_score": 7.52,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-7072",
+    "cognitive_score": 7.37,
+    "social_score": 4.52,
+    "physical_score": 7.33,
+    "tech_skills_count": 7,
+    "hot_tech_count": 4
+  },
+  {
+    "soc_code": "53-7073",
+    "cognitive_score": 6.77,
+    "social_score": 4.66,
+    "physical_score": 6.83,
+    "tech_skills_count": 7,
+    "hot_tech_count": 5
+  },
+  {
+    "soc_code": "53-7081",
+    "cognitive_score": 2.91,
+    "social_score": 2.5,
+    "physical_score": 4.97,
+    "tech_skills_count": 9,
+    "hot_tech_count": 0
+  },
+  {
+    "soc_code": "53-7121",
+    "cognitive_score": 7.42,
+    "social_score": 4.48,
+    "physical_score": 6.95,
+    "tech_skills_count": 6,
+    "hot_tech_count": 4
+  }
+]

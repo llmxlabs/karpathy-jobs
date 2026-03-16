@@ -1,0 +1,724 @@
+{
+  "us_skills": [
+    {
+      "skill_code": "01-1",
+      "skill": "fine arts",
+      "shortage_index": -0.049,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "01-2",
+      "skill": "history and archaeology",
+      "shortage_index": 0.059,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "01-3",
+      "skill": "philosophy and theology",
+      "shortage_index": 0.081,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "01",
+      "skill": "arts and humanities knowledge",
+      "shortage_index": 0.07,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "02-1",
+      "skill": "adaptability/resilience",
+      "shortage_index": 0.102,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "02-2",
+      "skill": "motivation/commitment",
+      "shortage_index": 0.27,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "02-3",
+      "skill": "self-management/rigour",
+      "shortage_index": 0.033,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "02-4",
+      "skill": "values",
+      "shortage_index": -0.054,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "02",
+      "skill": "attitudes",
+      "shortage_index": 0.204,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "03-1",
+      "skill": "clerical",
+      "shortage_index": 0.058,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "03-2",
+      "skill": "customer and personal service",
+      "shortage_index": 0.295,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "03-3",
+      "skill": "sales and marketing",
+      "shortage_index": 0.247,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "03",
+      "skill": "business processes",
+      "shortage_index": 0.411,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "04-1",
+      "skill": "learning",
+      "shortage_index": 0.135,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "04-2",
+      "skill": "originality",
+      "shortage_index": 0.058,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "04-3",
+      "skill": "quantitative abilities",
+      "shortage_index": -0.012,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "04-4",
+      "skill": "reasoning and problem-solving",
+      "shortage_index": -0.046,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "04",
+      "skill": "cognitive skills",
+      "shortage_index": 0.077,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "05-1",
+      "skill": "active listening",
+      "shortage_index": 0.229,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "05-2",
+      "skill": "communications and media",
+      "shortage_index": 0.107,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "05-3",
+      "skill": "reading comprehension",
+      "shortage_index": -0.171,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "05-4",
+      "skill": "speaking",
+      "shortage_index": 0.085,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "05-5",
+      "skill": "writing",
+      "shortage_index": 0.002,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "05",
+      "skill": "communication skills",
+      "shortage_index": 0.13,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "06-1",
+      "skill": "computer programming",
+      "shortage_index": -0.103,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "06-2",
+      "skill": "digital content creation",
+      "shortage_index": -0.191,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "06-3",
+      "skill": "digital data processing",
+      "shortage_index": -0.026,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "06-4",
+      "skill": "ict safety, networks and servers",
+      "shortage_index": 0.001,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "06-5",
+      "skill": "office tools and collaboration software",
+      "shortage_index": -0.008,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "06-6",
+      "skill": "web development and cloud technologies",
+      "shortage_index": 0.01,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "06",
+      "skill": "digital skills",
+      "shortage_index": -0.093,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "07-1",
+      "skill": "law and government",
+      "shortage_index": -0.087,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "07-2",
+      "skill": "public safety and security",
+      "shortage_index": -0.028,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "07",
+      "skill": "law and public safety knowledge",
+      "shortage_index": -0.108,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "08-1",
+      "skill": "medicine and dentistry",
+      "shortage_index": 0.171,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "08-2",
+      "skill": "psychology, therapy, counselling",
+      "shortage_index": 0.181,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "08",
+      "skill": "medicine knowledge",
+      "shortage_index": 0.361,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "09-1",
+      "skill": "auditory and speech abilities",
+      "shortage_index": -0.013,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "09-2",
+      "skill": "physical abilities",
+      "shortage_index": 0.06,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "09-3",
+      "skill": "psychomotor abilities",
+      "shortage_index": -0.208,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "09",
+      "skill": "physical skills",
+      "shortage_index": -0.088,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10-1",
+      "skill": "building and construction",
+      "shortage_index": -0.487,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10-2",
+      "skill": "design",
+      "shortage_index": -0.021,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "10-3",
+      "skill": "engineering, mechanics and technology",
+      "shortage_index": -0.349,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10-4",
+      "skill": "food production",
+      "shortage_index": 0.239,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "10-5",
+      "skill": "installation and maintenance",
+      "shortage_index": -0.06,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10-6",
+      "skill": "production and processing",
+      "shortage_index": -0.307,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10-7",
+      "skill": "quality control analysis",
+      "shortage_index": -0.18,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10-8",
+      "skill": "telecommunications",
+      "shortage_index": -0.006,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "10-9",
+      "skill": "transportation",
+      "shortage_index": -0.109,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "10",
+      "skill": "production and technology knowledge",
+      "shortage_index": -0.242,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "11-1",
+      "skill": "administration and management",
+      "shortage_index": -0.062,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "11-2",
+      "skill": "management of financial resources",
+      "shortage_index": -0.049,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "11-3",
+      "skill": "management of material resources",
+      "shortage_index": 0.38,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "11-4",
+      "skill": "management of personnel resources",
+      "shortage_index": 0.004,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "11-5",
+      "skill": "time management",
+      "shortage_index": 0.055,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "11",
+      "skill": "resource management",
+      "shortage_index": 0.148,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "12-2",
+      "skill": "chemistry",
+      "shortage_index": -0.144,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "12-3",
+      "skill": "geography",
+      "shortage_index": -0.147,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "12-4",
+      "skill": "physics",
+      "shortage_index": -0.208,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "12-5",
+      "skill": "sociology and anthropology",
+      "shortage_index": -0.072,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "12",
+      "skill": "scientific knowledge",
+      "shortage_index": -0.251,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "13-1",
+      "skill": "coordination",
+      "shortage_index": 0.086,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "13-2",
+      "skill": "judgment and decision making",
+      "shortage_index": -0.022,
+      "status": "balanced"
+    },
+    {
+      "skill_code": "13-3",
+      "skill": "persuasion and negotiation",
+      "shortage_index": -0.152,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "13-4",
+      "skill": "social perceptiveness",
+      "shortage_index": -0.241,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "13",
+      "skill": "social skills",
+      "shortage_index": -0.105,
+      "status": "surplus"
+    },
+    {
+      "skill_code": "14-1",
+      "skill": "training and education",
+      "shortage_index": 0.131,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "14",
+      "skill": "training and education",
+      "shortage_index": 0.27,
+      "status": "shortage"
+    },
+    {
+      "skill_code": "12-1",
+      "skill": "biology",
+      "shortage_index": -0.134,
+      "status": "surplus"
+    }
+  ],
+  "category_skill_balance": [
+    {
+      "category": "Business and Financial Operations",
+      "shortage_index": 0.329,
+      "status": "shortage",
+      "relevant_skills": [
+        "sales and marketing",
+        "business processes"
+      ],
+      "interpretation": "Workers in Business and Financial Operations have skills in shortage despite high AI exposure, suggesting demand currently outpaces automation displacement."
+    },
+    {
+      "category": "Personal Care and Service",
+      "shortage_index": 0.295,
+      "status": "shortage",
+      "relevant_skills": [
+        "customer and personal service"
+      ],
+      "interpretation": "Workers in Personal Care and Service have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Sales and Related",
+      "shortage_index": 0.271,
+      "status": "shortage",
+      "relevant_skills": [
+        "customer and personal service",
+        "sales and marketing"
+      ],
+      "interpretation": "Workers in Sales and Related have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Food Preparation and Serving Related",
+      "shortage_index": 0.239,
+      "status": "shortage",
+      "relevant_skills": [
+        "food production"
+      ],
+      "interpretation": "Workers in Food Preparation and Serving Related have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Healthcare Practitioners and Technical",
+      "shortage_index": 0.2377,
+      "status": "shortage",
+      "relevant_skills": [
+        "medicine and dentistry",
+        "psychology, therapy, counselling",
+        "medicine knowledge"
+      ],
+      "interpretation": "Workers in Healthcare Practitioners and Technical have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Management",
+      "shortage_index": 0.204,
+      "status": "shortage",
+      "relevant_skills": [
+        "adaptability/resilience",
+        "motivation/commitment",
+        "self-management/rigour",
+        "attitudes",
+        "business processes"
+      ],
+      "interpretation": "Workers in Management have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Education, Training, and Library",
+      "shortage_index": 0.1005,
+      "status": "shortage",
+      "relevant_skills": [
+        "history and archaeology",
+        "philosophy and theology",
+        "arts and humanities knowledge",
+        "learning",
+        "active listening",
+        "reading comprehension",
+        "training and education",
+        "training and education"
+      ],
+      "interpretation": "Workers in Education, Training, and Library have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Farming, Fishing, and Forestry",
+      "shortage_index": 0.0525,
+      "status": "shortage",
+      "relevant_skills": [
+        "food production",
+        "biology"
+      ],
+      "interpretation": "Workers in Farming, Fishing, and Forestry have skills in shortage; demand exceeds supply in the US labor market."
+    },
+    {
+      "category": "Community and Social Service",
+      "shortage_index": 0.0431,
+      "status": "balanced",
+      "relevant_skills": [
+        "adaptability/resilience",
+        "values",
+        "attitudes",
+        "active listening",
+        "speaking",
+        "psychology, therapy, counselling",
+        "auditory and speech abilities",
+        "social perceptiveness",
+        "social skills"
+      ],
+      "interpretation": "Workers in Community and Social Service show balanced skill supply and demand."
+    },
+    {
+      "category": "Life, Physical, and Social Science",
+      "shortage_index": 0.0329,
+      "status": "balanced",
+      "relevant_skills": [
+        "history and archaeology",
+        "philosophy and theology",
+        "learning",
+        "originality",
+        "reasoning and problem-solving",
+        "cognitive skills",
+        "biology"
+      ],
+      "interpretation": "Workers in Life, Physical, and Social Science show balanced skill supply and demand."
+    },
+    {
+      "category": "Office and Administrative Support",
+      "shortage_index": 0.0173,
+      "status": "balanced",
+      "relevant_skills": [
+        "clerical",
+        "writing",
+        "office tools and collaboration software"
+      ],
+      "interpretation": "Workers in Office and Administrative Support show balanced skill supply and demand."
+    },
+    {
+      "category": "Mathematical Science",
+      "shortage_index": -0.0017,
+      "status": "balanced",
+      "relevant_skills": [
+        "quantitative abilities",
+        "reasoning and problem-solving",
+        "cognitive skills",
+        "digital data processing"
+      ],
+      "interpretation": "Workers in Mathematical Science show balanced skill supply and demand."
+    },
+    {
+      "category": "Media and Communication",
+      "shortage_index": -0.0063,
+      "status": "balanced",
+      "relevant_skills": [
+        "communications and media",
+        "reading comprehension",
+        "speaking",
+        "writing",
+        "communication skills",
+        "digital content creation"
+      ],
+      "interpretation": "Workers in Media and Communication show balanced skill supply and demand."
+    },
+    {
+      "category": "Arts and Design",
+      "shortage_index": -0.0266,
+      "status": "balanced",
+      "relevant_skills": [
+        "fine arts",
+        "arts and humanities knowledge",
+        "originality",
+        "digital content creation",
+        "design"
+      ],
+      "interpretation": "Workers in Arts and Design show balanced skill supply and demand."
+    },
+    {
+      "category": "Military",
+      "shortage_index": -0.028,
+      "status": "balanced",
+      "relevant_skills": [
+        "public safety and security"
+      ],
+      "interpretation": "Workers in Military show balanced skill supply and demand."
+    },
+    {
+      "category": "Entertainment and Sports",
+      "shortage_index": -0.049,
+      "status": "balanced",
+      "relevant_skills": [
+        "fine arts"
+      ],
+      "interpretation": "Workers in Entertainment and Sports show balanced skill supply and demand."
+    },
+    {
+      "category": "Computer and Information Technology",
+      "shortage_index": -0.0583,
+      "status": "surplus",
+      "relevant_skills": [
+        "computer programming",
+        "digital content creation",
+        "digital data processing",
+        "ict safety, networks and servers",
+        "web development and cloud technologies",
+        "digital skills",
+        "telecommunications"
+      ],
+      "interpretation": "Workers in Computer and Information Technology face a skill surplus compounded by high AI exposure, indicating elevated displacement risk."
+    },
+    {
+      "category": "Healthcare Support",
+      "shortage_index": -0.0647,
+      "status": "surplus",
+      "relevant_skills": [
+        "auditory and speech abilities",
+        "physical abilities",
+        "social perceptiveness"
+      ],
+      "interpretation": "Workers in Healthcare Support face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Protective Service",
+      "shortage_index": -0.068,
+      "status": "surplus",
+      "relevant_skills": [
+        "public safety and security",
+        "law and public safety knowledge"
+      ],
+      "interpretation": "Workers in Protective Service face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Legal",
+      "shortage_index": -0.0975,
+      "status": "surplus",
+      "relevant_skills": [
+        "law and government",
+        "law and public safety knowledge"
+      ],
+      "interpretation": "Workers in Legal face a skill surplus compounded by high AI exposure, indicating elevated displacement risk."
+    },
+    {
+      "category": "Transportation and Material Moving",
+      "shortage_index": -0.109,
+      "status": "surplus",
+      "relevant_skills": [
+        "transportation"
+      ],
+      "interpretation": "Workers in Transportation and Material Moving face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Installation, Maintenance, and Repair",
+      "shortage_index": -0.1383,
+      "status": "surplus",
+      "relevant_skills": [
+        "engineering, mechanics and technology",
+        "installation and maintenance",
+        "telecommunications"
+      ],
+      "interpretation": "Workers in Installation, Maintenance, and Repair face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Building and Grounds Cleaning and Maintenance",
+      "shortage_index": -0.1717,
+      "status": "surplus",
+      "relevant_skills": [
+        "physical abilities",
+        "physical skills",
+        "building and construction"
+      ],
+      "interpretation": "Workers in Building and Grounds Cleaning and Maintenance face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Architecture and Engineering",
+      "shortage_index": -0.1833,
+      "status": "surplus",
+      "relevant_skills": [
+        "design",
+        "engineering, mechanics and technology",
+        "quality control analysis"
+      ],
+      "interpretation": "Workers in Architecture and Engineering face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Production",
+      "shortage_index": -0.2317,
+      "status": "surplus",
+      "relevant_skills": [
+        "psychomotor abilities",
+        "production and processing",
+        "quality control analysis"
+      ],
+      "interpretation": "Workers in Production face a skill surplus; supply exceeds demand in the US labor market."
+    },
+    {
+      "category": "Construction and Extraction",
+      "shortage_index": -0.261,
+      "status": "surplus",
+      "relevant_skills": [
+        "psychomotor abilities",
+        "physical skills",
+        "building and construction"
+      ],
+      "interpretation": "Workers in Construction and Extraction face a skill surplus; supply exceeds demand in the US labor market."
+    }
+  ]
+}

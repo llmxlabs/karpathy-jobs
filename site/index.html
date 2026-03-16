@@ -781,6 +781,30 @@ canvas#canvas {
 }
 #detailPanel .dp-bls-btn:hover { background: rgba(108,143,255,0.25); color: #c0ccff; }
 
+/* ── Detail panel enrichment sections ───────────────────────────────── */
+.dp-enrich-hdr {
+  font-size: 9px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--fg2); margin: 12px 0 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;
+}
+.dp-skill-row { display: flex; align-items: center; gap: 7px; margin-bottom: 5px; }
+.dp-skill-label { font-size: 10px; color: var(--fg2); width: 64px; flex-shrink: 0; }
+.dp-skill-track { flex: 1; height: 5px; background: rgba(255,255,255,0.07); border-radius: 3px; }
+.dp-skill-fill { height: 100%; border-radius: 3px; }
+.dp-skill-val { font-size: 10px; color: var(--fg2); width: 26px; text-align: right; flex-shrink: 0; }
+.dp-gender-wrap { display: flex; height: 7px; border-radius: 4px; overflow: hidden; margin: 4px 0 5px; }
+.dp-gender-f { background: #f472b6; }
+.dp-gender-m { background: #38bdf8; }
+.dp-gender-legend { display: flex; gap: 10px; font-size: 10px; color: var(--fg2); }
+.dp-gender-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; margin-right: 3px; vertical-align: middle; }
+.dp-state-row { display: flex; justify-content: space-between; font-size: 11px; padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.dp-state-name { color: var(--fg2); }
+.dp-state-val { color: var(--fg); font-weight: 500; }
+.dp-oecd-badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 10px; margin-bottom: 5px; }
+.dp-oecd-shortage { background: rgba(74,222,128,0.12); color: #4ade80; border: 1px solid rgba(74,222,128,0.3); }
+.dp-oecd-surplus  { background: rgba(251,146,60,0.12); color: #fb923c; border: 1px solid rgba(251,146,60,0.3); }
+.dp-oecd-balanced { background: rgba(255,255,255,0.06); color: var(--fg2); border: 1px solid rgba(255,255,255,0.1); }
+.dp-oecd-note { font-size: 10px; color: var(--fg2); line-height: 1.5; }
+
 /* ── Mobile menu button ──────────────────────────────────────────────── */
 
 #menu-btn {
@@ -2130,6 +2154,50 @@ function selectOccupation(slug) {
       <div style="color:var(--fg);font-size:12px">${d.education || "—"}</div>
     </div>
     ${d.exposure_rationale ? `<div class="dp-rationale"><div style="font-size:9px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px;">AI Exposure Rationale</div>${d.exposure_rationale}</div>` : ""}
+
+    ${(d.cognitive_score != null || d.social_score != null || d.physical_score != null) ? `
+    <div class="dp-enrich-hdr">O*NET Skill Profile</div>
+    ${[
+      { label: "Cognitive", val: d.cognitive_score, color: "#6c8fff" },
+      { label: "Social",    val: d.social_score,    color: "#4ade80" },
+      { label: "Physical",  val: d.physical_score,  color: "#fb923c" },
+    ].map(s => s.val != null ? `
+      <div class="dp-skill-row">
+        <span class="dp-skill-label">${s.label}</span>
+        <div class="dp-skill-track"><div class="dp-skill-fill" style="width:${s.val*10}%;background:${s.color}"></div></div>
+        <span class="dp-skill-val">${s.val.toFixed(1)}</span>
+      </div>` : "").join("")}
+    ${d.hot_tech_count != null ? `<div style="font-size:10px;color:var(--fg2);margin-top:3px;">🔥 ${d.hot_tech_count} hot tech skills · ${d.tech_skills_count} total</div>` : ""}
+    ` : ""}
+
+    ${(d.pct_female != null) ? `
+    <div class="dp-enrich-hdr">Workforce Demographics <span style="font-size:8px;font-weight:400">(Census ACS)</span></div>
+    <div class="dp-gender-wrap">
+      <div class="dp-gender-f" style="width:${d.pct_female}%"></div>
+      <div class="dp-gender-m" style="width:${d.pct_male}%"></div>
+    </div>
+    <div class="dp-gender-legend">
+      <span><span class="dp-gender-dot" style="background:#f472b6"></span>${d.pct_female.toFixed(0)}% female</span>
+      <span><span class="dp-gender-dot" style="background:#38bdf8"></span>${d.pct_male.toFixed(0)}% male</span>
+      ${d.census_earnings ? `<span style="margin-left:auto">Median earnings: ${formatPay(d.census_earnings)}</span>` : ""}
+    </div>
+    ` : ""}
+
+    ${(d.top_states && d.top_states.length) ? `
+    <div class="dp-enrich-hdr">Top States by Employment <span style="font-size:8px;font-weight:400">(BLS OEWS)</span></div>
+    ${d.top_states.slice(0,3).map(s => `
+      <div class="dp-state-row">
+        <span class="dp-state-name">${s.state}</span>
+        <span class="dp-state-val">${formatNumber(s.employment)} · ${formatPay(s.mean_wage)}</span>
+      </div>`).join("")}
+    ` : ""}
+
+    ${(d.skill_status) ? `
+    <div class="dp-enrich-hdr">Skill Market Signal <span style="font-size:8px;font-weight:400">(OECD 2022)</span></div>
+    <span class="dp-oecd-badge dp-oecd-${d.skill_status}">${d.skill_status === "shortage" ? "↑ Skill Shortage" : d.skill_status === "surplus" ? "↓ Skill Surplus" : "≈ Balanced"}</span>
+    ${d.skill_interpretation ? `<div class="dp-oecd-note">${d.skill_interpretation}</div>` : ""}
+    ` : ""}
+
     ${d.url ? `<a class="dp-bls-btn" href="${d.url}" target="_blank" rel="noopener">View on BLS →</a>` : ""}
   `;
 
