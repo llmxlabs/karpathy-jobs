@@ -8,16 +8,42 @@ Analyzing how susceptible every occupation in the US economy is to AI and automa
 
 ## What's here
 
-The BLS OOH covers **342 occupations** spanning every sector of the US economy, with detailed data on job duties, work environment, education requirements, pay, and employment projections. We scraped all of it, scored each occupation's AI exposure using an LLM, and built an interactive treemap visualization.
+The BLS OOH covers **342 occupations** spanning every sector of the US economy, with detailed data on job duties, work environment, education requirements, pay, and employment projections. We scraped all of it, scored each occupation's AI exposure using an LLM, and built an interactive visualization with enriched data from four additional sources.
 
 ## Data pipeline
 
 1. **Scrape** (`scrape.py`) — Playwright (non-headless, BLS blocks bots) downloads raw HTML for all 342 occupation pages into `html/`.
 2. **Parse** (`parse_detail.py`, `process.py`) — BeautifulSoup converts raw HTML into clean Markdown files in `pages/`.
 3. **Tabulate** (`make_csv.py`) — Extracts structured fields (pay, education, job count, growth outlook, SOC code) into `occupations.csv`.
-4. **Score** (`score.py`) — Sends each occupation's Markdown description to an LLM (Gemini Flash via OpenRouter) with a scoring rubric. Each occupation gets an AI Exposure score from 0-10 with a rationale. Results saved to `scores.json`.
-5. **Build site data** (`build_site_data.py`) — Merges CSV stats and AI exposure scores into a compact `site/data.json` for the frontend.
-6. **Website** (`site/index.html`) — Interactive treemap visualization where area = employment and color = AI exposure (green to red).
+4. **Score** (`score.py`) — Sends each occupation's Markdown description to an LLM (Gemini Flash via OpenRouter) with a scoring rubric. Each occupation gets an AI Exposure score from 0–10 with a rationale. Results saved to `scores.json`.
+5. **Enrich O\*NET** (`ingest/onet.py`) — Joins on SOC code to add cognitive, social, and physical skill scores plus hot tech skill counts.
+6. **Enrich OEWS** (`ingest/oews.py`) — Joins on SOC code to add top 3 states by employment and mean wage per occupation.
+7. **Enrich Census ACS** (`ingest/census_acs.py`) — Joins on SOC code to add workforce gender split and median earnings.
+8. **Enrich OECD** (`ingest/oecd.py`) — Joins on SOC code to add skill shortage/surplus/balanced signal and a one-line interpretation.
+9. **Build site data** (`build_site_data.py`) — Merges CSV stats, AI exposure scores, and all enrichment data into a compact `site/data.json` for the frontend.
+10. **Website** (`site/index.html`) — Interactive visualization with treemap, scatter plot, and table views.
+
+## Data enrichment
+
+Four external datasets are joined to `occupations.csv` on SOC code after the scoring step. Ingest scripts live in `ingest/` and cache raw data in `ingest/data/`.
+
+### Sources
+
+| Source | Vintage | Ingest script | What it adds |
+|--------|---------|--------------|-------------|
+| O\*NET 28.3 | Dec 2024 | `ingest/onet.py` | Cognitive / Social / Physical skill scores (0–10), hot tech skill count, total tech skills |
+| BLS OEWS | 2023 survey (May 2024 release) | `ingest/oews.py` | Top 3 states by employment + mean wage per occupation |
+| US Census ACS | 2022 5-year estimates | `ingest/census_acs.py` | % female, % male, median earnings per occupation |
+| OECD Skills for Jobs | 2022 | `ingest/oecd.py` | Skill shortage / surplus / balanced signal + one-line interpretation |
+
+### Coverage
+
+| Source | Occupations matched |
+|--------|-------------------|
+| O\*NET | 238 / 342 (70%) |
+| BLS OEWS | 285 / 342 (83%) |
+| Census ACS | 311 / 342 (91%) |
+| OECD | 342 / 342 (100%) |
 
 ## Key files
 
@@ -25,11 +51,16 @@ The BLS OOH covers **342 occupations** spanning every sector of the US economy, 
 |------|-------------|
 | `occupations.json` | Master list of 342 occupations with title, URL, category, slug |
 | `occupations.csv` | Summary stats: pay, education, job count, growth projections |
-| `scores.json` | AI exposure scores (0-10) with rationales for all 342 occupations |
+| `scores.json` | AI exposure scores (0–10) with rationales for all 342 occupations |
 | `prompt.md` | All data in a single file, designed to be pasted into an LLM for analysis |
 | `html/` | Raw HTML pages from BLS (source of truth, ~40MB) |
 | `pages/` | Clean Markdown versions of each occupation page |
-| `site/` | Static website (treemap visualization) |
+| `site/` | Static website (treemap, scatter, and table visualizations) |
+| `ingest/onet.py` | Enriches occupations with O\*NET skill scores |
+| `ingest/oews.py` | Enriches occupations with BLS OEWS state employment data |
+| `ingest/census_acs.py` | Enriches occupations with Census ACS workforce demographics |
+| `ingest/oecd.py` | Enriches occupations with OECD skill shortage/surplus signals |
+| `ingest/data/` | Cached enrichment data files |
 
 ## AI exposure scoring
 
@@ -41,22 +72,32 @@ A key signal is whether the job's work product is fundamentally digital — if t
 
 | Score | Meaning | Examples |
 |-------|---------|---------|
-| 0-1 | Minimal | Roofers, janitors, construction laborers |
-| 2-3 | Low | Electricians, plumbers, nurses aides, firefighters |
-| 4-5 | Moderate | Registered nurses, retail workers, physicians |
-| 6-7 | High | Teachers, managers, accountants, engineers |
-| 8-9 | Very high | Software developers, paralegals, data analysts, editors |
+| 0–1 | Minimal | Roofers, janitors, construction laborers |
+| 2–3 | Low | Electricians, plumbers, nurses aides, firefighters |
+| 4–5 | Moderate | Registered nurses, retail workers, physicians |
+| 6–7 | High | Teachers, managers, accountants, engineers |
+| 8–9 | Very high | Software developers, paralegals, data analysts, editors |
 | 10 | Maximum | Medical transcriptionists |
 
 Average exposure across all 342 occupations: **5.3/10**.
 
 ## Visualization
 
-The main visualization is an interactive **treemap** where:
-- **Area** of each rectangle is proportional to employment (number of jobs)
-- **Color** indicates AI exposure on a green (safe) to red (exposed) scale
-- **Layout** groups occupations by BLS category
-- **Hover** shows detailed tooltip with pay, jobs, outlook, education, exposure score, and LLM rationale
+The site offers multiple views of the same 342 occupations:
+
+- **Treemap** — area proportional to employment, color indicates AI exposure (green to red), grouped by BLS category; click to zoom into a category, drag to pan
+- **Scatter plot** — pay vs. AI exposure with category color coding
+- **Table** — sortable list of all 342 occupations with inline search
+- **Global fuzzy search** — find any occupation instantly across all views
+
+Clicking any occupation opens a **detail panel** with enriched data displayed in organized cards:
+
+- **O\*NET Skill Profile** — color-coded bars for Cognitive (blue), Social (green), and Physical (orange) skills scored 0–10, plus hot tech skill count
+- **Workforce Demographics** — gender split bar (% female / % male) with median earnings from Census ACS
+- **Top States by Employment** — top 3 states with employment count and mean wage from BLS OEWS
+- **Skill Market Signal** — shortage / surplus / balanced badge with plain-English interpretation from OECD 2022
+
+Additional toggle: **AI Robot perspective** re-scores all occupations by weighting physical robot capabilities, letting you compare standard AI exposure against robotic automation risk.
 
 ## LLM prompt
 
@@ -117,6 +158,12 @@ uv run python make_csv.py
 
 # Score AI exposure (uses OpenRouter API)
 uv run python score.py
+
+# Enrich with O*NET, OEWS, Census ACS, OECD (run after make_csv.py)
+uv run python ingest/onet.py
+uv run python ingest/oews.py
+uv run python ingest/census_acs.py
+uv run python ingest/oecd.py
 
 # Build website data
 uv run python build_site_data.py

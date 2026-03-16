@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": null,
+  "outputDirectory": "site",
+  "buildCommand": "echo 'static site, no build needed'",
+  "builds": [
+    { "src": "site/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/data.json", "dest": "/site/data.json" },
+    { "src": "/(.*)", "dest": "/site/index.html" }
+  ]
+}

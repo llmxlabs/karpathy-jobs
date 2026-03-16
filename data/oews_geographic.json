@@ -1,0 +1,6614 @@
+[
+  {
+    "soc_code": "13-2011",
+    "national_employment": 1448290,
+    "mean_annual_wage": 93520,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 173370,
+        "mean_wage": 104710
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 111860,
+        "mean_wage": 115490
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 109530,
+        "mean_wage": 89860
+      }
+    ],
+    "location_quotient_max": 6.46
+  },
+  {
+    "soc_code": "27-2011",
+    "national_employment": 38800,
+    "mean_annual_wage": null,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6640,
+        "mean_wage": null
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 6460,
+        "mean_wage": null
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 6420,
+        "mean_wage": null
+      }
+    ],
+    "location_quotient_max": 5.48
+  },
+  {
+    "soc_code": "15-2011",
+    "national_employment": 28340,
+    "mean_annual_wage": 134990,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3090,
+        "mean_wage": 152470
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 2120,
+        "mean_wage": 126280
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 1980,
+        "mean_wage": 131200
+      }
+    ],
+    "location_quotient_max": 4.36
+  },
+  {
+    "soc_code": "11-3010",
+    "national_employment": 395230,
+    "mean_annual_wage": 121920,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "25-3011",
+    "national_employment": 36260,
+    "mean_annual_wage": 64660,
+    "top_states": [
+      {
+        "state": "North Carolina",
+        "fips": "37",
+        "employment": 3600,
+        "mean_wage": 53500
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 3190,
+        "mean_wage": 57070
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 2770,
+        "mean_wage": 84380
+      }
+    ],
+    "location_quotient_max": 4.86
+  },
+  {
+    "soc_code": "41-3011",
+    "national_employment": 97470,
+    "mean_annual_wage": 76350,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 16190,
+        "mean_wage": 111800
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8910,
+        "mean_wage": 75260
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 5690,
+        "mean_wage": 69280
+      }
+    ],
+    "location_quotient_max": 8.47
+  },
+  {
+    "soc_code": "17-3021",
+    "national_employment": 9060,
+    "mean_annual_wage": 86330,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1590,
+        "mean_wage": 84620
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 1020,
+        "mean_wage": 78620
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 900,
+        "mean_wage": 95090
+      }
+    ],
+    "location_quotient_max": 4.39
+  },
+  {
+    "soc_code": "17-2011",
+    "national_employment": 68440,
+    "mean_annual_wage": 141180,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 9330,
+        "mean_wage": 157060
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7660,
+        "mean_wage": 130320
+      },
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 5700,
+        "mean_wage": 159790
+      }
+    ],
+    "location_quotient_max": 5.45
+  },
+  {
+    "soc_code": "19-4010",
+    "national_employment": 28550,
+    "mean_annual_wage": 52030,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "19-1010",
+    "national_employment": 33440,
+    "mean_annual_wage": 88590,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "17-2021",
+    "national_employment": 1680,
+    "mean_annual_wage": 84240,
+    "top_states": [
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 200,
+        "mean_wage": 90340
+      },
+      {
+        "state": "Oklahoma",
+        "fips": "40",
+        "employment": 120,
+        "mean_wage": 92010
+      },
+      {
+        "state": "Indiana",
+        "fips": "18",
+        "employment": 100,
+        "mean_wage": 90470
+      }
+    ],
+    "location_quotient_max": 1.19
+  },
+  {
+    "soc_code": "53-2021",
+    "national_employment": 22400,
+    "mean_annual_wage": 142740,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2260,
+        "mean_wage": 152970
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2020,
+        "mean_wage": 155660
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1980,
+        "mean_wage": 139910
+      }
+    ],
+    "location_quotient_max": 4.74
+  },
+  {
+    "soc_code": "53-2010",
+    "national_employment": 151130,
+    "mean_annual_wage": 233380,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "39-2000",
+    "national_employment": 297420,
+    "mean_annual_wage": 35490,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "19-3091",
+    "national_employment": 8070,
+    "mean_annual_wage": 71070,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1060,
+        "mean_wage": 79420
+      },
+      {
+        "state": "Arizona",
+        "fips": "04",
+        "employment": 620,
+        "mean_wage": 68360
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 390,
+        "mean_wage": 65630
+      }
+    ],
+    "location_quotient_max": 4.86
+  },
+  {
+    "soc_code": "23-1022",
+    "national_employment": 7860,
+    "mean_annual_wage": 91170,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 660,
+        "mean_wage": 55730
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 560,
+        "mean_wage": 94670
+      },
+      {
+        "state": "Wisconsin",
+        "fips": "55",
+        "employment": 240,
+        "mean_wage": 74900
+      }
+    ],
+    "location_quotient_max": 1.76
+  },
+  {
+    "soc_code": "17-1011",
+    "national_employment": 111140,
+    "mean_annual_wage": 103390,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13880,
+        "mean_wage": 123130
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 10930,
+        "mean_wage": 113100
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8030,
+        "mean_wage": 97630
+      }
+    ],
+    "location_quotient_max": 6.62
+  },
+  {
+    "soc_code": "11-9041",
+    "national_employment": 210340,
+    "mean_annual_wage": 175710,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 30690,
+        "mean_wage": 205610
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 17980,
+        "mean_wage": 184430
+      },
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 14030,
+        "mean_wage": 160860
+      }
+    ],
+    "location_quotient_max": 7.44
+  },
+  {
+    "soc_code": "25-4010",
+    "national_employment": 32400,
+    "mean_annual_wage": 62900,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "27-1011",
+    "national_employment": 50370,
+    "mean_annual_wage": 128100,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 12540,
+        "mean_wage": 150260
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 8300,
+        "mean_wage": 156580
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 2750,
+        "mean_wage": 110670
+      }
+    ],
+    "location_quotient_max": 11.7
+  },
+  {
+    "soc_code": "27-2021",
+    "national_employment": 14370,
+    "mean_annual_wage": 259750,
+    "top_states": [
+      {
+        "state": "Georgia",
+        "fips": "13",
+        "employment": 2390,
+        "mean_wage": 229340
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1380,
+        "mean_wage": 321640
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 990,
+        "mean_wage": 63560
+      }
+    ],
+    "location_quotient_max": 3.83
+  },
+  {
+    "soc_code": "29-9091",
+    "national_employment": 28950,
+    "mean_annual_wage": 63960,
+    "top_states": [
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 2310,
+        "mean_wage": 60250
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2030,
+        "mean_wage": 67960
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1760,
+        "mean_wage": 77170
+      }
+    ],
+    "location_quotient_max": 3.91
+  },
+  {
+    "soc_code": "19-2021",
+    "national_employment": 8780,
+    "mean_annual_wage": 103980,
+    "top_states": [
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 950,
+        "mean_wage": 111120
+      },
+      {
+        "state": "Maryland",
+        "fips": "24",
+        "employment": 710,
+        "mean_wage": 118890
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 580,
+        "mean_wage": 121620
+      }
+    ],
+    "location_quotient_max": 5.19
+  },
+  {
+    "soc_code": "29-1181",
+    "national_employment": 14730,
+    "mean_annual_wage": 95320,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1370,
+        "mean_wage": 119900
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 1310,
+        "mean_wage": 80550
+      },
+      {
+        "state": "Georgia",
+        "fips": "13",
+        "employment": 960,
+        "mean_wage": 98950
+      }
+    ],
+    "location_quotient_max": 3.91
+  },
+  {
+    "soc_code": "49-3023",
+    "national_employment": 688840,
+    "mean_annual_wage": 55260,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 67060,
+        "mean_wage": 53760
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 62110,
+        "mean_wage": 64770
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 46090,
+        "mean_wage": 53090
+      }
+    ],
+    "location_quotient_max": 5.26
+  },
+  {
+    "soc_code": "51-3011",
+    "national_employment": 231890,
+    "mean_annual_wage": 37670,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 32140,
+        "mean_wage": 42560
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 16040,
+        "mean_wage": 32760
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 15810,
+        "mean_wage": 43330
+      }
+    ],
+    "location_quotient_max": 7.35
+  },
+  {
+    "soc_code": "39-5010",
+    "national_employment": 313560,
+    "mean_annual_wage": 43710,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "35-3011",
+    "national_employment": 745610,
+    "mean_annual_wage": 39880,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 69790,
+        "mean_wage": 45750
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 57990,
+        "mean_wage": 35120
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 54800,
+        "mean_wage": 41220
+      }
+    ],
+    "location_quotient_max": 5.05
+  },
+  {
+    "soc_code": "43-3011",
+    "national_employment": 165020,
+    "mean_annual_wage": 48370,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 20800,
+        "mean_wage": 45450
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 15100,
+        "mean_wage": 58630
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 13350,
+        "mean_wage": 46750
+      }
+    ],
+    "location_quotient_max": 6.81
+  },
+  {
+    "soc_code": "19-1021",
+    "national_employment": 34520,
+    "mean_annual_wage": 115570,
+    "top_states": [
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 13530,
+        "mean_wage": 123450
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 4190,
+        "mean_wage": 130030
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 2530,
+        "mean_wage": 114280
+      }
+    ],
+    "location_quotient_max": 14.11
+  },
+  {
+    "soc_code": "17-2031",
+    "national_employment": 21860,
+    "mean_annual_wage": 115020,
+    "top_states": [
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 3920,
+        "mean_wage": 118580
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2900,
+        "mean_wage": 127610
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1750,
+        "mean_wage": 100820
+      }
+    ],
+    "location_quotient_max": 6.28
+  },
+  {
+    "soc_code": "19-4021",
+    "national_employment": 76190,
+    "mean_annual_wage": 58020,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 10680,
+        "mean_wage": 70930
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 8610,
+        "mean_wage": 67580
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5040,
+        "mean_wage": 58380
+      }
+    ],
+    "location_quotient_max": 7.15
+  },
+  {
+    "soc_code": "47-2011",
+    "national_employment": 10170,
+    "mean_annual_wage": 76900,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2440,
+        "mean_wage": 69880
+      },
+      {
+        "state": "Louisiana",
+        "fips": "22",
+        "employment": 1620,
+        "mean_wage": 78400
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 690,
+        "mean_wage": 108420
+      }
+    ],
+    "location_quotient_max": 7.2
+  },
+  {
+    "soc_code": "43-3031",
+    "national_employment": 1455770,
+    "mean_annual_wage": 52020,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 154980,
+        "mean_wage": 59680
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 130770,
+        "mean_wage": 50180
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 107210,
+        "mean_wage": 50800
+      }
+    ],
+    "location_quotient_max": 5.75
+  },
+  {
+    "soc_code": "27-4010",
+    "national_employment": 114340,
+    "mean_annual_wage": 64710,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "13-2031",
+    "national_employment": 47170,
+    "mean_annual_wage": 93920,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3840,
+        "mean_wage": 83880
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3700,
+        "mean_wage": 108150
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 3450,
+        "mean_wage": 89270
+      }
+    ],
+    "location_quotient_max": 4.31
+  },
+  {
+    "soc_code": "51-3021",
+    "national_employment": 140040,
+    "mean_annual_wage": 41300,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 21220,
+        "mean_wage": 45860
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 11330,
+        "mean_wage": 40090
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 10490,
+        "mean_wage": 38560
+      }
+    ],
+    "location_quotient_max": 8.18
+  },
+  {
+    "soc_code": "17-3028",
+    "national_employment": 15320,
+    "mean_annual_wage": 71080,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3680,
+        "mean_wage": 69840
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1320,
+        "mean_wage": 74740
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 850,
+        "mean_wage": 66920
+      }
+    ],
+    "location_quotient_max": 9.61
+  },
+  {
+    "soc_code": "29-2031",
+    "national_employment": 61180,
+    "mean_annual_wage": 72890,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5130,
+        "mean_wage": 59000
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 3340,
+        "mean_wage": 70820
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3200,
+        "mean_wage": 84180
+      }
+    ],
+    "location_quotient_max": 2.77
+  },
+  {
+    "soc_code": "47-2031",
+    "national_employment": 697740,
+    "mean_annual_wage": 64040,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 106500,
+        "mean_wage": 77680
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 44500,
+        "mean_wage": 73190
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 44130,
+        "mean_wage": 50200
+      }
+    ],
+    "location_quotient_max": 8.24
+  },
+  {
+    "soc_code": "17-1021",
+    "national_employment": 12790,
+    "mean_annual_wage": 82860,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1550,
+        "mean_wage": 79860
+      },
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 1380,
+        "mean_wage": 85620
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1070,
+        "mean_wage": 107520
+      }
+    ],
+    "location_quotient_max": 4.85
+  },
+  {
+    "soc_code": "41-2011",
+    "national_employment": 3148030,
+    "mean_annual_wage": 31810,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 349300,
+        "mean_wage": 38750
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 266210,
+        "mean_wage": 28750
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 197310,
+        "mean_wage": 30690
+      }
+    ],
+    "location_quotient_max": 5.99
+  },
+  {
+    "soc_code": "35-1011",
+    "national_employment": 182320,
+    "mean_annual_wage": 64720,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 26500,
+        "mean_wage": 71350
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 17170,
+        "mean_wage": 62540
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 16550,
+        "mean_wage": 55130
+      }
+    ],
+    "location_quotient_max": 7.85
+  },
+  {
+    "soc_code": "17-2041",
+    "national_employment": 20330,
+    "mean_annual_wage": 128430,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2780,
+        "mean_wage": 148690
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1260,
+        "mean_wage": null
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 1140,
+        "mean_wage": 125220
+      }
+    ],
+    "location_quotient_max": 5.74
+  },
+  {
+    "soc_code": "19-4031",
+    "national_employment": 55640,
+    "mean_annual_wage": 61300,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6510,
+        "mean_wage": 70730
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6480,
+        "mean_wage": 61820
+      },
+      {
+        "state": "New Jersey",
+        "fips": "34",
+        "employment": 3210,
+        "mean_wage": 59410
+      }
+    ],
+    "location_quotient_max": 5.97
+  },
+  {
+    "soc_code": "19-2030",
+    "national_employment": 91580,
+    "mean_annual_wage": 97350,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "39-9011",
+    "national_employment": 520180,
+    "mean_annual_wage": 33140,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 47190,
+        "mean_wage": 41260
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 45020,
+        "mean_wage": 29170
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 42780,
+        "mean_wage": 38210
+      }
+    ],
+    "location_quotient_max": 4.9
+  },
+  {
+    "soc_code": "29-1011",
+    "national_employment": 37630,
+    "mean_annual_wage": 91830,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 3360,
+        "mean_wage": 86450
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2860,
+        "mean_wage": 101250
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2540,
+        "mean_wage": 125040
+      }
+    ],
+    "location_quotient_max": 4.55
+  },
+  {
+    "soc_code": "17-3022",
+    "national_employment": 62130,
+    "mean_annual_wage": 68450,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6650,
+        "mean_wage": 84480
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5790,
+        "mean_wage": 70800
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 3490,
+        "mean_wage": 75280
+      }
+    ],
+    "location_quotient_max": 5.57
+  },
+  {
+    "soc_code": "17-2051",
+    "national_employment": 355410,
+    "mean_annual_wage": 107050,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 54640,
+        "mean_wage": 122050
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 33790,
+        "mean_wage": 103010
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 22780,
+        "mean_wage": 105830
+      }
+    ],
+    "location_quotient_max": 8.15
+  },
+  {
+    "soc_code": "13-1030",
+    "national_employment": 312810,
+    "mean_annual_wage": 78720,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "29-2010",
+    "national_employment": 343040,
+    "mean_annual_wage": 65320,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 29910,
+        "mean_wage": 59030
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 29460,
+        "mean_wage": 76690
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 26340,
+        "mean_wage": 60920
+      }
+    ],
+    "location_quotient_max": 4.62
+  },
+  {
+    "soc_code": "27-2022",
+    "national_employment": 250940,
+    "mean_annual_wage": 58910,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 31850,
+        "mean_wage": 62850
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 17660,
+        "mean_wage": 50340
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 15780,
+        "mean_wage": 52570
+      }
+    ],
+    "location_quotient_max": 6.6
+  },
+  {
+    "soc_code": "21-1094",
+    "national_employment": 60730,
+    "mean_annual_wage": 55970,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 9200,
+        "mean_wage": 62650
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 6740,
+        "mean_wage": 61260
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 4360,
+        "mean_wage": 48500
+      }
+    ],
+    "location_quotient_max": 7.73
+  },
+  {
+    "soc_code": "11-3111",
+    "national_employment": 20070,
+    "mean_annual_wage": 156230,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2840,
+        "mean_wage": 176290
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1950,
+        "mean_wage": 147660
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1760,
+        "mean_wage": 191790
+      }
+    ],
+    "location_quotient_max": 6.37
+  },
+  {
+    "soc_code": "13-1141",
+    "national_employment": 102370,
+    "mean_annual_wage": 82920,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13640,
+        "mean_wage": 98410
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 9280,
+        "mean_wage": 91540
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7810,
+        "mean_wage": 78180
+      }
+    ],
+    "location_quotient_max": 6.8
+  },
+  {
+    "soc_code": "13-1041",
+    "national_employment": 397770,
+    "mean_annual_wage": 84980,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 47420,
+        "mean_wage": 98970
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 39870,
+        "mean_wage": 78540
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 31610,
+        "mean_wage": 79600
+      }
+    ],
+    "location_quotient_max": 6.32
+  },
+  {
+    "soc_code": "15-1221",
+    "national_employment": 38480,
+    "mean_annual_wage": 152310,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8570,
+        "mean_wage": 163890
+      },
+      {
+        "state": "Virginia",
+        "fips": "51",
+        "employment": 3150,
+        "mean_wage": 159480
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2800,
+        "mean_wage": 115880
+      }
+    ],
+    "location_quotient_max": 7.79
+  },
+  {
+    "soc_code": "11-3021",
+    "national_employment": 645970,
+    "mean_annual_wage": 187990,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 100020,
+        "mean_wage": 232710
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 74890,
+        "mean_wage": 174850
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 40780,
+        "mean_wage": 222160
+      }
+    ],
+    "location_quotient_max": 8.05
+  },
+  {
+    "soc_code": "17-2061",
+    "national_employment": 75710,
+    "mean_annual_wage": 156770,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 24200,
+        "mean_wage": 183350
+      },
+      {
+        "state": "Arizona",
+        "fips": "04",
+        "employment": 3390,
+        "mean_wage": 155730
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3380,
+        "mean_wage": 131250
+      }
+    ],
+    "location_quotient_max": 13.74
+  },
+  {
+    "soc_code": "15-1241",
+    "national_employment": 177010,
+    "mean_annual_wage": 135890,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 19800,
+        "mean_wage": 150010
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 16160,
+        "mean_wage": 130090
+      },
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 12720,
+        "mean_wage": 140720
+      }
+    ],
+    "location_quotient_max": 5.7
+  },
+  {
+    "soc_code": "15-1251",
+    "national_employment": 109870,
+    "mean_annual_wage": 103640,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14720,
+        "mean_wage": 120060
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 11220,
+        "mean_wage": 91560
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 7090,
+        "mean_wage": 108910
+      }
+    ],
+    "location_quotient_max": 6.83
+  },
+  {
+    "soc_code": "15-1230",
+    "national_employment": 843660,
+    "mean_annual_wage": 67530,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "15-1211",
+    "national_employment": 497800,
+    "mean_annual_wage": 111960,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 55460,
+        "mean_wage": 132940
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 48150,
+        "mean_wage": 114350
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 35660,
+        "mean_wage": 106640
+      }
+    ],
+    "location_quotient_max": 5.9
+  },
+  {
+    "soc_code": "39-6012",
+    "national_employment": 44200,
+    "mean_annual_wage": 40770,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 5350,
+        "mean_wage": 35680
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 5250,
+        "mean_wage": 46430
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5040,
+        "mean_wage": 52410
+      }
+    ],
+    "location_quotient_max": 5.81
+  },
+  {
+    "soc_code": "19-1030",
+    "national_employment": 35250,
+    "mean_annual_wage": 74410,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "47-4011",
+    "national_employment": 137210,
+    "mean_annual_wage": 76430,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 15920,
+        "mean_wage": 67720
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14010,
+        "mean_wage": 103500
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 11270,
+        "mean_wage": 70290
+      }
+    ],
+    "location_quotient_max": 6.15
+  },
+  {
+    "soc_code": "47-2070",
+    "national_employment": 518000,
+    "mean_annual_wage": 64680,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "11-9021",
+    "national_employment": 348330,
+    "mean_annual_wage": 119660,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 51960,
+        "mean_wage": 109570
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 35790,
+        "mean_wage": 137430
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 28090,
+        "mean_wage": 115550
+      }
+    ],
+    "location_quotient_max": 7.91
+  },
+  {
+    "soc_code": "35-2010",
+    "national_employment": 2743520,
+    "mean_annual_wage": 35950,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "33-3010",
+    "national_employment": 382300,
+    "mean_annual_wage": 62730,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "13-1051",
+    "national_employment": 219530,
+    "mean_annual_wage": 83160,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 25580,
+        "mean_wage": 94880
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 21810,
+        "mean_wage": 79210
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 14640,
+        "mean_wage": 76900
+      }
+    ],
+    "location_quotient_max": 6.06
+  },
+  {
+    "soc_code": "27-3092",
+    "national_employment": 12630,
+    "mean_annual_wage": 74630,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1590,
+        "mean_wage": 95840
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1240,
+        "mean_wage": 105590
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1070,
+        "mean_wage": 60680
+      }
+    ],
+    "location_quotient_max": 4.53
+  },
+  {
+    "soc_code": "13-2071",
+    "national_employment": 28110,
+    "mean_annual_wage": 55890,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3530,
+        "mean_wage": 48370
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2760,
+        "mean_wage": 50330
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2160,
+        "mean_wage": 68820
+      }
+    ],
+    "location_quotient_max": 5.53
+  },
+  {
+    "soc_code": "43-4051",
+    "national_employment": 2725930,
+    "mean_annual_wage": 45380,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 330540,
+        "mean_wage": 42050
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 238300,
+        "mean_wage": 42200
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 183350,
+        "mean_wage": 53090
+      }
+    ],
+    "location_quotient_max": 6.55
+  },
+  {
+    "soc_code": "27-2030",
+    "national_employment": 12490,
+    "mean_annual_wage": 62740,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "15-2051",
+    "national_employment": 233440,
+    "mean_annual_wage": 124590,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 36850,
+        "mean_wage": 155450
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 23420,
+        "mean_wage": 114800
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 20070,
+        "mean_wage": 133450
+      }
+    ],
+    "location_quotient_max": 8.05
+  },
+  {
+    "soc_code": "51-9080",
+    "national_employment": 64150,
+    "mean_annual_wage": 49990,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "31-9091",
+    "national_employment": 375430,
+    "mean_annual_wage": 48860,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 54580,
+        "mean_wage": 53570
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 31360,
+        "mean_wage": 42520
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 23020,
+        "mean_wage": 46670
+      }
+    ],
+    "location_quotient_max": 7.85
+  },
+  {
+    "soc_code": "29-1292",
+    "national_employment": 219070,
+    "mean_annual_wage": 93890,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 22940,
+        "mean_wage": 127090
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 16010,
+        "mean_wage": 89640
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 13860,
+        "mean_wage": 83270
+      }
+    ],
+    "location_quotient_max": 5.45
+  },
+  {
+    "soc_code": "29-1020",
+    "national_employment": 130620,
+    "mean_annual_wage": 207750,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "43-9031",
+    "national_employment": 4000,
+    "mean_annual_wage": 60250,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 490,
+        "mean_wage": 72780
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 460,
+        "mean_wage": 72840
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 410,
+        "mean_wage": 52100
+      }
+    ],
+    "location_quotient_max": 3.43
+  },
+  {
+    "soc_code": "29-2032",
+    "national_employment": 86460,
+    "mean_annual_wage": 92550,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 9240,
+        "mean_wage": 118950
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 7080,
+        "mean_wage": 100210
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 6560,
+        "mean_wage": 82590
+      }
+    ],
+    "location_quotient_max": 5.56
+  },
+  {
+    "soc_code": "49-3031",
+    "national_employment": 287230,
+    "mean_annual_wage": 62480,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 29730,
+        "mean_wage": 58640
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 21730,
+        "mean_wage": 70350
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 14320,
+        "mean_wage": 68800
+      }
+    ],
+    "location_quotient_max": 5.38
+  },
+  {
+    "soc_code": "29-1031",
+    "national_employment": 76570,
+    "mean_annual_wage": 74770,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 9630,
+        "mean_wage": 94390
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6900,
+        "mean_wage": 67100
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5500,
+        "mean_wage": 80500
+      }
+    ],
+    "location_quotient_max": 6.41
+  },
+  {
+    "soc_code": "17-3010",
+    "national_employment": 185470,
+    "mean_annual_wage": 70760,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "47-2080",
+    "national_employment": 95400,
+    "mean_annual_wage": 63800,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "19-3011",
+    "national_employment": 15880,
+    "mean_annual_wage": 130910,
+    "top_states": [
+      {
+        "state": "District of Columbia",
+        "fips": "11",
+        "employment": 3010,
+        "mean_wage": 163820
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1400,
+        "mean_wage": 125570
+      },
+      {
+        "state": "Virginia",
+        "fips": "51",
+        "employment": 970,
+        "mean_wage": 149770
+      }
+    ],
+    "location_quotient_max": 7.2
+  },
+  {
+    "soc_code": "27-3041",
+    "national_employment": 95480,
+    "mean_annual_wage": 85700,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 17410,
+        "mean_wage": 114590
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14920,
+        "mean_wage": 103880
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8190,
+        "mean_wage": 47600
+      }
+    ],
+    "location_quotient_max": 9.48
+  },
+  {
+    "soc_code": "17-3023",
+    "national_employment": 92710,
+    "mean_annual_wage": 78580,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 12460,
+        "mean_wage": 90560
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8160,
+        "mean_wage": 70910
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 5240,
+        "mean_wage": 70230
+      }
+    ],
+    "location_quotient_max": 6.99
+  },
+  {
+    "soc_code": "17-2070",
+    "national_employment": 282740,
+    "mean_annual_wage": 124810,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "49-9051",
+    "national_employment": 123680,
+    "mean_annual_wage": 90110,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 14130,
+        "mean_wage": 76920
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 11070,
+        "mean_wage": 115910
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 7390,
+        "mean_wage": 84850
+      }
+    ],
+    "location_quotient_max": 6.06
+  },
+  {
+    "soc_code": "47-2111",
+    "national_employment": 742580,
+    "mean_annual_wage": 69630,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 73420,
+        "mean_wage": 85780
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 71880,
+        "mean_wage": 57250
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 47980,
+        "mean_wage": 55490
+      }
+    ],
+    "location_quotient_max": 5.34
+  },
+  {
+    "soc_code": "17-3024",
+    "national_employment": 14680,
+    "mean_annual_wage": 75710,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1620,
+        "mean_wage": 89300
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1200,
+        "mean_wage": 74660
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 1080,
+        "mean_wage": 70530
+      }
+    ],
+    "location_quotient_max": 4.41
+  },
+  {
+    "soc_code": "11-9032",
+    "national_employment": 319630,
+    "mean_annual_wage": 113360,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 35900,
+        "mean_wage": 93580
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 33400,
+        "mean_wage": 147610
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 19300,
+        "mean_wage": 142390
+      }
+    ],
+    "location_quotient_max": 5.95
+  },
+  {
+    "soc_code": "47-4021",
+    "national_employment": 23340,
+    "mean_annual_wage": 104860,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3710,
+        "mean_wage": 117990
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2830,
+        "mean_wage": 124540
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2100,
+        "mean_wage": 92580
+      }
+    ],
+    "location_quotient_max": 5.25
+  },
+  {
+    "soc_code": "11-9161",
+    "national_employment": 12570,
+    "mean_annual_wage": 97700,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1080,
+        "mean_wage": 135100
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1070,
+        "mean_wage": 99100
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 750,
+        "mean_wage": 112860
+      }
+    ],
+    "location_quotient_max": 4.12
+  },
+  {
+    "soc_code": "29-2040",
+    "national_employment": 277520,
+    "mean_annual_wage": 50460,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "11-9072",
+    "national_employment": 36700,
+    "mean_annual_wage": 87060,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8510,
+        "mean_wage": 98360
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 3320,
+        "mean_wage": 73570
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2670,
+        "mean_wage": 83590
+      }
+    ],
+    "location_quotient_max": 10.9
+  },
+  {
+    "soc_code": "17-3025",
+    "national_employment": 12500,
+    "mean_annual_wage": 63070,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1160,
+        "mean_wage": 76070
+      },
+      {
+        "state": "Georgia",
+        "fips": "13",
+        "employment": 880,
+        "mean_wage": 65820
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 830,
+        "mean_wage": 58720
+      }
+    ],
+    "location_quotient_max": 3.53
+  },
+  {
+    "soc_code": "17-2081",
+    "national_employment": 37950,
+    "mean_annual_wage": 110570,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 4770,
+        "mean_wage": 127730
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 2560,
+        "mean_wage": 105520
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1710,
+        "mean_wage": 118660
+      }
+    ],
+    "location_quotient_max": 6.54
+  },
+  {
+    "soc_code": "19-4042",
+    "national_employment": 39390,
+    "mean_annual_wage": 56770,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3490,
+        "mean_wage": 55880
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 2470,
+        "mean_wage": 64240
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 1740,
+        "mean_wage": 46970
+      }
+    ],
+    "location_quotient_max": 4.25
+  },
+  {
+    "soc_code": "19-2041",
+    "national_employment": 84930,
+    "mean_annual_wage": 88640,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13200,
+        "mean_wage": 107420
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 5840,
+        "mean_wage": 68010
+      },
+      {
+        "state": "North Carolina",
+        "fips": "37",
+        "employment": 4330,
+        "mean_wage": 74660
+      }
+    ],
+    "location_quotient_max": 8.39
+  },
+  {
+    "soc_code": "19-1041",
+    "national_employment": 11460,
+    "mean_annual_wage": 94160,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1590,
+        "mean_wage": 112580
+      },
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 960,
+        "mean_wage": 105180
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 940,
+        "mean_wage": 96120
+      }
+    ],
+    "location_quotient_max": 5.83
+  },
+  {
+    "soc_code": "29-1128",
+    "national_employment": 8110,
+    "mean_annual_wage": 59620,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 900,
+        "mean_wage": 55830
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 750,
+        "mean_wage": 59900
+      },
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 530,
+        "mean_wage": 55690
+      }
+    ],
+    "location_quotient_max": 4.44
+  },
+  {
+    "soc_code": "11-9013",
+    "national_employment": 5910,
+    "mean_annual_wage": 97240,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1340,
+        "mean_wage": 121310
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 560,
+        "mean_wage": 78460
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 400,
+        "mean_wage": 103740
+      }
+    ],
+    "location_quotient_max": 4.99
+  },
+  {
+    "soc_code": "27-1022",
+    "national_employment": 20910,
+    "mean_annual_wage": 122430,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 6600,
+        "mean_wage": 106180
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 5610,
+        "mean_wage": null
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1800,
+        "mean_wage": null
+      }
+    ],
+    "location_quotient_max": 8.84
+  },
+  {
+    "soc_code": "27-4030",
+    "national_employment": 53330,
+    "mean_annual_wage": 81850,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "13-2061",
+    "national_employment": 62830,
+    "mean_annual_wage": 103650,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 10580,
+        "mean_wage": 138070
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6060,
+        "mean_wage": 87180
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4380,
+        "mean_wage": 82380
+      }
+    ],
+    "location_quotient_max": 8.59
+  },
+  {
+    "soc_code": "11-3031",
+    "national_employment": 818620,
+    "mean_annual_wage": 180470,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 96860,
+        "mean_wage": 210640
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 67580,
+        "mean_wage": 172530
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 67510,
+        "mean_wage": 244250
+      }
+    ],
+    "location_quotient_max": 6.39
+  },
+  {
+    "soc_code": "33-2020",
+    "national_employment": 16830,
+    "mean_annual_wage": 83210,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "33-2011",
+    "national_employment": 332240,
+    "mean_annual_wage": 63890,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 30400,
+        "mean_wage": 60880
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 27580,
+        "mean_wage": 98200
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 21470,
+        "mean_wage": 63610
+      }
+    ],
+    "location_quotient_max": 4.58
+  },
+  {
+    "soc_code": "39-9031",
+    "national_employment": 303620,
+    "mean_annual_wage": 51360,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 40010,
+        "mean_wage": 62310
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 19430,
+        "mean_wage": 61800
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 18730,
+        "mean_wage": 42180
+      }
+    ],
+    "location_quotient_max": 6.85
+  },
+  {
+    "soc_code": "53-2031",
+    "national_employment": 130110,
+    "mean_annual_wage": 78950,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 15760,
+        "mean_wage": 84060
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 13180,
+        "mean_wage": 54750
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 11880,
+        "mean_wage": 77460
+      }
+    ],
+    "location_quotient_max": 1.94
+  },
+  {
+    "soc_code": "47-2040",
+    "national_employment": 82710,
+    "mean_annual_wage": 57830,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "27-1023",
+    "national_employment": 40160,
+    "mean_annual_wage": 37700,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 4300,
+        "mean_wage": 47980
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2620,
+        "mean_wage": 33660
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2430,
+        "mean_wage": 36640
+      }
+    ],
+    "location_quotient_max": 5.57
+  },
+  {
+    "soc_code": "35-2021",
+    "national_employment": 888770,
+    "mean_annual_wage": 33940,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 106040,
+        "mean_wage": 30140
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 98950,
+        "mean_wage": 40510
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 67030,
+        "mean_wage": 34520
+      }
+    ],
+    "location_quotient_max": 6.44
+  },
+  {
+    "soc_code": "11-9051",
+    "national_employment": 244230,
+    "mean_annual_wage": 72370,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 38960,
+        "mean_wage": 77740
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 21960,
+        "mean_wage": 71240
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 20080,
+        "mean_wage": 68990
+      }
+    ],
+    "location_quotient_max": 8.45
+  },
+  {
+    "soc_code": "19-4092",
+    "national_employment": 19450,
+    "mean_annual_wage": 75260,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3100,
+        "mean_wage": 99390
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2440,
+        "mean_wage": 64620
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1990,
+        "mean_wage": 58040
+      }
+    ],
+    "location_quotient_max": 7.17
+  },
+  {
+    "soc_code": "45-4011",
+    "national_employment": 5630,
+    "mean_annual_wage": 42830,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1840,
+        "mean_wage": 43630
+      },
+      {
+        "state": "South Dakota",
+        "fips": "46",
+        "employment": 670,
+        "mean_wage": 39070
+      },
+      {
+        "state": "Wisconsin",
+        "fips": "55",
+        "employment": 280,
+        "mean_wage": 39630
+      }
+    ],
+    "location_quotient_max": 6.21
+  },
+  {
+    "soc_code": "13-1131",
+    "national_employment": 105930,
+    "mean_annual_wage": 73130,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 11380,
+        "mean_wage": 82350
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 10570,
+        "mean_wage": 86650
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 5940,
+        "mean_wage": 78270
+      }
+    ],
+    "location_quotient_max": 5.59
+  },
+  {
+    "soc_code": "49-9071",
+    "national_employment": 1531700,
+    "mean_annual_wage": 52430,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 139310,
+        "mean_wage": 46960
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 132250,
+        "mean_wage": 59270
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 124640,
+        "mean_wage": 58290
+      }
+    ],
+    "location_quotient_max": 4.91
+  },
+  {
+    "soc_code": "43-9061",
+    "national_employment": 2510550,
+    "mean_annual_wage": 45470,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 306000,
+        "mean_wage": 51160
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 200960,
+        "mean_wage": 40340
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 191350,
+        "mean_wage": 45360
+      }
+    ],
+    "location_quotient_max": 6.58
+  },
+  {
+    "soc_code": "29-9092",
+    "national_employment": 3510,
+    "mean_annual_wage": 102890,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 440,
+        "mean_wage": 140010
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 320,
+        "mean_wage": 101880
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 240,
+        "mean_wage": 101440
+      }
+    ],
+    "location_quotient_max": 3.26
+  },
+  {
+    "soc_code": "19-3092",
+    "national_employment": 1380,
+    "mean_annual_wage": 98160,
+    "top_states": [
+      {
+        "state": "Maryland",
+        "fips": "24",
+        "employment": 260,
+        "mean_wage": 104810
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 170,
+        "mean_wage": 80670
+      },
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 90,
+        "mean_wage": 102600
+      }
+    ],
+    "location_quotient_max": 1.51
+  },
+  {
+    "soc_code": "19-2042",
+    "national_employment": 22510,
+    "mean_annual_wage": 111310,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3620,
+        "mean_wage": 157370
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3150,
+        "mean_wage": 119100
+      },
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 1420,
+        "mean_wage": 121040
+      }
+    ],
+    "location_quotient_max": 7.56
+  },
+  {
+    "soc_code": "47-2121",
+    "national_employment": 57000,
+    "mean_annual_wage": 60260,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 7880,
+        "mean_wage": 75980
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6370,
+        "mean_wage": 46820
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 5770,
+        "mean_wage": 49130
+      }
+    ],
+    "location_quotient_max": 6.36
+  },
+  {
+    "soc_code": "27-1024",
+    "national_employment": 214260,
+    "mean_annual_wage": 68610,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 28310,
+        "mean_wage": 91760
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 19360,
+        "mean_wage": 60250
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 16730,
+        "mean_wage": 81020
+      }
+    ],
+    "location_quotient_max": 7.0
+  },
+  {
+    "soc_code": "47-4041",
+    "national_employment": 50570,
+    "mean_annual_wage": 55740,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 7950,
+        "mean_wage": 61240
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3660,
+        "mean_wage": 71350
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3260,
+        "mean_wage": 46140
+      }
+    ],
+    "location_quotient_max": 7.55
+  },
+  {
+    "soc_code": "17-2111",
+    "national_employment": 23220,
+    "mean_annual_wage": 113770,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3180,
+        "mean_wage": 125620
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3010,
+        "mean_wage": 123910
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1600,
+        "mean_wage": 121340
+      }
+    ],
+    "location_quotient_max": 6.44
+  },
+  {
+    "soc_code": "21-1091",
+    "national_employment": 65150,
+    "mean_annual_wage": 71700,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14650,
+        "mean_wage": 69950
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 4550,
+        "mean_wage": 64750
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3850,
+        "mean_wage": 64770
+      }
+    ],
+    "location_quotient_max": 11.69
+  },
+  {
+    "soc_code": "29-9021",
+    "national_employment": 37620,
+    "mean_annual_wage": 73410,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3270,
+        "mean_wage": 104800
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 2720,
+        "mean_wage": 69950
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2540,
+        "mean_wage": 78150
+      }
+    ],
+    "location_quotient_max": 4.35
+  },
+  {
+    "soc_code": "49-9021",
+    "national_employment": 396870,
+    "mean_annual_wage": 62690,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 38290,
+        "mean_wage": 55110
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 34020,
+        "mean_wage": 74470
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 32070,
+        "mean_wage": 58120
+      }
+    ],
+    "location_quotient_max": 5.21
+  },
+  {
+    "soc_code": "53-3032",
+    "national_employment": 2070480,
+    "mean_annual_wage": 58400,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 212700,
+        "mean_wage": 56470
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 211740,
+        "mean_wage": 60490
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 105730,
+        "mean_wage": 54360
+      }
+    ],
+    "location_quotient_max": 5.55
+  },
+  {
+    "soc_code": "49-3040",
+    "national_employment": 235450,
+    "mean_annual_wage": 65660,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "25-2031",
+    "national_employment": 1072540,
+    "mean_annual_wage": 73700,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 112300,
+        "mean_wage": 62980
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 96050,
+        "mean_wage": 102040
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 76730,
+        "mean_wage": 97730
+      }
+    ],
+    "location_quotient_max": 5.65
+  },
+  {
+    "soc_code": "19-3093",
+    "national_employment": 3140,
+    "mean_annual_wage": 78470,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 420,
+        "mean_wage": 60860
+      },
+      {
+        "state": "District of Columbia",
+        "fips": "11",
+        "employment": 260,
+        "mean_wage": 112220
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 180,
+        "mean_wage": 88730
+      }
+    ],
+    "location_quotient_max": 3.61
+  },
+  {
+    "soc_code": "31-1120",
+    "national_employment": 3988140,
+    "mean_annual_wage": 34990,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 875110,
+        "mean_wage": 36160
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 623000,
+        "mean_wage": 39660
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 314610,
+        "mean_wage": 25350
+      }
+    ],
+    "location_quotient_max": 11.63
+  },
+  {
+    "soc_code": "11-3121",
+    "national_employment": 215520,
+    "mean_annual_wage": 160480,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 27680,
+        "mean_wage": 198850
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 16720,
+        "mean_wage": 192040
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 13700,
+        "mean_wage": 151940
+      }
+    ],
+    "location_quotient_max": 6.55
+  },
+  {
+    "soc_code": "13-1071",
+    "national_employment": 917460,
+    "mean_annual_wage": 79730,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 104880,
+        "mean_wage": 94720
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 85580,
+        "mean_wage": 73890
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 62880,
+        "mean_wage": 73310
+      }
+    ],
+    "location_quotient_max": 6.06
+  },
+  {
+    "soc_code": "19-2043",
+    "national_employment": 5720,
+    "mean_annual_wage": 98130,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 670,
+        "mean_wage": 119540
+      },
+      {
+        "state": "Arizona",
+        "fips": "04",
+        "employment": 320,
+        "mean_wage": 82740
+      },
+      {
+        "state": "Minnesota",
+        "fips": "27",
+        "employment": 300,
+        "mean_wage": 91190
+      }
+    ],
+    "location_quotient_max": 3.98
+  },
+  {
+    "soc_code": "27-1021",
+    "national_employment": 30250,
+    "mean_annual_wage": 88000,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 4530,
+        "mean_wage": 103410
+      },
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 2580,
+        "mean_wage": 86890
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 2140,
+        "mean_wage": 95540
+      }
+    ],
+    "location_quotient_max": 6.59
+  },
+  {
+    "soc_code": "17-3026",
+    "national_employment": 73410,
+    "mean_annual_wage": 69780,
+    "top_states": [
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 6200,
+        "mean_wage": 65790
+      },
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 5800,
+        "mean_wage": 66190
+      },
+      {
+        "state": "Minnesota",
+        "fips": "27",
+        "employment": 5430,
+        "mean_wage": 70250
+      }
+    ],
+    "location_quotient_max": 4.05
+  },
+  {
+    "soc_code": "17-2112",
+    "national_employment": 350230,
+    "mean_annual_wage": 107900,
+    "top_states": [
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 31850,
+        "mean_wage": 102930
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 29620,
+        "mean_wage": 112250
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 25830,
+        "mean_wage": 127280
+      }
+    ],
+    "location_quotient_max": 4.73
+  },
+  {
+    "soc_code": "11-3051",
+    "national_employment": 234380,
+    "mean_annual_wage": 129180,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 25380,
+        "mean_wage": 141420
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 21780,
+        "mean_wage": 134910
+      },
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 14400,
+        "mean_wage": 120990
+      }
+    ],
+    "location_quotient_max": 5.52
+  },
+  {
+    "soc_code": "15-1212",
+    "national_employment": 179430,
+    "mean_annual_wage": 127730,
+    "top_states": [
+      {
+        "state": "Virginia",
+        "fips": "51",
+        "employment": 18670,
+        "mean_wage": 136680
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 15800,
+        "mean_wage": 152640
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 14730,
+        "mean_wage": 126800
+      }
+    ],
+    "location_quotient_max": 5.2
+  },
+  {
+    "soc_code": "25-9031",
+    "national_employment": 210850,
+    "mean_annual_wage": 77600,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 30270,
+        "mean_wage": 71960
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 18550,
+        "mean_wage": 101460
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 17210,
+        "mean_wage": 82270
+      }
+    ],
+    "location_quotient_max": 7.47
+  },
+  {
+    "soc_code": "47-2130",
+    "national_employment": 64250,
+    "mean_annual_wage": 57470,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "41-3021",
+    "national_employment": 469480,
+    "mean_annual_wage": 81510,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 44670,
+        "mean_wage": 66490
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 44080,
+        "mean_wage": 80300
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 41150,
+        "mean_wage": 91620
+      }
+    ],
+    "location_quotient_max": 5.14
+  },
+  {
+    "soc_code": "13-2053",
+    "national_employment": 107820,
+    "mean_annual_wage": 90830,
+    "top_states": [
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 8480,
+        "mean_wage": 97210
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8150,
+        "mean_wage": 85950
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 7530,
+        "mean_wage": 98190
+      }
+    ],
+    "location_quotient_max": 4.01
+  },
+  {
+    "soc_code": "27-1025",
+    "national_employment": 69580,
+    "mean_annual_wage": 71430,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8360,
+        "mean_wage": 85650
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 7090,
+        "mean_wage": 65230
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5590,
+        "mean_wage": 77170
+      }
+    ],
+    "location_quotient_max": 6.01
+  },
+  {
+    "soc_code": "27-3091",
+    "national_employment": 53360,
+    "mean_annual_wage": 64950,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6710,
+        "mean_wage": 76490
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5820,
+        "mean_wage": 53700
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4500,
+        "mean_wage": 54790
+      }
+    ],
+    "location_quotient_max": 6.29
+  },
+  {
+    "soc_code": "37-2011",
+    "national_employment": 2199900,
+    "mean_annual_wage": 37460,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 237680,
+        "mean_wage": 42790
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 186370,
+        "mean_wage": 44210
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 181520,
+        "mean_wage": 32340
+      }
+    ],
+    "location_quotient_max": 5.83
+  },
+  {
+    "soc_code": "51-9071",
+    "national_employment": 23420,
+    "mean_annual_wage": 55030,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 4750,
+        "mean_wage": 63710
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2700,
+        "mean_wage": 60700
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1780,
+        "mean_wage": 53930
+      }
+    ],
+    "location_quotient_max": 9.53
+  },
+  {
+    "soc_code": "13-1075",
+    "national_employment": 64590,
+    "mean_annual_wage": 97130,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 9170,
+        "mean_wage": 116120
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 6990,
+        "mean_wage": 109900
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 4080,
+        "mean_wage": 85660
+      }
+    ],
+    "location_quotient_max": 7.38
+  },
+  {
+    "soc_code": "17-1012",
+    "national_employment": 19580,
+    "mean_annual_wage": 88000,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2820,
+        "mean_wage": 111440
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1490,
+        "mean_wage": 96030
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1170,
+        "mean_wage": 81340
+      }
+    ],
+    "location_quotient_max": 6.34
+  },
+  {
+    "soc_code": "23-1011",
+    "national_employment": 747750,
+    "mean_annual_wage": 182760,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 92580,
+        "mean_wage": 254170
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 91440,
+        "mean_wage": 208080
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 59010,
+        "mean_wage": 152360
+      }
+    ],
+    "location_quotient_max": 6.56
+  },
+  {
+    "soc_code": "25-4022",
+    "national_employment": 131830,
+    "mean_annual_wage": 69180,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 11020,
+        "mean_wage": 82150
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 10030,
+        "mean_wage": 90960
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 9430,
+        "mean_wage": 64910
+      }
+    ],
+    "location_quotient_max": 4.43
+  },
+  {
+    "soc_code": "29-2061",
+    "national_employment": 632430,
+    "mean_annual_wage": 64150,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 79610,
+        "mean_wage": 79090
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 59060,
+        "mean_wage": 60020
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 40720,
+        "mean_wage": 66380
+      }
+    ],
+    "location_quotient_max": 6.8
+  },
+  {
+    "soc_code": "13-2072",
+    "national_employment": 290530,
+    "mean_annual_wage": 86020,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 27420,
+        "mean_wage": 94870
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 24070,
+        "mean_wage": 76010
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 19750,
+        "mean_wage": 82250
+      }
+    ],
+    "location_quotient_max": 4.91
+  },
+  {
+    "soc_code": "11-9081",
+    "national_employment": 41350,
+    "mean_annual_wage": 77460,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 4760,
+        "mean_wage": 89720
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4600,
+        "mean_wage": 77980
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3130,
+        "mean_wage": 88470
+      }
+    ],
+    "location_quotient_max": 5.41
+  },
+  {
+    "soc_code": "45-4020",
+    "national_employment": 32110,
+    "mean_annual_wage": 52650,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "13-1081",
+    "national_employment": 235640,
+    "mean_annual_wage": 87600,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 28410,
+        "mean_wage": 97810
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 20880,
+        "mean_wage": 79770
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 13250,
+        "mean_wage": 76010
+      }
+    ],
+    "location_quotient_max": 6.39
+  },
+  {
+    "soc_code": "13-1111",
+    "national_employment": 893900,
+    "mean_annual_wage": 114710,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 136200,
+        "mean_wage": 120410
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 74030,
+        "mean_wage": 98630
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 65390,
+        "mean_wage": 124510
+      }
+    ],
+    "location_quotient_max": 8.23
+  },
+  {
+    "soc_code": "39-5092",
+    "national_employment": 147820,
+    "mean_annual_wage": 36910,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 37730,
+        "mean_wage": 37520
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 19770,
+        "mean_wage": 34410
+      },
+      {
+        "state": "New Jersey",
+        "fips": "34",
+        "employment": 10530,
+        "mean_wage": 35340
+      }
+    ],
+    "location_quotient_max": 12.25
+  },
+  {
+    "soc_code": "17-2121",
+    "national_employment": 8440,
+    "mean_annual_wage": 116680,
+    "top_states": [
+      {
+        "state": "Virginia",
+        "fips": "51",
+        "employment": 1880,
+        "mean_wage": 107600
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 600,
+        "mean_wage": 117380
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 570,
+        "mean_wage": 140200
+      }
+    ],
+    "location_quotient_max": 4.01
+  },
+  {
+    "soc_code": "13-1161",
+    "national_employment": 861140,
+    "mean_annual_wage": 86480,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 108460,
+        "mean_wage": 106780
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 75100,
+        "mean_wage": 99650
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 61200,
+        "mean_wage": 75210
+      }
+    ],
+    "location_quotient_max": 6.8
+  },
+  {
+    "soc_code": "21-1013",
+    "national_employment": 65870,
+    "mean_annual_wage": 72720,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 32070,
+        "mean_wage": 74660
+      },
+      {
+        "state": "New Jersey",
+        "fips": "34",
+        "employment": 3940,
+        "mean_wage": 91980
+      },
+      {
+        "state": "Minnesota",
+        "fips": "27",
+        "employment": 3780,
+        "mean_wage": 72900
+      }
+    ],
+    "location_quotient_max": 19.96
+  },
+  {
+    "soc_code": "31-9011",
+    "national_employment": 96040,
+    "mean_annual_wage": 63430,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 15240,
+        "mean_wage": 60070
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7780,
+        "mean_wage": 55970
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 7660,
+        "mean_wage": 50610
+      }
+    ],
+    "location_quotient_max": 7.93
+  },
+  {
+    "soc_code": "17-2131",
+    "national_employment": 22770,
+    "mean_annual_wage": 116380,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2760,
+        "mean_wage": 131080
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 1770,
+        "mean_wage": 111720
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1730,
+        "mean_wage": 125990
+      }
+    ],
+    "location_quotient_max": 5.7
+  },
+  {
+    "soc_code": "17-3027",
+    "national_employment": 37450,
+    "mean_annual_wage": 72450,
+    "top_states": [
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 5470,
+        "mean_wage": 64720
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3300,
+        "mean_wage": 87720
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 2100,
+        "mean_wage": 67880
+      }
+    ],
+    "location_quotient_max": 6.57
+  },
+  {
+    "soc_code": "17-2141",
+    "national_employment": 286760,
+    "mean_annual_wage": 110080,
+    "top_states": [
+      {
+        "state": "Michigan",
+        "fips": "26",
+        "employment": 31830,
+        "mean_wage": 106150
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 27090,
+        "mean_wage": 131130
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 18790,
+        "mean_wage": 119350
+      }
+    ],
+    "location_quotient_max": 5.88
+  },
+  {
+    "soc_code": "11-9111",
+    "national_employment": 565840,
+    "mean_annual_wage": 137730,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 68800,
+        "mean_wage": 154620
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 57150,
+        "mean_wage": 124750
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 40550,
+        "mean_wage": 128580
+      }
+    ],
+    "location_quotient_max": 6.32
+  },
+  {
+    "soc_code": "31-9092",
+    "national_employment": 793460,
+    "mean_annual_wage": 44720,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 110350,
+        "mean_wage": 52770
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 72280,
+        "mean_wage": 40470
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 59870,
+        "mean_wage": 42970
+      }
+    ],
+    "location_quotient_max": 7.51
+  },
+  {
+    "soc_code": "29-2036",
+    "national_employment": 3970,
+    "mean_annual_wage": 141420,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 430,
+        "mean_wage": 136640
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 370,
+        "mean_wage": 141910
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 350,
+        "mean_wage": 160120
+      }
+    ],
+    "location_quotient_max": 2.92
+  },
+  {
+    "soc_code": "49-9062",
+    "national_employment": 60830,
+    "mean_annual_wage": 66810,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6670,
+        "mean_wage": 61990
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6010,
+        "mean_wage": 78530
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 3670,
+        "mean_wage": 63230
+      }
+    ],
+    "location_quotient_max": 5.81
+  },
+  {
+    "soc_code": "29-2072",
+    "national_employment": 187910,
+    "mean_annual_wage": 55970,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 20390,
+        "mean_wage": 51020
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 19750,
+        "mean_wage": 68080
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 15510,
+        "mean_wage": 50320
+      }
+    ],
+    "location_quotient_max": 5.75
+  },
+  {
+    "soc_code": "19-1042",
+    "national_employment": 156300,
+    "mean_annual_wage": 112690,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 24190,
+        "mean_wage": 134880
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 16170,
+        "mean_wage": 129060
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 11450,
+        "mean_wage": 90150
+      }
+    ],
+    "location_quotient_max": 7.89
+  },
+  {
+    "soc_code": "31-9094",
+    "national_employment": 43070,
+    "mean_annual_wage": 39210,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 5630,
+        "mean_wage": 43660
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 4480,
+        "mean_wage": 32450
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3990,
+        "mean_wage": 43090
+      }
+    ],
+    "location_quotient_max": 6.54
+  },
+  {
+    "soc_code": "13-1121",
+    "national_employment": 134670,
+    "mean_annual_wage": 65090,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 17800,
+        "mean_wage": 73840
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 11720,
+        "mean_wage": 87000
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 9670,
+        "mean_wage": 62660
+      }
+    ],
+    "location_quotient_max": 6.87
+  },
+  {
+    "soc_code": "19-1022",
+    "national_employment": 19760,
+    "mean_annual_wage": 95200,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2510,
+        "mean_wage": 115910
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 2110,
+        "mean_wage": 119850
+      },
+      {
+        "state": "Maryland",
+        "fips": "24",
+        "employment": 2040,
+        "mean_wage": 108870
+      }
+    ],
+    "location_quotient_max": 5.59
+  },
+  {
+    "soc_code": "25-2022",
+    "national_employment": 620370,
+    "mean_annual_wage": 70040,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 75640,
+        "mean_wage": 62240
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 46530,
+        "mean_wage": 92840
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 34830,
+        "mean_wage": 92640
+      }
+    ],
+    "location_quotient_max": 6.46
+  },
+  {
+    "soc_code": "17-2151",
+    "national_employment": 6770,
+    "mean_annual_wage": 108940,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 780,
+        "mean_wage": 135060
+      },
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 730,
+        "mean_wage": null
+      },
+      {
+        "state": "Arizona",
+        "fips": "04",
+        "employment": 680,
+        "mean_wage": 113770
+      }
+    ],
+    "location_quotient_max": 2.88
+  },
+  {
+    "soc_code": "41-9012",
+    "national_employment": 5350,
+    "mean_annual_wage": 81540,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 880,
+        "mean_wage": 80760
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 350,
+        "mean_wage": 45990
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 120,
+        "mean_wage": 72220
+      }
+    ],
+    "location_quotient_max": 1.15
+  },
+  {
+    "soc_code": "27-2041",
+    "national_employment": 12330,
+    "mean_annual_wage": 84230,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2410,
+        "mean_wage": 98460
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1610,
+        "mean_wage": 108980
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 670,
+        "mean_wage": 69760
+      }
+    ],
+    "location_quotient_max": 7.23
+  },
+  {
+    "soc_code": "27-2042",
+    "national_employment": 38350,
+    "mean_annual_wage": null,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 6070,
+        "mean_wage": null
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 2140,
+        "mean_wage": null
+      },
+      {
+        "state": "Tennessee",
+        "fips": "47",
+        "employment": 1980,
+        "mean_wage": null
+      }
+    ],
+    "location_quotient_max": 6.96
+  },
+  {
+    "soc_code": "11-9121",
+    "national_employment": 100870,
+    "mean_annual_wage": 173500,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14120,
+        "mean_wage": 219470
+      },
+      {
+        "state": "New Jersey",
+        "fips": "34",
+        "employment": 9010,
+        "mean_wage": 207130
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 8880,
+        "mean_wage": 229780
+      }
+    ],
+    "location_quotient_max": 7.14
+  },
+  {
+    "soc_code": "15-1244",
+    "national_employment": 318570,
+    "mean_annual_wage": 101190,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 34640,
+        "mean_wage": 98170
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 28730,
+        "mean_wage": 114500
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 22280,
+        "mean_wage": 96080
+      }
+    ],
+    "location_quotient_max": 5.65
+  },
+  {
+    "soc_code": "27-3023",
+    "national_employment": 41550,
+    "mean_annual_wage": 106030,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5220,
+        "mean_wage": 293430
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 4530,
+        "mean_wage": 119420
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 3180,
+        "mean_wage": 66190
+      }
+    ],
+    "location_quotient_max": 6.53
+  },
+  {
+    "soc_code": "17-2161",
+    "national_employment": 14740,
+    "mean_annual_wage": 134980,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1470,
+        "mean_wage": 106690
+      },
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 1370,
+        "mean_wage": 130790
+      },
+      {
+        "state": "Virginia",
+        "fips": "51",
+        "employment": 1300,
+        "mean_wage": 112970
+      }
+    ],
+    "location_quotient_max": 2.39
+  },
+  {
+    "soc_code": "29-2033",
+    "national_employment": 16960,
+    "mean_annual_wage": 99690,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1740,
+        "mean_wage": 91130
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1380,
+        "mean_wage": 150670
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1040,
+        "mean_wage": 95740
+      }
+    ],
+    "location_quotient_max": 4.92
+  },
+  {
+    "soc_code": "19-4051",
+    "national_employment": 5990,
+    "mean_annual_wage": 100730,
+    "top_states": [
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 870,
+        "mean_wage": 95780
+      },
+      {
+        "state": "South Carolina",
+        "fips": "45",
+        "employment": 760,
+        "mean_wage": 96940
+      },
+      {
+        "state": "North Carolina",
+        "fips": "37",
+        "employment": 430,
+        "mean_wage": 103850
+      }
+    ],
+    "location_quotient_max": 1.89
+  },
+  {
+    "soc_code": "29-1122",
+    "national_employment": 152280,
+    "mean_annual_wage": 98240,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 12020,
+        "mean_wage": 117120
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 11700,
+        "mean_wage": 103150
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 10540,
+        "mean_wage": 98980
+      }
+    ],
+    "location_quotient_max": 4.1
+  },
+  {
+    "soc_code": "31-2010",
+    "national_employment": 52910,
+    "mean_annual_wage": 66020,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "15-2031",
+    "national_employment": 107760,
+    "mean_annual_wage": 99120,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 12240,
+        "mean_wage": 101100
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 11030,
+        "mean_wage": 108220
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 8230,
+        "mean_wage": 84420
+      }
+    ],
+    "location_quotient_max": 5.68
+  },
+  {
+    "soc_code": "29-2081",
+    "national_employment": 79690,
+    "mean_annual_wage": 49970,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8180,
+        "mean_wage": 59000
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7100,
+        "mean_wage": 38370
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5180,
+        "mean_wage": 63050
+      }
+    ],
+    "location_quotient_max": 5.34
+  },
+  {
+    "soc_code": "29-1041",
+    "national_employment": 41890,
+    "mean_annual_wage": 140940,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6790,
+        "mean_wage": 142850
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3180,
+        "mean_wage": 132370
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 2500,
+        "mean_wage": 158600
+      }
+    ],
+    "location_quotient_max": 8.43
+  },
+  {
+    "soc_code": "29-2091",
+    "national_employment": 9930,
+    "mean_annual_wage": 81330,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1370,
+        "mean_wage": 91930
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 570,
+        "mean_wage": 85910
+      },
+      {
+        "state": "North Carolina",
+        "fips": "37",
+        "employment": 460,
+        "mean_wage": 76540
+      }
+    ],
+    "location_quotient_max": 5.52
+  },
+  {
+    "soc_code": "47-2141",
+    "national_employment": 224180,
+    "mean_annual_wage": 53710,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 37780,
+        "mean_wage": 61070
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 20910,
+        "mean_wage": 46190
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 18700,
+        "mean_wage": 44020
+      }
+    ],
+    "location_quotient_max": 9.1
+  },
+  {
+    "soc_code": "51-9120",
+    "national_employment": 167960,
+    "mean_annual_wage": 51230,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "23-2011",
+    "national_employment": 367220,
+    "mean_annual_wage": 66510,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 45740,
+        "mean_wage": 76920
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 37410,
+        "mean_wage": 61150
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 28770,
+        "mean_wage": 62650
+      }
+    ],
+    "location_quotient_max": 6.73
+  },
+  {
+    "soc_code": "13-2052",
+    "national_employment": 270480,
+    "mean_annual_wage": 160210,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 34070,
+        "mean_wage": 170480
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 28820,
+        "mean_wage": 225930
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 21230,
+        "mean_wage": 157670
+      }
+    ],
+    "location_quotient_max": 6.42
+  },
+  {
+    "soc_code": "37-2021",
+    "national_employment": 96110,
+    "mean_annual_wage": 45800,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 12290,
+        "mean_wage": 45740
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 11130,
+        "mean_wage": 47020
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8640,
+        "mean_wage": 45800
+      }
+    ],
+    "location_quotient_max": 6.65
+  },
+  {
+    "soc_code": "17-2171",
+    "national_employment": 18970,
+    "mean_annual_wage": 153560,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 10640,
+        "mean_wage": 158990
+      },
+      {
+        "state": "Oklahoma",
+        "fips": "40",
+        "employment": 1290,
+        "mean_wage": 159810
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1190,
+        "mean_wage": 146850
+      }
+    ],
+    "location_quotient_max": 13.46
+  },
+  {
+    "soc_code": "29-1051",
+    "national_employment": 328870,
+    "mean_annual_wage": 137210,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 34490,
+        "mean_wage": 162110
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 22720,
+        "mean_wage": 134880
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 21330,
+        "mean_wage": 136020
+      }
+    ],
+    "location_quotient_max": 5.66
+  },
+  {
+    "soc_code": "29-2052",
+    "national_employment": 487920,
+    "mean_annual_wage": 44800,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 45210,
+        "mean_wage": 56270
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 41610,
+        "mean_wage": 43890
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 38950,
+        "mean_wage": 42810
+      }
+    ],
+    "location_quotient_max": 5.0
+  },
+  {
+    "soc_code": "31-9097",
+    "national_employment": 138880,
+    "mean_annual_wage": 44390,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 13410,
+        "mean_wage": 42290
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13150,
+        "mean_wage": 55360
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 9760,
+        "mean_wage": 40570
+      }
+    ],
+    "location_quotient_max": 5.02
+  },
+  {
+    "soc_code": "27-4021",
+    "national_employment": 51230,
+    "mean_annual_wage": 55650,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 7300,
+        "mean_wage": 76230
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4450,
+        "mean_wage": 55520
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3780,
+        "mean_wage": 40210
+      }
+    ],
+    "location_quotient_max": 7.41
+  },
+  {
+    "soc_code": "31-2020",
+    "national_employment": 152020,
+    "mean_annual_wage": 57990,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "29-1123",
+    "national_employment": 248630,
+    "mean_annual_wage": 102400,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 24380,
+        "mean_wage": 120970
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 18930,
+        "mean_wage": 106450
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 17050,
+        "mean_wage": 94690
+      }
+    ],
+    "location_quotient_max": 5.1
+  },
+  {
+    "soc_code": "29-1071",
+    "national_employment": 155540,
+    "mean_annual_wage": 136900,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 19390,
+        "mean_wage": 151280
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13570,
+        "mean_wage": 161980
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 10570,
+        "mean_wage": 127920
+      }
+    ],
+    "location_quotient_max": 6.36
+  },
+  {
+    "soc_code": "19-2010",
+    "national_employment": 22900,
+    "mean_annual_wage": 163850,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "47-2152",
+    "national_employment": 455940,
+    "mean_annual_wage": 69940,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 45460,
+        "mean_wage": 78350
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 42290,
+        "mean_wage": 59500
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 26730,
+        "mean_wage": 53630
+      }
+    ],
+    "location_quotient_max": 5.38
+  },
+  {
+    "soc_code": "29-1081",
+    "national_employment": 9520,
+    "mean_annual_wage": 163960,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1210,
+        "mean_wage": 134850
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 930,
+        "mean_wage": 175400
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 820,
+        "mean_wage": 155590
+      }
+    ],
+    "location_quotient_max": 4.83
+  },
+  {
+    "soc_code": "19-3094",
+    "national_employment": 5950,
+    "mean_annual_wage": 137600,
+    "top_states": [
+      {
+        "state": "District of Columbia",
+        "fips": "11",
+        "employment": 3250,
+        "mean_wage": 152440
+      },
+      {
+        "state": "Virginia",
+        "fips": "51",
+        "employment": 660,
+        "mean_wage": 154860
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 210,
+        "mean_wage": null
+      }
+    ],
+    "location_quotient_max": 8.19
+  },
+  {
+    "soc_code": "43-5050",
+    "national_employment": 526030,
+    "mean_annual_wage": 59720,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "11-9033",
+    "national_employment": 176420,
+    "mean_annual_wage": 124450,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 17490,
+        "mean_wage": 122220
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 16030,
+        "mean_wage": 139220
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 10630,
+        "mean_wage": 102600
+      }
+    ],
+    "location_quotient_max": 4.96
+  },
+  {
+    "soc_code": "51-8010",
+    "national_employment": 45630,
+    "mean_annual_wage": 102100,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "11-9031",
+    "national_employment": 71620,
+    "mean_annual_wage": 62640,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8290,
+        "mean_wage": 76280
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6600,
+        "mean_wage": 53380
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3810,
+        "mean_wage": 92820
+      }
+    ],
+    "location_quotient_max": 5.44
+  },
+  {
+    "soc_code": "25-2011",
+    "national_employment": 445080,
+    "mean_annual_wage": 41450,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 49260,
+        "mean_wage": 48560
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 34940,
+        "mean_wage": 34830
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 31480,
+        "mean_wage": 38280
+      }
+    ],
+    "location_quotient_max": 5.98
+  },
+  {
+    "soc_code": "33-9021",
+    "national_employment": 38700,
+    "mean_annual_wage": 61680,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 5260,
+        "mean_wage": 67140
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 3780,
+        "mean_wage": 57240
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3440,
+        "mean_wage": 58630
+      }
+    ],
+    "location_quotient_max": 6.93
+  },
+  {
+    "soc_code": "21-1092",
+    "national_employment": 86820,
+    "mean_annual_wage": 71530,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 12950,
+        "mean_wage": 106570
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7490,
+        "mean_wage": 54510
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 4420,
+        "mean_wage": 79580
+      }
+    ],
+    "location_quotient_max": 7.01
+  },
+  {
+    "soc_code": "27-2012",
+    "national_employment": 145270,
+    "mean_annual_wage": 114280,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 35650,
+        "mean_wage": 161460
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 29720,
+        "mean_wage": 137300
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 8160,
+        "mean_wage": 97420
+      }
+    ],
+    "location_quotient_max": 12.76
+  },
+  {
+    "soc_code": "13-1082",
+    "national_employment": 1006160,
+    "mean_annual_wage": 108100,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 116240,
+        "mean_wage": 99820
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 113980,
+        "mean_wage": 120920
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 68340,
+        "mean_wage": 121040
+      }
+    ],
+    "location_quotient_max": 6.24
+  },
+  {
+    "soc_code": "13-2020",
+    "national_employment": 59070,
+    "mean_annual_wage": 77160,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 5660,
+        "mean_wage": 94750
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5520,
+        "mean_wage": 71260
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4090,
+        "mean_wage": 83730
+      }
+    ],
+    "location_quotient_max": 4.98
+  },
+  {
+    "soc_code": "11-9141",
+    "national_employment": 296640,
+    "mean_annual_wage": 82720,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 50410,
+        "mean_wage": 87120
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 30350,
+        "mean_wage": 79560
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 12940,
+        "mean_wage": 103090
+      }
+    ],
+    "location_quotient_max": 8.67
+  },
+  {
+    "soc_code": "19-3030",
+    "national_employment": 154860,
+    "mean_annual_wage": 102100,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "11-2030",
+    "national_employment": 112980,
+    "mean_annual_wage": 154950,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "27-3031",
+    "national_employment": 280590,
+    "mean_annual_wage": 80310,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 31070,
+        "mean_wage": 92580
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 25780,
+        "mean_wage": 93290
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 25270,
+        "mean_wage": 67120
+      }
+    ],
+    "location_quotient_max": 5.87
+  },
+  {
+    "soc_code": "43-5031",
+    "national_employment": 101140,
+    "mean_annual_wage": 54800,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8510,
+        "mean_wage": 80010
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7660,
+        "mean_wage": 49060
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 6290,
+        "mean_wage": 52720
+      }
+    ],
+    "location_quotient_max": 4.38
+  },
+  {
+    "soc_code": "51-9061",
+    "national_employment": 591180,
+    "mean_annual_wage": 51670,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 60280,
+        "mean_wage": 57580
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 55320,
+        "mean_wage": 48430
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 31010,
+        "mean_wage": 48750
+      }
+    ],
+    "location_quotient_max": 5.51
+  },
+  {
+    "soc_code": "29-1124",
+    "national_employment": 18700,
+    "mean_annual_wage": 110820,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1440,
+        "mean_wage": 120540
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1390,
+        "mean_wage": 95480
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1240,
+        "mean_wage": 158490
+      }
+    ],
+    "location_quotient_max": 3.31
+  },
+  {
+    "soc_code": "41-9020",
+    "national_employment": 240190,
+    "mean_annual_wage": 75240,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "43-4171",
+    "national_employment": 964530,
+    "mean_annual_wage": 38480,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 81110,
+        "mean_wage": 34630
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 80400,
+        "mean_wage": 44980
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 76590,
+        "mean_wage": 43430
+      }
+    ],
+    "location_quotient_max": 4.54
+  },
+  {
+    "soc_code": "39-9032",
+    "national_employment": 309640,
+    "mean_annual_wage": 37170,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 48580,
+        "mean_wage": 41830
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 19550,
+        "mean_wage": 42120
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 16720,
+        "mean_wage": 36740
+      }
+    ],
+    "location_quotient_max": 8.47
+  },
+  {
+    "soc_code": "29-1125",
+    "national_employment": 15060,
+    "mean_annual_wage": 65350,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1780,
+        "mean_wage": 93270
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1310,
+        "mean_wage": 66270
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 1030,
+        "mean_wage": 81870
+      }
+    ],
+    "location_quotient_max": 5.44
+  },
+  {
+    "soc_code": "29-1141",
+    "national_employment": 3282010,
+    "mean_annual_wage": 98430,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 326720,
+        "mean_wage": 148330
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 261050,
+        "mean_wage": 91690
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 218100,
+        "mean_wage": 88200
+      }
+    ],
+    "location_quotient_max": 5.38
+  },
+  {
+    "soc_code": "21-1015",
+    "national_employment": 88930,
+    "mean_annual_wage": 51260,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13450,
+        "mean_wage": 49520
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 5560,
+        "mean_wage": 54350
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 4880,
+        "mean_wage": 49760
+      }
+    ],
+    "location_quotient_max": 7.86
+  },
+  {
+    "soc_code": "29-1126",
+    "national_employment": 136420,
+    "mean_annual_wage": 84260,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 18310,
+        "mean_wage": 106790
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 11860,
+        "mean_wage": 78150
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 8840,
+        "mean_wage": 81310
+      }
+    ],
+    "location_quotient_max": 6.98
+  },
+  {
+    "soc_code": "47-2181",
+    "national_employment": 136740,
+    "mean_annual_wage": 57090,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 23610,
+        "mean_wage": 47420
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 21110,
+        "mean_wage": 68080
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 6240,
+        "mean_wage": 46530
+      }
+    ],
+    "location_quotient_max": 8.98
+  },
+  {
+    "soc_code": "41-9031",
+    "national_employment": 56690,
+    "mean_annual_wage": 130410,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8870,
+        "mean_wage": 126870
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6980,
+        "mean_wage": 142920
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 3180,
+        "mean_wage": null
+      }
+    ],
+    "location_quotient_max": 6.57
+  },
+  {
+    "soc_code": "11-2022",
+    "national_employment": 603710,
+    "mean_annual_wage": 160930,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 108120,
+        "mean_wage": 157170
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 76980,
+        "mean_wage": 148530
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 37060,
+        "mean_wage": 146130
+      }
+    ],
+    "location_quotient_max": 9.49
+  },
+  {
+    "soc_code": "21-1012",
+    "national_employment": 342350,
+    "mean_annual_wage": 71520,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 44160,
+        "mean_wage": 96440
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 32350,
+        "mean_wage": 65140
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 22660,
+        "mean_wage": 77720
+      }
+    ],
+    "location_quotient_max": 6.97
+  },
+  {
+    "soc_code": "41-3031",
+    "national_employment": 472300,
+    "mean_annual_wage": 110400,
+    "top_states": [
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 60430,
+        "mean_wage": 195380
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 54170,
+        "mean_wage": 106170
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 45570,
+        "mean_wage": 89700
+      }
+    ],
+    "location_quotient_max": 6.78
+  },
+  {
+    "soc_code": "33-9030",
+    "national_employment": 1251760,
+    "mean_annual_wage": 42920,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "51-9141",
+    "national_employment": 32150,
+    "mean_annual_wage": 59640,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7390,
+        "mean_wage": 41970
+      },
+      {
+        "state": "Oregon",
+        "fips": "41",
+        "employment": 7080,
+        "mean_wage": 66170
+      },
+      {
+        "state": "Arizona",
+        "fips": "04",
+        "employment": 3730,
+        "mean_wage": 75440
+      }
+    ],
+    "location_quotient_max": 4.14
+  },
+  {
+    "soc_code": "27-1027",
+    "national_employment": 10850,
+    "mean_annual_wage": 78450,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2770,
+        "mean_wage": 102910
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1250,
+        "mean_wage": null
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 890,
+        "mean_wage": 68050
+      }
+    ],
+    "location_quotient_max": 8.42
+  },
+  {
+    "soc_code": "47-2211",
+    "national_employment": 117470,
+    "mean_annual_wage": 66110,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 10270,
+        "mean_wage": 56250
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 9470,
+        "mean_wage": 51970
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 9180,
+        "mean_wage": 86530
+      }
+    ],
+    "location_quotient_max": 4.55
+  },
+  {
+    "soc_code": "39-5094",
+    "national_employment": 70240,
+    "mean_annual_wage": 48670,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13820,
+        "mean_wage": 47010
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 6320,
+        "mean_wage": 43040
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5510,
+        "mean_wage": 47190
+      }
+    ],
+    "location_quotient_max": 9.84
+  },
+  {
+    "soc_code": "49-3050",
+    "national_employment": 72500,
+    "mean_annual_wage": 51240,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "11-9151",
+    "national_employment": 195490,
+    "mean_annual_wage": 86100,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 33490,
+        "mean_wage": 93190
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 17850,
+        "mean_wage": 100040
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 12040,
+        "mean_wage": 76240
+      }
+    ],
+    "location_quotient_max": 8.74
+  },
+  {
+    "soc_code": "21-1093",
+    "national_employment": 424220,
+    "mean_annual_wage": 47090,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 58830,
+        "mean_wage": 55020
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 40700,
+        "mean_wage": 48710
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 23590,
+        "mean_wage": 45190
+      }
+    ],
+    "location_quotient_max": 7.49
+  },
+  {
+    "soc_code": "21-1020",
+    "national_employment": 759740,
+    "mean_annual_wage": 67050,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "19-3041",
+    "national_employment": 2950,
+    "mean_annual_wage": 111670,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 660,
+        "mean_wage": 118570
+      },
+      {
+        "state": "Massachusetts",
+        "fips": "25",
+        "employment": 600,
+        "mean_wage": 117290
+      },
+      {
+        "state": "North Carolina",
+        "fips": "37",
+        "employment": 240,
+        "mean_wage": 109380
+      }
+    ],
+    "location_quotient_max": 2.24
+  },
+  {
+    "soc_code": "47-2231",
+    "national_employment": 28280,
+    "mean_annual_wage": 57380,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8970,
+        "mean_wage": 66440
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5370,
+        "mean_wage": 47620
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1940,
+        "mean_wage": 51070
+      }
+    ],
+    "location_quotient_max": 7.3
+  },
+  {
+    "soc_code": "25-2050",
+    "national_employment": 557240,
+    "mean_annual_wage": 72230,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "27-1014",
+    "national_employment": 21280,
+    "mean_annual_wage": 110110,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 7690,
+        "mean_wage": 128880
+      },
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 2510,
+        "mean_wage": null
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 1820,
+        "mean_wage": 112280
+      }
+    ],
+    "location_quotient_max": 10.12
+  },
+  {
+    "soc_code": "29-1127",
+    "national_employment": 178790,
+    "mean_annual_wage": 95840,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 18600,
+        "mean_wage": 94850
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 16250,
+        "mean_wage": 111640
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14680,
+        "mean_wage": 114050
+      }
+    ],
+    "location_quotient_max": 5.31
+  },
+  {
+    "soc_code": "51-8021",
+    "national_employment": 30780,
+    "mean_annual_wage": 79710,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 7800,
+        "mean_wage": 81960
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 4350,
+        "mean_wage": 97490
+      },
+      {
+        "state": "Illinois",
+        "fips": "17",
+        "employment": 1670,
+        "mean_wage": 103530
+      }
+    ],
+    "location_quotient_max": 12.92
+  },
+  {
+    "soc_code": "21-1018",
+    "national_employment": 440380,
+    "mean_annual_wage": 65100,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 63110,
+        "mean_wage": 72530
+      },
+      {
+        "state": "Pennsylvania",
+        "fips": "42",
+        "employment": 26510,
+        "mean_wage": 61040
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 24680,
+        "mean_wage": 60480
+      }
+    ],
+    "location_quotient_max": 7.6
+  },
+  {
+    "soc_code": "19-3022",
+    "national_employment": 7720,
+    "mean_annual_wage": 73470,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1090,
+        "mean_wage": 86950
+      },
+      {
+        "state": "Georgia",
+        "fips": "13",
+        "employment": 830,
+        "mean_wage": 59540
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 810,
+        "mean_wage": 45280
+      }
+    ],
+    "location_quotient_max": 3.95
+  },
+  {
+    "soc_code": "17-3031",
+    "national_employment": 56720,
+    "mean_annual_wage": 56890,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7810,
+        "mean_wage": 53800
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4900,
+        "mean_wage": 51010
+      },
+      {
+        "state": "North Carolina",
+        "fips": "37",
+        "employment": 4510,
+        "mean_wage": 53110
+      }
+    ],
+    "location_quotient_max": 7.3
+  },
+  {
+    "soc_code": "17-1022",
+    "national_employment": 53080,
+    "mean_annual_wage": 76730,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 7530,
+        "mean_wage": 67280
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4310,
+        "mean_wage": 68700
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 3750,
+        "mean_wage": 109620
+      }
+    ],
+    "location_quotient_max": 7.38
+  },
+  {
+    "soc_code": "13-2081",
+    "national_employment": 53530,
+    "mean_annual_wage": 67570,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8080,
+        "mean_wage": 79870
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 4190,
+        "mean_wage": 56820
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3550,
+        "mean_wage": 65510
+      }
+    ],
+    "location_quotient_max": 7.4
+  },
+  {
+    "soc_code": "25-9045",
+    "national_employment": 1375300,
+    "mean_annual_wage": 35960,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 160960,
+        "mean_wage": 45490
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 134590,
+        "mean_wage": 38990
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 110510,
+        "mean_wage": 28550
+      }
+    ],
+    "location_quotient_max": 6.32
+  },
+  {
+    "soc_code": "27-3042",
+    "national_employment": 55530,
+    "mean_annual_wage": 92330,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 13210,
+        "mean_wage": 107260
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 3670,
+        "mean_wage": 81500
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2590,
+        "mean_wage": 87110
+      }
+    ],
+    "location_quotient_max": 11.42
+  },
+  {
+    "soc_code": "43-3071",
+    "national_employment": 339340,
+    "mean_annual_wage": 40940,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 26390,
+        "mean_wage": 37780
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 25440,
+        "mean_wage": 46340
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 17420,
+        "mean_wage": 43810
+      }
+    ],
+    "location_quotient_max": 4.12
+  },
+  {
+    "soc_code": "39-7010",
+    "national_employment": 49010,
+    "mean_annual_wage": 43090,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6940,
+        "mean_wage": 46740
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 3030,
+        "mean_wage": 36540
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 2450,
+        "mean_wage": 35510
+      }
+    ],
+    "location_quotient_max": 7.65
+  },
+  {
+    "soc_code": "11-3131",
+    "national_employment": 44960,
+    "mean_annual_wage": 140590,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 6240,
+        "mean_wage": 171790
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 3380,
+        "mean_wage": 176790
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2730,
+        "mean_wage": 128430
+      }
+    ],
+    "location_quotient_max": 6.66
+  },
+  {
+    "soc_code": "13-1151",
+    "national_employment": 436610,
+    "mean_annual_wage": 73760,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 44750,
+        "mean_wage": 82040
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 43370,
+        "mean_wage": 70440
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 30380,
+        "mean_wage": 72640
+      }
+    ],
+    "location_quotient_max": 5.53
+  },
+  {
+    "soc_code": "11-3071",
+    "national_employment": 213000,
+    "mean_annual_wage": 116010,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 31480,
+        "mean_wage": 124550
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 29200,
+        "mean_wage": 109740
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 13170,
+        "mean_wage": 104250
+      }
+    ],
+    "location_quotient_max": 7.98
+  },
+  {
+    "soc_code": "41-3041",
+    "national_employment": 59150,
+    "mean_annual_wage": 52690,
+    "top_states": [
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 9730,
+        "mean_wage": 49710
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 5780,
+        "mean_wage": 54650
+      },
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 4030,
+        "mean_wage": 60640
+      }
+    ],
+    "location_quotient_max": 8.55
+  },
+  {
+    "soc_code": "25-3041",
+    "national_employment": 174660,
+    "mean_annual_wage": 47780,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 45690,
+        "mean_wage": 49750
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 12140,
+        "mean_wage": 60120
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 11580,
+        "mean_wage": 46990
+      }
+    ],
+    "location_quotient_max": 13.08
+  },
+  {
+    "soc_code": "27-2023",
+    "national_employment": 15080,
+    "mean_annual_wage": 52800,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 2830,
+        "mean_wage": 64770
+      },
+      {
+        "state": "Utah",
+        "fips": "49",
+        "employment": 960,
+        "mean_wage": 31720
+      },
+      {
+        "state": "Colorado",
+        "fips": "08",
+        "employment": 910,
+        "mean_wage": 45600
+      }
+    ],
+    "location_quotient_max": 7.69
+  },
+  {
+    "soc_code": "19-3051",
+    "national_employment": 43040,
+    "mean_annual_wage": 89730,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 7630,
+        "mean_wage": 111520
+      },
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 2840,
+        "mean_wage": 97160
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2640,
+        "mean_wage": 82740
+      }
+    ],
+    "location_quotient_max": 9.4
+  },
+  {
+    "soc_code": "29-1131",
+    "national_employment": 80630,
+    "mean_annual_wage": 140270,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8510,
+        "mean_wage": 168280
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5940,
+        "mean_wage": 130770
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 5480,
+        "mean_wage": 142040
+      }
+    ],
+    "location_quotient_max": 5.49
+  },
+  {
+    "soc_code": "31-9096",
+    "national_employment": 114190,
+    "mean_annual_wage": 38990,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 14960,
+        "mean_wage": 46500
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 8040,
+        "mean_wage": 33170
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 7060,
+        "mean_wage": 37460
+      }
+    ],
+    "location_quotient_max": 6.68
+  },
+  {
+    "soc_code": "29-2056",
+    "national_employment": 131320,
+    "mean_annual_wage": 46280,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 16170,
+        "mean_wage": 39750
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 11380,
+        "mean_wage": 56980
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 10130,
+        "mean_wage": 43240
+      }
+    ],
+    "location_quotient_max": 6.28
+  },
+  {
+    "soc_code": "35-3031",
+    "national_employment": 2302690,
+    "mean_annual_wage": 38360,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 243300,
+        "mean_wage": 44250
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 210170,
+        "mean_wage": 31730
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 208920,
+        "mean_wage": 39040
+      }
+    ],
+    "location_quotient_max": 5.71
+  },
+  {
+    "soc_code": "51-8031",
+    "national_employment": 126750,
+    "mean_annual_wage": 60620,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 11260,
+        "mean_wage": 86500
+      },
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 10340,
+        "mean_wage": 50220
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 7560,
+        "mean_wage": 61550
+      }
+    ],
+    "location_quotient_max": 4.53
+  },
+  {
+    "soc_code": "53-5000",
+    "national_employment": 77710,
+    "mean_annual_wage": 80150,
+    "top_states": [],
+    "location_quotient_max": null
+  },
+  {
+    "soc_code": "51-4121",
+    "national_employment": 424040,
+    "mean_annual_wage": 55100,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 56650,
+        "mean_wage": 54380
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 26100,
+        "mean_wage": 61980
+      },
+      {
+        "state": "Ohio",
+        "fips": "39",
+        "employment": 20110,
+        "mean_wage": 52210
+      }
+    ],
+    "location_quotient_max": 7.21
+  },
+  {
+    "soc_code": "49-9081",
+    "national_employment": 11220,
+    "mean_annual_wage": 67580,
+    "top_states": [
+      {
+        "state": "Texas",
+        "fips": "48",
+        "employment": 5010,
+        "mean_wage": 63180
+      },
+      {
+        "state": "Iowa",
+        "fips": "19",
+        "employment": 700,
+        "mean_wage": 68190
+      },
+      {
+        "state": "Minnesota",
+        "fips": "27",
+        "employment": 570,
+        "mean_wage": 69920
+      }
+    ],
+    "location_quotient_max": 11.16
+  },
+  {
+    "soc_code": "27-3043",
+    "national_employment": 47800,
+    "mean_annual_wage": 85780,
+    "top_states": [
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 8950,
+        "mean_wage": 96880
+      },
+      {
+        "state": "New York",
+        "fips": "36",
+        "employment": 5980,
+        "mean_wage": null
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 2440,
+        "mean_wage": 79820
+      }
+    ],
+    "location_quotient_max": 8.99
+  },
+  {
+    "soc_code": "19-1023",
+    "national_employment": 16920,
+    "mean_annual_wage": 77920,
+    "top_states": [
+      {
+        "state": "Washington",
+        "fips": "53",
+        "employment": 1800,
+        "mean_wage": 90370
+      },
+      {
+        "state": "California",
+        "fips": "06",
+        "employment": 1580,
+        "mean_wage": 91460
+      },
+      {
+        "state": "Florida",
+        "fips": "12",
+        "employment": 1210,
+        "mean_wage": 59600
+      }
+    ],
+    "location_quotient_max": 5.21
+  }
+]
