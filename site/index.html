@@ -311,6 +311,13 @@ body {
 }
 .chip.active { background: rgba(108,143,255,0.18); color: #a0b4ff; border-color: rgba(108,143,255,0.4); }
 .chip:hover:not(.active) { background: rgba(255,255,255,0.06); color: var(--fg); }
+.cat-chip { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ── Data sources list ───────────────────────────────────────────────── */
+.src-item { padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.src-item:last-child { border-bottom: none; }
+.src-name { font-size: 10px; color: var(--fg); font-weight: 500; line-height: 1.4; }
+.src-meta { font-size: 9px; color: var(--fg2); margin-top: 2px; line-height: 1.4; }
 
 /* ── Stats ───────────────────────────────────────────────────────────── */
 
@@ -456,6 +463,68 @@ body {
 }
 .tab-btn.active { color: #a0b4ff; border-bottom-color: #6c8fff; }
 .tab-btn:hover:not(.active) { color: var(--fg); background: rgba(255,255,255,0.04); }
+
+/* ── Skills view ─────────────────────────────────────────────────────── */
+#skillsView {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.1) transparent;
+}
+#skillsView::-webkit-scrollbar { width: 6px; }
+#skillsView::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+#skillsView table { width: 100%; border-collapse: collapse; font-size: 12px; }
+#skillsView thead th {
+  position: sticky; top: 0;
+  background: #0e0e16;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 9px 10px;
+  text-align: left;
+  font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--fg2); cursor: pointer; white-space: nowrap; user-select: none;
+}
+#skillsView thead th:hover { color: var(--fg); }
+#skillsView thead th.sort-asc::after { content: " ▲"; font-size: 9px; }
+#skillsView thead th.sort-desc::after { content: " ▼"; font-size: 9px; }
+#skillsView tbody tr { border-bottom: 1px solid rgba(255,255,255,0.04); cursor: pointer; transition: background 0.1s; }
+#skillsView tbody tr:hover { background: rgba(255,255,255,0.04); }
+#skillsView tbody td { padding: 7px 10px; vertical-align: middle; }
+.sk-bar-wrap { width: 80px; height: 5px; background: rgba(255,255,255,0.07); border-radius: 3px; display: inline-block; vertical-align: middle; }
+.sk-bar-fill { height: 100%; border-radius: 3px; }
+.sk-val { font-size: 10px; color: var(--fg2); margin-left: 5px; }
+.sk-null { color: var(--fg2); font-size: 10px; }
+.hot-pill { display: inline-block; background: rgba(108,143,255,0.12); border: 1px solid rgba(108,143,255,0.25); border-radius: 4px; padding: 1px 5px; font-size: 10px; color: #6c8fff; }
+
+/* ── Demographics view ───────────────────────────────────────────────── */
+#demographicsView {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.1) transparent;
+}
+#demographicsView::-webkit-scrollbar { width: 6px; }
+#demographicsView::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+#demographicsView table { width: 100%; border-collapse: collapse; font-size: 12px; }
+#demographicsView thead th {
+  position: sticky; top: 0;
+  background: #0e0e16;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 9px 10px;
+  text-align: left;
+  font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--fg2); cursor: pointer; white-space: nowrap; user-select: none;
+}
+#demographicsView thead th:hover { color: var(--fg); }
+#demographicsView thead th.sort-asc::after { content: " ▲"; font-size: 9px; }
+#demographicsView thead th.sort-desc::after { content: " ▼"; font-size: 9px; }
+#demographicsView tbody tr { border-bottom: 1px solid rgba(255,255,255,0.04); cursor: pointer; transition: background 0.1s; }
+#demographicsView tbody tr:hover { background: rgba(255,255,255,0.04); }
+#demographicsView tbody td { padding: 7px 10px; vertical-align: middle; }
+.dem-bar-wrap { width: 80px; height: 6px; border-radius: 3px; overflow: hidden; display: inline-flex; vertical-align: middle; }
+.dem-bar-f { background: #f472b6; }
+.dem-bar-m { background: #38bdf8; }
 
 /* ── Main area ───────────────────────────────────────────────────────── */
 
@@ -782,6 +851,18 @@ canvas#canvas {
 #detailPanel .dp-bls-btn:hover { background: rgba(108,143,255,0.25); color: #c0ccff; }
 
 /* ── Detail panel enrichment sections ───────────────────────────────── */
+.dp-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 8px 0;
+}
+.dp-card .dp-enrich-hdr {
+  margin: 0 0 8px;
+  border-top: none;
+  padding-top: 0;
+}
 .dp-enrich-hdr {
   font-size: 9px; text-transform: uppercase; letter-spacing: .07em;
   color: var(--fg2); margin: 12px 0 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;
@@ -797,8 +878,8 @@ canvas#canvas {
 .dp-gender-legend { display: flex; gap: 10px; font-size: 10px; color: var(--fg2); }
 .dp-gender-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; margin-right: 3px; vertical-align: middle; }
 .dp-state-row { display: flex; justify-content: space-between; font-size: 11px; padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
-.dp-state-name { color: var(--fg2); }
-.dp-state-val { color: var(--fg); font-weight: 500; }
+.dp-state-name { color: var(--fg2); min-width: 0; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dp-state-val { color: var(--fg); font-weight: 500; flex-shrink: 0; }
 .dp-oecd-badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 10px; margin-bottom: 5px; }
 .dp-oecd-shortage { background: rgba(74,222,128,0.12); color: #4ade80; border: 1px solid rgba(74,222,128,0.3); }
 .dp-oecd-surplus  { background: rgba(251,146,60,0.12); color: #fb923c; border: 1px solid rgba(251,146,60,0.3); }
@@ -916,7 +997,7 @@ canvas#canvas {
 
   #tooltip { max-width: calc(100vw - 32px); font-size: 12px; }
 
-  #detailPanel { width: 100%; }
+  #detailPanel { width: 100%; max-height: 100dvh; }
 }
 
 @media (max-width: 480px) {
@@ -1090,6 +1171,36 @@ canvas#canvas {
     </div>
   </div>
 
+  <!-- Data Sources section -->
+  <button class="section-hdr" onclick="toggleSection(this)" id="hdr-sources">
+    Data Sources
+    <span class="hdr-right"><span class="chevron">›</span></span>
+  </button>
+  <div class="section-body" id="body-sources">
+    <div class="section-inner">
+      <div class="src-item">
+        <div class="src-name">BLS Occupational Outlook Handbook</div>
+        <div class="src-meta">342 occupations · Scraped Mar 2026</div>
+      </div>
+      <div class="src-item">
+        <div class="src-name">O*NET 28.3</div>
+        <div class="src-meta">Skill profiles (cognitive / social / physical) · Released Dec 2024</div>
+      </div>
+      <div class="src-item">
+        <div class="src-name">BLS Occupational Employment &amp; Wage Statistics</div>
+        <div class="src-meta">State employment &amp; wages · 2023 survey (May 2024 release)</div>
+      </div>
+      <div class="src-item">
+        <div class="src-name">US Census American Community Survey</div>
+        <div class="src-meta">Workforce demographics · ACS 2022 (5-year estimates)</div>
+      </div>
+      <div class="src-item">
+        <div class="src-name">OECD Skills for Jobs</div>
+        <div class="src-meta">Skill shortage / surplus signals · 2022 data</div>
+      </div>
+    </div>
+  </div>
+
   <div class="links-row">
     <a href="https://github.com/llmxlabs/karpathy-jobs" target="_blank" rel="noopener">
       <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
@@ -1119,6 +1230,8 @@ canvas#canvas {
   <button class="tab-btn" onclick="setView('scatter')">Scatter</button>
   <button class="tab-btn" onclick="setView('table')">Table</button>
   <button class="tab-btn" onclick="setView('heatmap')">Heatmap</button>
+  <button class="tab-btn" onclick="setView('skills')">Skills</button>
+  <button class="tab-btn" onclick="setView('demographics')">Demographics</button>
 </div>
 
 <!-- ── Main canvas area ────────────────────────────────────────────────── -->
@@ -1133,6 +1246,8 @@ canvas#canvas {
   <div id="heatmapView" style="display:none;">
     <svg id="heatmapSvg" xmlns="http://www.w3.org/2000/svg"></svg>
   </div>
+  <div id="skillsView" style="display:none;"></div>
+  <div id="demographicsView" style="display:none;"></div>
 </div>
 
 <!-- ── Tooltip ─────────────────────────────────────────────────────────── -->
@@ -1267,6 +1382,14 @@ function toggleSection(btn) {
   } else {
     btn.classList.add("open");
     body.classList.add("open");
+    // Opening Filters → collapse the stats sections so categories are visible
+    if (btn.id === "hdr-filters") {
+      ["overview", "dist", "pay", "edu"].forEach(id => {
+        const b = document.getElementById("hdr-" + id);
+        const bo = document.getElementById("body-" + id);
+        if (b && bo) { b.classList.remove("open"); bo.classList.remove("open"); }
+      });
+    }
   }
 }
 
@@ -1623,6 +1746,8 @@ function setView(view) {
   document.getElementById("scatterView").style.display = view === "scatter" ? (window.innerWidth <= 768 ? "flex" : "block") : "none";
   document.getElementById("tableView").style.display = view === "table" ? "block" : "none";
   document.getElementById("heatmapView").style.display = view === "heatmap" ? "block" : "none";
+  document.getElementById("skillsView").style.display = view === "skills" ? "block" : "none";
+  document.getElementById("demographicsView").style.display = view === "demographics" ? "block" : "none";
 
   renderCurrentView();
 }
@@ -1632,6 +1757,8 @@ function renderCurrentView() {
   else if (currentView === "scatter") { renderScatter(); }
   else if (currentView === "table") { renderTable(); }
   else if (currentView === "heatmap") { renderHeatmap(); }
+  else if (currentView === "skills") { renderSkills(); }
+  else if (currentView === "demographics") { renderDemographics(); }
 }
 
 // ── Treemap ────────────────────────────────────────────────────────────
@@ -2103,6 +2230,119 @@ function setHeatmapMode(mode) {
   renderHeatmap();
 }
 
+// ── Skills view ─────────────────────────────────────────────────────────
+
+let skillsSortCol = "cognitive_score";
+let skillsSortDir = "desc";
+
+function renderSkills() {
+  const el = document.getElementById("skillsView");
+  let fd = filteredData().filter(d => d.cognitive_score != null || d.social_score != null || d.physical_score != null);
+
+  fd = [...fd].sort((a, b) => {
+    let av = a[skillsSortCol], bv = b[skillsSortCol];
+    if (av == null) av = -1; if (bv == null) bv = -1;
+    return skillsSortDir === "asc" ? av - bv : bv - av;
+  });
+
+  window._skillsSort = function(col) {
+    if (skillsSortCol === col) skillsSortDir = skillsSortDir === "asc" ? "desc" : "asc";
+    else { skillsSortCol = col; skillsSortDir = "desc"; }
+    renderSkills();
+  };
+
+  function thCls(col) { return col === skillsSortCol ? ` class="sort-${skillsSortDir}"` : ""; }
+
+  function bar(val, color) {
+    if (val == null) return `<span class="sk-null">—</span>`;
+    return `<div style="display:inline-flex;align-items:center;gap:4px"><div class="sk-bar-wrap"><div class="sk-bar-fill" style="width:${val*10}%;background:${color}"></div></div><span class="sk-val">${val.toFixed(1)}</span></div>`;
+  }
+
+  el.innerHTML = `<table>
+    <thead><tr>
+      <th>Occupation</th>
+      <th>Category</th>
+      <th onclick="window._skillsSort('cognitive_score')"${thCls("cognitive_score")}>Cognitive</th>
+      <th onclick="window._skillsSort('social_score')"${thCls("social_score")}>Social</th>
+      <th onclick="window._skillsSort('physical_score')"${thCls("physical_score")}>Physical</th>
+      <th onclick="window._skillsSort('hot_tech_count')"${thCls("hot_tech_count")}>Hot Tech</th>
+      <th onclick="window._skillsSort('exposure')"${thCls("exposure")}>AI Exposure</th>
+    </tr></thead>
+    <tbody>${fd.map(d => {
+      const effExp = getEffectiveExposure(d);
+      const col = exposureColorCSS(effExp, 1);
+      return `<tr onclick="selectOccupation('${d.slug}')">
+        <td style="font-weight:500;max-width:200px">${d.title}</td>
+        <td style="font-size:10px;color:var(--fg2);max-width:140px">${d.category || "—"}</td>
+        <td>${bar(d.cognitive_score, "#6c8fff")}</td>
+        <td>${bar(d.social_score, "#4ade80")}</td>
+        <td>${bar(d.physical_score, "#fb923c")}</td>
+        <td>${d.hot_tech_count != null ? `<span class="hot-pill">${d.hot_tech_count}</span>` : '<span class="sk-null">—</span>'}</td>
+        <td><span class="exposure-pill" style="background:${col}22;color:${col};border:1px solid ${col}55">${effExp ?? "—"}</span></td>
+      </tr>`;
+    }).join("")}</tbody>
+  </table>`;
+}
+
+// ── Demographics view ───────────────────────────────────────────────────
+
+let demSortCol = "pct_female";
+let demSortDir = "desc";
+
+function renderDemographics() {
+  const el = document.getElementById("demographicsView");
+  let fd = filteredData().filter(d => d.pct_female != null);
+
+  fd = [...fd].sort((a, b) => {
+    let av = a[demSortCol], bv = b[demSortCol];
+    if (av == null) av = -1; if (bv == null) bv = -1;
+    if (typeof av === "string") return demSortDir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
+    return demSortDir === "asc" ? av - bv : bv - av;
+  });
+
+  window._demSort = function(col) {
+    if (demSortCol === col) demSortDir = demSortDir === "asc" ? "desc" : "asc";
+    else { demSortCol = col; demSortDir = "desc"; }
+    renderDemographics();
+  };
+
+  function thCls(col) { return col === demSortCol ? ` class="sort-${demSortDir}"` : ""; }
+
+  function oecdBadge(d) {
+    if (!d.skill_status) return '<span style="color:var(--fg2);font-size:10px">—</span>';
+    const map = { shortage: ["#4ade80","↑ Shortage"], surplus: ["#fb923c","↓ Surplus"], balanced: ["var(--fg2)","≈ Balanced"] };
+    const [color, label] = map[d.skill_status] || ["var(--fg2)","—"];
+    return `<span style="font-size:10px;color:${color};font-weight:600">${label}</span>`;
+  }
+
+  el.innerHTML = `<table>
+    <thead><tr>
+      <th>Occupation</th>
+      <th>Category</th>
+      <th onclick="window._demSort('pct_female')"${thCls("pct_female")}>Gender Split</th>
+      <th onclick="window._demSort('pct_female')"${thCls("pct_female")}>% Female</th>
+      <th onclick="window._demSort('census_earnings')"${thCls("census_earnings")}>Median Earnings</th>
+      <th onclick="window._demSort('skill_status')"${thCls("skill_status")}>Skill Signal</th>
+      <th onclick="window._demSort('exposure')"${thCls("exposure")}>AI Exposure</th>
+    </tr></thead>
+    <tbody>${fd.map(d => {
+      const effExp = getEffectiveExposure(d);
+      const col = exposureColorCSS(effExp, 1);
+      const pctF = d.pct_female ?? 0;
+      const pctM = d.pct_male ?? (100 - pctF);
+      return `<tr onclick="selectOccupation('${d.slug}')">
+        <td style="font-weight:500;max-width:200px">${d.title}</td>
+        <td style="font-size:10px;color:var(--fg2);max-width:140px">${d.category || "—"}</td>
+        <td><div class="dem-bar-wrap"><div class="dem-bar-f" style="width:${pctF}%"></div><div class="dem-bar-m" style="width:${pctM}%"></div></div></td>
+        <td style="font-size:11px"><span style="color:#f472b6">${pctF.toFixed(0)}%</span> <span style="color:var(--fg2);font-size:10px">/ ${pctM.toFixed(0)}% male</span></td>
+        <td style="font-size:11px;font-weight:500">${d.census_earnings ? formatPay(d.census_earnings) : "—"}</td>
+        <td>${oecdBadge(d)}</td>
+        <td><span class="exposure-pill" style="background:${col}22;color:${col};border:1px solid ${col}55">${effExp ?? "—"}</span></td>
+      </tr>`;
+    }).join("")}</tbody>
+  </table>`;
+}
+
 // ── Detail panel ───────────────────────────────────────────────────────
 
 function selectOccupation(slug) {
@@ -2156,6 +2396,7 @@ function selectOccupation(slug) {
     ${d.exposure_rationale ? `<div class="dp-rationale"><div style="font-size:9px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px;">AI Exposure Rationale</div>${d.exposure_rationale}</div>` : ""}
 
     ${(d.cognitive_score != null || d.social_score != null || d.physical_score != null) ? `
+    <div class="dp-card">
     <div class="dp-enrich-hdr">O*NET Skill Profile</div>
     ${[
       { label: "Cognitive", val: d.cognitive_score, color: "#6c8fff" },
@@ -2167,35 +2408,42 @@ function selectOccupation(slug) {
         <div class="dp-skill-track"><div class="dp-skill-fill" style="width:${s.val*10}%;background:${s.color}"></div></div>
         <span class="dp-skill-val">${s.val.toFixed(1)}</span>
       </div>` : "").join("")}
-    ${d.hot_tech_count != null ? `<div style="font-size:10px;color:var(--fg2);margin-top:3px;">🔥 ${d.hot_tech_count} hot tech skills · ${d.tech_skills_count} total</div>` : ""}
+    ${d.hot_tech_count != null ? `<div style="font-size:10px;color:var(--fg2);margin-top:5px;"><span style="display:inline-block;background:rgba(108,143,255,0.12);border:1px solid rgba(108,143,255,0.25);border-radius:4px;padding:1px 6px;color:#6c8fff;margin-right:4px;">${d.hot_tech_count} hot tech</span>${d.tech_skills_count} total skills</div>` : ""}
+    </div>
     ` : ""}
 
     ${(d.pct_female != null) ? `
+    <div class="dp-card">
     <div class="dp-enrich-hdr">Workforce Demographics <span style="font-size:8px;font-weight:400">(Census ACS)</span></div>
     <div class="dp-gender-wrap">
       <div class="dp-gender-f" style="width:${d.pct_female}%"></div>
       <div class="dp-gender-m" style="width:${d.pct_male}%"></div>
     </div>
-    <div class="dp-gender-legend">
+    <div class="dp-gender-legend" style="flex-wrap:wrap">
       <span><span class="dp-gender-dot" style="background:#f472b6"></span>${d.pct_female.toFixed(0)}% female</span>
       <span><span class="dp-gender-dot" style="background:#38bdf8"></span>${d.pct_male.toFixed(0)}% male</span>
-      ${d.census_earnings ? `<span style="margin-left:auto">Median earnings: ${formatPay(d.census_earnings)}</span>` : ""}
+      ${d.census_earnings ? `<div style="margin-top:3px;width:100%">Median earnings: ${formatPay(d.census_earnings)}</div>` : ""}
+    </div>
     </div>
     ` : ""}
 
     ${(d.top_states && d.top_states.length) ? `
+    <div class="dp-card">
     <div class="dp-enrich-hdr">Top States by Employment <span style="font-size:8px;font-weight:400">(BLS OEWS)</span></div>
     ${d.top_states.slice(0,3).map(s => `
       <div class="dp-state-row">
         <span class="dp-state-name">${s.state}</span>
         <span class="dp-state-val">${formatNumber(s.employment)} · ${formatPay(s.mean_wage)}</span>
       </div>`).join("")}
+    </div>
     ` : ""}
 
     ${(d.skill_status) ? `
+    <div class="dp-card">
     <div class="dp-enrich-hdr">Skill Market Signal <span style="font-size:8px;font-weight:400">(OECD 2022)</span></div>
     <span class="dp-oecd-badge dp-oecd-${d.skill_status}">${d.skill_status === "shortage" ? "↑ Skill Shortage" : d.skill_status === "surplus" ? "↓ Skill Surplus" : "≈ Balanced"}</span>
     ${d.skill_interpretation ? `<div class="dp-oecd-note">${d.skill_interpretation}</div>` : ""}
+    </div>
     ` : ""}
 
     ${d.url ? `<a class="dp-bls-btn" href="${d.url}" target="_blank" rel="noopener">View on BLS →</a>` : ""}
@@ -2539,7 +2787,7 @@ function computeStats() {
 function buildCatChips() {
   const cats = [...new Set(data.map(d => d.category))].sort();
   document.getElementById("catChips").innerHTML = cats.map(cat =>
-    `<button class="chip cat-chip" data-cat="${cat}" onclick="toggleCatFilter('${cat.replace(/'/g, "\\'")}')">${cat}</button>`
+    `<button class="chip cat-chip" data-cat="${cat}" title="${cat}" onclick="toggleCatFilter('${cat.replace(/'/g, "\\'")}')">${cat}</button>`
   ).join("");
 }
 
